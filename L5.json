@@ -1,0 +1,289 @@
+{
+    "id": "l5",
+    "number": 5,
+    "title": "Mistä sä tulet?",
+    "subtitle": "Where have you been / where are you coming from?",
+    "tags": [
+        "location",
+        "movement",
+        "present perfect",
+        "cases",
+        "real-life"
+    ],
+    "blocks": [
+        {
+            "type": "intro",
+            "text": "You want to ask your Finnish friend where they've been. They answer: Minä olen tulossa suomen kielen kurssilta. It sounds like a mouthful — but it's three logical pieces, and you already own the first one. Let's pull it apart."
+        },
+        {
+            "type": "heading",
+            "text": "Two ways to ask it"
+        },
+        {
+            "type": "phrase",
+            "annotated": "{Missä|grammar|where-at|where (at a place)} {sä|word|pronoun|you} {oot|grammar|verb|are} {ollut|grammar|past participle|been}?",
+            "translation": "Where have you been?"
+        },
+        {
+            "type": "phrase",
+            "annotated": "{Mistä|grammar|where-from|from where} {sä|word|pronoun|you} {tulet|word|verb|are coming}?",
+            "translation": "Where are you coming from?"
+        },
+        {
+            "type": "note",
+            "color": "grammar",
+            "title": "Missä vs Mistä — notice the difference",
+            "text": "You already know mistä from Lesson 3 (where are you from?). Missä means 'where at' — a place you are. Mistä means 'from where' — a place you're moving away from. Finnish encodes movement vs stillness right inside the question word."
+        },
+        {
+            "type": "comparison",
+            "headers": [
+                "Word",
+                "Meaning",
+                "Implies"
+            ],
+            "rows": [
+                [
+                    "missä",
+                    "where (at)",
+                    "stillness — you are somewhere"
+                ],
+                [
+                    "mistä",
+                    "from where",
+                    "movement — you are leaving somewhere"
+                ],
+                [
+                    "mihin",
+                    "to where",
+                    "movement — you are going somewhere"
+                ]
+            ]
+        },
+        {
+            "type": "note",
+            "color": "tip",
+            "title": "You just learned a system, not just words",
+            "text": "These three question words are the same root with three different endings: -ssä (at), -stä (from), -hin (to). Every Finnish place word works the same way. This is the skeleton of the whole location system."
+        },
+        {
+            "type": "heading",
+            "text": "The answer — piece by piece"
+        },
+        {
+            "type": "phrase",
+            "annotated": "{Olen|grammar|verb|I am} {ollut|grammar|past participle|been} {kurssilla|phrase|adessive|on the course (at)}.",
+            "translation": "I have been at the course."
+        },
+        {
+            "type": "note",
+            "color": "grammar",
+            "title": "Olen ollut = I have been",
+            "text": "Olen is the formal/textbook 'I am' (colloquial: oon). Ollut is the past participle of olla — to be. Together: olen ollut = I have been. This is Finnish present perfect. You'll hear it constantly."
+        },
+        {
+            "type": "comparison",
+            "headers": [
+                "Colloquial",
+                "Formal",
+                "English"
+            ],
+            "rows": [
+                [
+                    "mä oon",
+                    "minä olen",
+                    "I am"
+                ],
+                [
+                    "mä oon ollu",
+                    "minä olen ollut",
+                    "I have been"
+                ],
+                [
+                    "mä tuun",
+                    "minä tulen",
+                    "I am coming"
+                ],
+                [
+                    "mä oon tulossa",
+                    "minä olen tulossa",
+                    "I am on my way / coming"
+                ]
+            ]
+        },
+        {
+            "type": "heading",
+            "text": "Kurssilla vs kurssilta — spot the difference"
+        },
+        {
+            "type": "text",
+            "content": "This is the same -lla/-lta pattern as the location system above, but for surfaces and events. {Kurssilla|grammar|adessive|at/on the course} = you are there. {Kurssilta|grammar|ablative|from the course} = you are leaving from there."
+        },
+        {
+            "type": "examples",
+            "items": [
+                {
+                    "fi": "Olen ollut {kurssilla|grammar|adessive|at the course}.",
+                    "en": "I have been at the course."
+                },
+                {
+                    "fi": "Olen tulossa {kurssilta|grammar|ablative|from the course}.",
+                    "en": "I am coming from the course."
+                },
+                {
+                    "fi": "Olen ollut {töissä|grammar|adessive|at work}.",
+                    "en": "I have been at work."
+                },
+                {
+                    "fi": "Tulen {töistä|grammar|ablative|from work}.",
+                    "en": "I am coming from work."
+                }
+            ]
+        },
+        {
+            "type": "note",
+            "color": "grammar",
+            "title": "The -lla / -lta pair",
+            "text": "-lla means 'at/on' (you are there). -lta means 'from' (you are leaving). It's the same logic as missä/mistä. Finnish is consistent — once you see the pattern, it works everywhere."
+        },
+        {
+            "type": "heading",
+            "text": "The full phrase unpacked"
+        },
+        {
+            "type": "phrase",
+            "annotated": "{Minä|word|pronoun|I (formal)} {olen|grammar|verb|am} {tulossa|word|verb form|coming / on my way} {suomen kielen|phrase|genitive|of Finnish language} {kurssilta|grammar|ablative|from the course}.",
+            "translation": "I am coming from a Finnish language course."
+        },
+        {
+            "type": "note",
+            "color": "word",
+            "title": "Tulossa — a beautiful Finnish form",
+            "text": "Tulossa literally means 'in a coming' — it's the verb tulla (to come) frozen mid-action. Olen tulossa = I am in the process of coming / I'm on my way. You'll use this constantly: Olen tulossa! = I'm on my way!"
+        },
+        {
+            "type": "note",
+            "color": "culture",
+            "title": "Suomen kielen kurssi",
+            "text": "Suomen kieli = Finnish language. Suomen kielen = of the Finnish language (genitive case — it modifies kurssi). So suomen kielen kurssi = a course of the Finnish language. The fact that you're taking one is why you're reading this."
+        },
+        {
+            "type": "heading",
+            "text": "A real exchange"
+        },
+        {
+            "type": "dialogue",
+            "lines": [
+                {
+                    "speaker": "A",
+                    "fi": "Hei! Missä sä oot ollu?",
+                    "en": "Hey! Where have you been?"
+                },
+                {
+                    "speaker": "B",
+                    "fi": "Mä oon ollu suomen kielen kurssilla. Entä sä?",
+                    "en": "I've been at a Finnish course. What about you?"
+                },
+                {
+                    "speaker": "A",
+                    "fi": "Mä tulin töistä. Mistä sä tuut nyt?",
+                    "en": "I came from work. Where are you coming from now?"
+                },
+                {
+                    "speaker": "B",
+                    "fi": "Mä oon tulossa kurssilta.",
+                    "en": "I'm coming from the course."
+                },
+                {
+                    "speaker": "A",
+                    "fi": "Siistiä! Meneekö hyvin?",
+                    "en": "Cool! Is it going well?"
+                },
+                {
+                    "speaker": "B",
+                    "fi": "Joo, menee tosi hyvin!",
+                    "en": "Yeah, it's going really well!"
+                }
+            ]
+        },
+        {
+            "type": "note",
+            "color": "word",
+            "title": "Free words from the dialogue",
+            "text": "Siistiä = cool / neat (very colloquial, very Finnish). Joo = yeah (colloquial kyllä). Tosi = really / very (tosi hyvä = really good). Menee hyvin = it's going well (menee = it goes)."
+        },
+        {
+            "type": "pronunciation",
+            "content": "Ollut: OL-lut (double l, short u). Tulossa: TOO-los-sa (long u, double s). Kurssilta: KURS-sil-ta (the double s is a real stop — don't swallow it). Suomen: SOO-men (long u, clean syllables as always)."
+        },
+        {
+            "type": "vocab",
+            "rows": [
+                {
+                    "fi": "missä",
+                    "en": "where (at a place)",
+                    "type": "grammar"
+                },
+                {
+                    "fi": "mistä",
+                    "en": "from where",
+                    "type": "grammar"
+                },
+                {
+                    "fi": "olen ollut",
+                    "en": "I have been",
+                    "type": "grammar"
+                },
+                {
+                    "fi": "tulossa",
+                    "en": "coming / on my way",
+                    "type": "word"
+                },
+                {
+                    "fi": "-lla / -llä",
+                    "en": "at / on (a place or event)",
+                    "type": "grammar"
+                },
+                {
+                    "fi": "-lta / -ltä",
+                    "en": "from (a place or event)",
+                    "type": "grammar"
+                },
+                {
+                    "fi": "kurssi",
+                    "en": "course",
+                    "type": "word"
+                },
+                {
+                    "fi": "suomen kieli",
+                    "en": "Finnish language",
+                    "type": "phrase"
+                },
+                {
+                    "fi": "tosi",
+                    "en": "really / very",
+                    "type": "word"
+                },
+                {
+                    "fi": "siistiä",
+                    "en": "cool / neat",
+                    "type": "phrase"
+                }
+            ]
+        },
+        {
+            "type": "checklist",
+            "title": "What you now own",
+            "items": [
+                "missä — where at (stillness)",
+                "mistä — from where (movement)",
+                "mihin — to where (direction) — spotted the system!",
+                "olen ollut / mä oon ollu — I have been",
+                "olen tulossa — I'm on my way / coming",
+                "-lla vs -lta: at a place vs from a place",
+                "suomen kielen kurssi — Finnish language course",
+                "tosi, joo, siistiä — real colloquial filler words"
+            ]
+        }
+    ]
+}
