@@ -1,0 +1,2024 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finnish by Ear — Colloquial Finnish</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Lora:ital,wght@0,400;0,500;1,400&family=JetBrains+Mono:wght@400;600&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --bg: #f4efe6;
+            --sidebar: #0e1c3f;
+            --sidebar-hover: #19305a;
+            --sidebar-active: #1e3a6e;
+            --sidebar-text: #a8bcd8;
+            --gold: #c8922a;
+            --gold-light: #f5e6c8;
+            --blue: #003472;
+            --blue-light: #dce8f7;
+            --card: #ffffff;
+            --text: #1c1c2e;
+            --muted: #7a7a8c;
+            --border: #e4ddd0;
+
+            --c-word-bg: #fff8e1;
+            --c-word-b: #f59e0b;
+            --c-word-t: #7c4f00;
+            --c-grammar-bg: #e1f5f7;
+            --c-grammar-b: #0097a7;
+            --c-grammar-t: #004b5a;
+            --c-phrase-bg: #edfaf1;
+            --c-phrase-b: #22c55e;
+            --c-phrase-t: #145228;
+            --c-culture-bg: #fdf1fb;
+            --c-culture-b: #d946ef;
+            --c-culture-t: #6d1474;
+            --c-tip-bg: #f4f0ff;
+            --c-tip-b: #8b5cf6;
+            --c-tip-t: #3b0764;
+            --c-pronun-bg: #fff4ec;
+            --c-pronun-b: #f97316;
+            --c-pronun-t: #7c2d12;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0
+        }
+
+        body {
+            font-family: 'Lora', serif;
+            background: var(--bg);
+            color: var(--text);
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23c8922a' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+
+        /* ── SIDEBAR ── */
+        .sidebar {
+            width: 275px;
+            flex-shrink: 0;
+            background: var(--sidebar);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .sb-head {
+            padding: 26px 22px 18px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+        }
+
+        .sb-brand {
+            font-family: 'Playfair Display', serif;
+            font-size: 21px;
+            font-weight: 700;
+            color: #fff;
+            letter-spacing: -0.5px;
+        }
+
+        .sb-brand em {
+            color: var(--gold);
+            font-style: normal
+        }
+
+        .sb-sub {
+            font-size: 10px;
+            color: rgba(168, 188, 216, 0.5);
+            letter-spacing: 1.8px;
+            text-transform: uppercase;
+            margin-top: 4px;
+        }
+
+        .sb-search {
+            padding: 12px 14px 6px;
+        }
+
+        .sb-search input {
+            width: 100%;
+            background: rgba(255, 255, 255, 0.07);
+            border: 1px solid rgba(255, 255, 255, 0.09);
+            border-radius: 8px;
+            padding: 7px 11px;
+            color: #fff;
+            font-size: 12px;
+            outline: none;
+            font-family: 'Lora', serif;
+            transition: border-color 0.15s;
+        }
+
+        .sb-search input:focus {
+            border-color: rgba(200, 146, 42, 0.5)
+        }
+
+        .sb-search input::placeholder {
+            color: rgba(168, 188, 216, 0.35)
+        }
+
+        .sb-list {
+            flex: 1;
+            overflow-y: auto;
+            padding: 4px 0
+        }
+
+        .sb-item {
+            display: flex;
+            align-items: center;
+            gap: 11px;
+            padding: 9px 18px;
+            cursor: pointer;
+            border-left: 3px solid transparent;
+            transition: all 0.15s;
+        }
+
+        .sb-item:hover {
+            background: var(--sidebar-hover)
+        }
+
+        .sb-item.active {
+            background: var(--sidebar-active);
+            border-left-color: var(--gold)
+        }
+
+        .sb-num {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 10px;
+            color: var(--gold);
+            min-width: 26px;
+            font-weight: 600;
+        }
+
+        .sb-item-text {
+            overflow: hidden
+        }
+
+        .sb-item-title {
+            font-size: 12.5px;
+            color: rgba(255, 255, 255, 0.88);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-family: 'Playfair Display', serif
+        }
+
+        .sb-item-sub {
+            font-size: 11px;
+            color: rgba(168, 188, 216, 0.45);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-family: 'Lora', serif;
+            font-style: italic
+        }
+
+        .sb-foot {
+            padding: 12px 14px;
+            border-top: 1px solid rgba(255, 255, 255, 0.07);
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .sb-btn {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 13px;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            font-size: 11.5px;
+            font-weight: 600;
+            font-family: 'Lora', serif;
+            transition: all 0.15s;
+            letter-spacing: 0.3px;
+        }
+
+        .sb-btn-new {
+            background: var(--gold);
+            color: #fff
+        }
+
+        .sb-btn-new:hover {
+            background: #b07820
+        }
+
+        .sb-btn-io {
+            background: rgba(255, 255, 255, 0.07);
+            color: var(--sidebar-text)
+        }
+
+        .sb-btn-io:hover {
+            background: rgba(255, 255, 255, 0.12)
+        }
+
+        /* ── MAIN ── */
+        .main {
+            flex: 1;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column
+        }
+
+        .lesson-view {
+            max-width: 740px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 44px 40px 80px;
+        }
+
+        /* ── LESSON HEADER ── */
+        .lh {
+            margin-bottom: 38px;
+            position: relative
+        }
+
+        .lh-badge {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 10px;
+            font-weight: 600;
+            color: var(--gold);
+            letter-spacing: 2.5px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        .lh-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 44px;
+            font-weight: 700;
+            color: var(--text);
+            line-height: 1.1;
+            letter-spacing: -1.5px;
+        }
+
+        .lh-sub {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            font-size: 22px;
+            color: var(--muted);
+            margin-top: 7px;
+        }
+
+        .lh-tags {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+            margin-top: 14px
+        }
+
+        .lh-tag {
+            font-size: 10px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            padding: 3px 9px;
+            border-radius: 100px;
+            background: var(--blue-light);
+            color: var(--blue);
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .lh-actions {
+            position: absolute;
+            top: 0;
+            right: 0;
+            display: flex;
+            gap: 6px
+        }
+
+        .icon-btn {
+            width: 34px;
+            height: 34px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            background: var(--card);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 15px;
+            transition: all 0.15s;
+        }
+
+        .icon-btn:hover {
+            background: var(--blue-light);
+            border-color: var(--blue)
+        }
+
+        /* ── BLOCKS ── */
+        .block {
+            margin-bottom: 24px
+        }
+
+        .b-intro {
+            font-size: 17px;
+            line-height: 1.8;
+            color: var(--text)
+        }
+
+        .b-heading {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            font-weight: 600;
+            color: var(--text);
+            padding-bottom: 7px;
+            border-bottom: 2px solid var(--gold);
+            display: inline-block;
+        }
+
+        .b-text {
+            font-size: 15.5px;
+            line-height: 1.8;
+            color: var(--text)
+        }
+
+        .b-phrase {
+            background: var(--card);
+            border-left: 4px solid var(--blue);
+            border-radius: 0 12px 12px 0;
+            padding: 18px 22px;
+            box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
+        }
+
+        .b-phrase-fi {
+            font-family: 'Playfair Display', serif;
+            font-size: 28px;
+            font-weight: 600;
+            color: var(--text);
+            line-height: 1.4;
+        }
+
+        .b-phrase-en {
+            font-size: 14px;
+            color: var(--muted);
+            font-style: italic;
+            margin-top: 5px
+        }
+
+        /* Chips */
+        .chip {
+            display: inline;
+            border-radius: 4px;
+            padding: 1px 5px;
+            font-weight: 700;
+            cursor: default;
+            font-family: 'Lora', serif;
+        }
+
+        .chip-word {
+            background: var(--c-word-bg);
+            color: var(--c-word-t);
+            border-bottom: 2px solid var(--c-word-b)
+        }
+
+        .chip-grammar {
+            background: var(--c-grammar-bg);
+            color: var(--c-grammar-t);
+            border-bottom: 2px solid var(--c-grammar-b)
+        }
+
+        .chip-phrase {
+            background: var(--c-phrase-bg);
+            color: var(--c-phrase-t);
+            border-bottom: 2px solid var(--c-phrase-b)
+        }
+
+        .chip-culture {
+            background: var(--c-culture-bg);
+            color: var(--c-culture-t);
+            border-bottom: 2px solid var(--c-culture-b)
+        }
+
+        .chip-tip {
+            background: var(--c-tip-bg);
+            color: var(--c-tip-t);
+            border-bottom: 2px solid var(--c-tip-b)
+        }
+
+        .chip-pronun {
+            background: var(--c-pronun-bg);
+            color: var(--c-pronun-t);
+            border-bottom: 2px solid var(--c-pronun-b)
+        }
+
+        .chip-lbl {
+            font-size: 9px;
+            text-transform: uppercase;
+            letter-spacing: 0.4px;
+            opacity: 0.65;
+            margin-right: 2px
+        }
+
+        .ann-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            margin-top: 9px
+        }
+
+        .ann-note {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            font-size: 11.5px;
+            padding: 2px 8px;
+            border-radius: 100px;
+            border: 1px solid;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .ann-note-word {
+            background: var(--c-word-bg);
+            color: var(--c-word-t);
+            border-color: var(--c-word-b)
+        }
+
+        .ann-note-grammar {
+            background: var(--c-grammar-bg);
+            color: var(--c-grammar-t);
+            border-color: var(--c-grammar-b)
+        }
+
+        .ann-note-phrase {
+            background: var(--c-phrase-bg);
+            color: var(--c-phrase-t);
+            border-color: var(--c-phrase-b)
+        }
+
+        .ann-note-culture {
+            background: var(--c-culture-bg);
+            color: var(--c-culture-t);
+            border-color: var(--c-culture-b)
+        }
+
+        .ann-note-tip {
+            background: var(--c-tip-bg);
+            color: var(--c-tip-t);
+            border-color: var(--c-tip-b)
+        }
+
+        .ann-note-pronun {
+            background: var(--c-pronun-bg);
+            color: var(--c-pronun-t);
+            border-color: var(--c-pronun-b)
+        }
+
+        /* Callout / note blocks */
+        .b-note {
+            padding: 14px 18px;
+            border-radius: 10px;
+            border-left: 4px solid
+        }
+
+        .b-note-word {
+            background: var(--c-word-bg);
+            border-color: var(--c-word-b);
+            color: var(--c-word-t)
+        }
+
+        .b-note-grammar {
+            background: var(--c-grammar-bg);
+            border-color: var(--c-grammar-b);
+            color: var(--c-grammar-t)
+        }
+
+        .b-note-phrase {
+            background: var(--c-phrase-bg);
+            border-color: var(--c-phrase-b);
+            color: var(--c-phrase-t)
+        }
+
+        .b-note-culture {
+            background: var(--c-culture-bg);
+            border-color: var(--c-culture-b);
+            color: var(--c-culture-t)
+        }
+
+        .b-note-tip {
+            background: var(--c-tip-bg);
+            border-color: var(--c-tip-b);
+            color: var(--c-tip-t)
+        }
+
+        .b-note-pronun {
+            background: var(--c-pronun-bg);
+            border-color: var(--c-pronun-b);
+            color: var(--c-pronun-t)
+        }
+
+        .b-note-ttl {
+            font-size: 10.5px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            opacity: 0.7;
+            margin-bottom: 5px;
+            font-family: 'JetBrains Mono', monospace
+        }
+
+        .b-note-txt {
+            font-size: 14.5px;
+            line-height: 1.65
+        }
+
+        /* Examples */
+        .b-examples {
+            display: flex;
+            flex-direction: column;
+            gap: 7px
+        }
+
+        .ex-item {
+            background: var(--card);
+            border-radius: 10px;
+            padding: 11px 15px;
+            border: 1px solid var(--border)
+        }
+
+        .ex-fi {
+            font-size: 17px;
+            font-weight: 500;
+            color: var(--text)
+        }
+
+        .ex-en {
+            font-size: 12.5px;
+            color: var(--muted);
+            font-style: italic;
+            margin-top: 2px
+        }
+
+        /* Dialogue */
+        .b-dialogue {
+            display: flex;
+            flex-direction: column;
+            gap: 9px
+        }
+
+        .dl-line {
+            display: flex;
+            gap: 10px;
+            align-items: flex-start
+        }
+
+        .dl-spk {
+            width: 26px;
+            height: 26px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 11px;
+            font-weight: 700;
+            flex-shrink: 0;
+            margin-top: 5px;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .spk-A {
+            background: var(--blue);
+            color: #fff
+        }
+
+        .spk-B {
+            background: var(--gold);
+            color: #fff
+        }
+
+        .spk-C {
+            background: #22c55e;
+            color: #fff
+        }
+
+        .dl-body {
+            background: var(--card);
+            border-radius: 10px;
+            padding: 9px 13px;
+            flex: 1;
+            border: 1px solid var(--border)
+        }
+
+        .dl-fi {
+            font-size: 16px;
+            font-weight: 500
+        }
+
+        .dl-en {
+            font-size: 12.5px;
+            color: var(--muted);
+            font-style: italic;
+            margin-top: 2px
+        }
+
+        /* Vocab table */
+        .b-vocab {
+            background: var(--card);
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid var(--border)
+        }
+
+        .vtable {
+            width: 100%;
+            border-collapse: collapse
+        }
+
+        .vtable th {
+            font-size: 10px;
+            font-weight: 700;
+            letter-spacing: 1.2px;
+            text-transform: uppercase;
+            color: var(--muted);
+            padding: 9px 14px;
+            background: #f8f4ee;
+            text-align: left;
+            font-family: 'JetBrains Mono', monospace
+        }
+
+        .vtable td {
+            padding: 9px 14px;
+            border-top: 1px solid var(--border);
+            font-size: 14px
+        }
+
+        .vfi {
+            font-family: 'JetBrains Mono', monospace;
+            font-weight: 600;
+            color: var(--blue)
+        }
+
+        .vbadge {
+            font-size: 9.5px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            padding: 2px 7px;
+            border-radius: 100px
+        }
+
+        .vb-word {
+            background: var(--c-word-bg);
+            color: var(--c-word-t)
+        }
+
+        .vb-grammar {
+            background: var(--c-grammar-bg);
+            color: var(--c-grammar-t)
+        }
+
+        .vb-phrase {
+            background: var(--c-phrase-bg);
+            color: var(--c-phrase-t)
+        }
+
+        .vb-pronun {
+            background: var(--c-pronun-bg);
+            color: var(--c-pronun-t)
+        }
+
+        /* Comparison table */
+        .b-comp {
+            background: var(--card);
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid var(--border)
+        }
+
+        .ctable {
+            width: 100%;
+            border-collapse: collapse
+        }
+
+        .ctable th {
+            font-size: 10px;
+            font-weight: 700;
+            letter-spacing: 1.2px;
+            text-transform: uppercase;
+            color: var(--muted);
+            padding: 9px 14px;
+            background: #f8f4ee;
+            text-align: left;
+            font-family: 'JetBrains Mono', monospace
+        }
+
+        .ctable td {
+            padding: 9px 14px;
+            border-top: 1px solid var(--border);
+            font-size: 13.5px
+        }
+
+        .ctable td:first-child {
+            font-family: 'JetBrains Mono', monospace;
+            font-weight: 700;
+            color: var(--blue)
+        }
+
+        .ctable td:nth-child(2) {
+            color: var(--muted);
+            font-style: italic
+        }
+
+        /* Checklist */
+        .cl-ttl {
+            font-size: 10.5px;
+            font-weight: 700;
+            letter-spacing: 1.2px;
+            text-transform: uppercase;
+            color: var(--muted);
+            margin-bottom: 10px;
+            font-family: 'JetBrains Mono', monospace
+        }
+
+        .cl-items {
+            display: flex;
+            flex-direction: column;
+            gap: 5px
+        }
+
+        .cl-item {
+            display: flex;
+            align-items: center;
+            gap: 9px;
+            font-size: 14.5px
+        }
+
+        .cl-ck {
+            width: 19px;
+            height: 19px;
+            background: #22c55e;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            color: #fff;
+            flex-shrink: 0
+        }
+
+        /* Pronunciation */
+        .b-pron {
+            background: var(--c-pronun-bg);
+            border: 1px solid var(--c-pronun-b);
+            border-radius: 10px;
+            padding: 13px 17px
+        }
+
+        .pron-lbl {
+            font-size: 10px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: var(--c-pronun-t);
+            margin-bottom: 5px;
+            opacity: 0.7;
+            font-family: 'JetBrains Mono', monospace
+        }
+
+        .pron-txt {
+            font-size: 14.5px;
+            color: var(--c-pronun-t);
+            line-height: 1.65
+        }
+
+        /* Image block */
+        .b-img {
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid var(--border)
+        }
+
+        .b-img img {
+            width: 100%;
+            display: block
+        }
+
+        .b-img-cap {
+            padding: 7px 12px;
+            font-size: 12.5px;
+            color: var(--muted);
+            font-style: italic;
+            text-align: center;
+            background: var(--card)
+        }
+
+        /* Divider */
+        .b-div {
+            border: none;
+            border-top: 2px dashed var(--border);
+            margin: 4px 0
+        }
+
+        /* Next lesson */
+        .next-box {
+            margin-top: 48px;
+            padding: 22px;
+            background: var(--card);
+            border-radius: 14px;
+            border: 1px dashed var(--border);
+            text-align: center;
+        }
+
+        .next-lbl {
+            font-size: 10px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--muted);
+            margin-bottom: 7px;
+            font-family: 'JetBrains Mono', monospace
+        }
+
+        .next-ttl {
+            font-family: 'Playfair Display', serif;
+            font-size: 19px;
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 15px
+        }
+
+        .btn-next {
+            background: var(--blue);
+            color: #fff;
+            border: none;
+            padding: 9px 22px;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.15s;
+            font-family: 'Lora', serif;
+        }
+
+        .btn-next:hover {
+            background: #001d54
+        }
+
+        /* ── EDITOR ── */
+        .overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.55);
+            z-index: 200;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            backdrop-filter: blur(3px);
+        }
+
+        .overlay.open {
+            display: flex
+        }
+
+        .modal {
+            background: #fff;
+            border-radius: 16px;
+            width: 92%;
+            max-width: 800px;
+            max-height: 90vh;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 24px 64px rgba(0, 0, 0, 0.22);
+            animation: slideUp 0.25s cubic-bezier(0.34, 1.4, 0.64, 1);
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(24px);
+                opacity: 0
+            }
+
+            to {
+                transform: translateY(0);
+                opacity: 1
+            }
+        }
+
+        .modal-head {
+            padding: 18px 22px;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-shrink: 0;
+        }
+
+        .modal-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 19px;
+            font-weight: 700
+        }
+
+        .modal-body {
+            overflow-y: auto;
+            flex: 1;
+            padding: 22px
+        }
+
+        .modal-foot {
+            padding: 14px 22px;
+            border-top: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-shrink: 0;
+        }
+
+        .ef {
+            margin-bottom: 15px
+        }
+
+        .el {
+            font-size: 10px;
+            font-weight: 700;
+            letter-spacing: 1.2px;
+            text-transform: uppercase;
+            color: var(--muted);
+            margin-bottom: 5px;
+            font-family: 'JetBrains Mono', monospace;
+            display: block
+        }
+
+        .ei {
+            width: 100%;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 9px 11px;
+            font-size: 14px;
+            font-family: 'Lora', serif;
+            outline: none;
+            transition: border-color 0.15s;
+            background: #fff;
+        }
+
+        .ei:focus {
+            border-color: var(--blue)
+        }
+
+        .ei-ta {
+            resize: vertical;
+            min-height: 75px
+        }
+
+        .ei-sm {
+            min-height: 55px
+        }
+
+        /* Editor block items */
+        .eblock {
+            background: #f9f6f1;
+            border-radius: 10px;
+            border: 1px solid var(--border);
+            margin-bottom: 9px;
+            overflow: hidden;
+        }
+
+        .eblock-head {
+            display: flex;
+            align-items: center;
+            gap: 9px;
+            padding: 8px 12px;
+            background: #f0ece3;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .eblock-type {
+            font-size: 10px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: var(--blue);
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .eblock-btns {
+            margin-left: auto;
+            display: flex;
+            gap: 3px
+        }
+
+        .eb-btn {
+            border: none;
+            background: none;
+            cursor: pointer;
+            padding: 3px 7px;
+            border-radius: 5px;
+            font-size: 12px;
+            color: var(--muted);
+            transition: all 0.1s;
+            font-family: 'Lora', serif;
+        }
+
+        .eb-btn:hover {
+            background: rgba(0, 0, 0, 0.07)
+        }
+
+        .eb-btn.del:hover {
+            color: #dc2626;
+            background: #fee2e2
+        }
+
+        .eblock-body {
+            padding: 11px 13px
+        }
+
+        .eblock-body .el {
+            margin-top: 7px
+        }
+
+        .eblock-body .ei {
+            font-size: 13px;
+            margin-top: 4px
+        }
+
+        /* Add block buttons */
+        .add-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            margin-top: 6px
+        }
+
+        .add-btn {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            padding: 5px 10px;
+            border-radius: 7px;
+            border: 1.5px dashed var(--border);
+            background: transparent;
+            cursor: pointer;
+            font-size: 11px;
+            font-weight: 700;
+            color: var(--muted);
+            font-family: 'JetBrains Mono', monospace;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            transition: all 0.15s;
+        }
+
+        .add-btn:hover {
+            border-color: var(--blue);
+            color: var(--blue);
+            background: var(--blue-light)
+        }
+
+        /* Annotation toolbar */
+        .ann-bar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
+            margin-top: 6px
+        }
+
+        .ann-btn {
+            font-size: 10.5px;
+            font-weight: 700;
+            padding: 3px 8px;
+            border-radius: 5px;
+            border: 1.5px solid;
+            cursor: pointer;
+            font-family: 'JetBrains Mono', monospace;
+            transition: all 0.1s;
+            letter-spacing: 0.3px;
+        }
+
+        .ann-word {
+            background: var(--c-word-bg);
+            color: var(--c-word-t);
+            border-color: var(--c-word-b)
+        }
+
+        .ann-grammar {
+            background: var(--c-grammar-bg);
+            color: var(--c-grammar-t);
+            border-color: var(--c-grammar-b)
+        }
+
+        .ann-phrase {
+            background: var(--c-phrase-bg);
+            color: var(--c-phrase-t);
+            border-color: var(--c-phrase-b)
+        }
+
+        .ann-culture {
+            background: var(--c-culture-bg);
+            color: var(--c-culture-t);
+            border-color: var(--c-culture-b)
+        }
+
+        .ann-tip {
+            background: var(--c-tip-bg);
+            color: var(--c-tip-t);
+            border-color: var(--c-tip-b)
+        }
+
+        .ann-pronun {
+            background: var(--c-pronun-bg);
+            color: var(--c-pronun-t);
+            border-color: var(--c-pronun-b)
+        }
+
+        .ann-hint {
+            font-size: 10px;
+            color: #aaa;
+            margin-top: 3px
+        }
+
+        /* Buttons */
+        .btn-p {
+            background: var(--blue);
+            color: #fff;
+            border: none;
+            padding: 9px 22px;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            font-family: 'Lora', serif;
+            transition: all 0.15s
+        }
+
+        .btn-p:hover {
+            background: #001d54
+        }
+
+        .btn-s {
+            background: transparent;
+            color: var(--muted);
+            border: 1px solid var(--border);
+            padding: 9px 18px;
+            border-radius: 8px;
+            font-size: 13px;
+            cursor: pointer;
+            font-family: 'Lora', serif;
+            transition: all 0.15s
+        }
+
+        .btn-s:hover {
+            background: #f8f4ee
+        }
+
+        .btn-d {
+            background: #fee2e2;
+            color: #dc2626;
+            border: 1px solid #fca5a5;
+            padding: 9px 18px;
+            border-radius: 8px;
+            font-size: 13px;
+            cursor: pointer;
+            font-family: 'Lora', serif
+        }
+
+        .btn-d:hover {
+            background: #fecaca
+        }
+
+        .btn-exp {
+            background: var(--gold-light);
+            color: var(--gold);
+            border: 1px solid #e8c97a;
+            padding: 9px 18px;
+            border-radius: 8px;
+            font-size: 13px;
+            cursor: pointer;
+            font-family: 'Lora', serif;
+            transition: all 0.15s
+        }
+
+        .btn-exp:hover {
+            background: #f0d89a
+        }
+
+        /* Empty state */
+        .empty {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            text-align: center;
+            padding: 48px;
+            color: var(--muted);
+        }
+
+        .empty-icon {
+            font-size: 52px;
+            margin-bottom: 18px
+        }
+
+        .empty-ttl {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 7px
+        }
+
+        .empty-txt {
+            font-size: 15px;
+            line-height: 1.65;
+            max-width: 340px
+        }
+
+        /* Toast */
+        .toast {
+            position: fixed;
+            bottom: 22px;
+            right: 22px;
+            background: #0e1c3f;
+            color: #fff;
+            padding: 11px 18px;
+            border-radius: 10px;
+            font-size: 13px;
+            font-weight: 500;
+            transform: translateY(80px);
+            opacity: 0;
+            transition: all 0.3s cubic-bezier(0.34, 1.4, 0.64, 1);
+            z-index: 999;
+            box-shadow: 0 4px 22px rgba(0, 0, 0, 0.22);
+            font-family: 'Lora', serif;
+        }
+
+        .toast.show {
+            transform: translateY(0);
+            opacity: 1
+        }
+
+        .hidden {
+            display: none
+        }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar {
+            width: 5px
+        }
+
+        ::-webkit-scrollbar-track {
+            background: transparent
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: rgba(0, 0, 0, 0.13);
+            border-radius: 3px
+        }
+
+        /* Responsive */
+        @media(max-width:680px) {
+            .sidebar {
+                width: 220px
+            }
+
+            .lesson-view {
+                padding: 24px 18px 60px
+            }
+
+            .lh-title {
+                font-size: 32px
+            }
+
+            .lh-actions {
+                position: static;
+                margin-top: 12px
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <div class="sb-head">
+            <div class="sb-brand">Finnish <em>by Ear</em></div>
+            <div class="sb-sub">Anchoring · Colloquial Method</div>
+        </div>
+        <div class="sb-search">
+            <input type="text" id="searchInput" placeholder="Search lessons…" oninput="filterNav(this.value)">
+        </div>
+        <div class="sb-list" id="lessonNav"></div>
+        <div class="sb-foot">
+            <button class="sb-btn sb-btn-new" onclick="openEditor(null)">＋&nbsp; New Lesson</button>
+            <button class="sb-btn sb-btn-io" onclick="exportAll()">⬇&nbsp; Export All</button>
+            <button class="sb-btn sb-btn-io" onclick="document.getElementById('importAllInput').click()">⬆&nbsp; Import
+                All</button>
+            <input type="file" id="importAllInput" class="hidden" accept=".json" onchange="importAll(this)">
+        </div>
+    </aside>
+
+    <!-- MAIN -->
+    <main class="main">
+        <div class="lesson-view" id="lessonView"></div>
+    </main>
+
+    <!-- EDITOR MODAL -->
+    <div class="overlay" id="overlay" onclick="overlayClick(event)">
+        <div class="modal">
+            <div class="modal-head">
+                <div class="modal-title" id="modalTitle">New Lesson</div>
+                <button class="icon-btn" onclick="closeEditor()">✕</button>
+            </div>
+            <div class="modal-body" id="modalBody"></div>
+            <div class="modal-foot">
+                <div style="display:flex;gap:7px">
+                    <button class="btn-s" onclick="closeEditor()">Cancel</button>
+                    <button class="btn-d hidden" id="btnDel" onclick="deleteCurrent()">Delete</button>
+                </div>
+                <div style="display:flex;gap:7px">
+                    <button class="btn-exp" onclick="exportEditing()">Export JSON</button>
+                    <button class="btn-p" onclick="saveLesson()">Save Lesson</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Import single lesson -->
+    <input type="file" id="importSingle" class="hidden" accept=".json" onchange="importSingleLesson(this)">
+
+    <!-- Toast -->
+    <div class="toast" id="toast"></div>
+
+    <script>
+        // ─────────────────────────────────────────────
+        // COLOR TYPES
+        // ─────────────────────────────────────────────
+        const COLORS = {
+            word: { label: 'Word', cls: 'word' },
+            grammar: { label: 'Grammar', cls: 'grammar' },
+            phrase: { label: 'Phrase', cls: 'phrase' },
+            culture: { label: 'Culture', cls: 'culture' },
+            tip: { label: 'Tip', cls: 'tip' },
+            pronun: { label: 'Pronun', cls: 'pronun' },
+        };
+
+        // ─────────────────────────────────────────────
+        // INITIAL LESSON DATA
+        // ─────────────────────────────────────────────
+        const INIT = [
+            {
+                id: 'l1', number: 1,
+                title: 'Mikä tää on?', subtitle: 'What is this?',
+                tags: ['basics', 'questions', 'verbs'],
+                blocks: [
+                    { type: 'intro', text: 'You already know your first sentence. You just heard it.' },
+                    { type: 'phrase', annotated: '{Mikä|grammar|Q-word|what} {tää|word|pronoun|this} {on|grammar|verb|is}?', translation: 'What is this?' },
+                    { type: 'heading', text: 'The magic word: on' },
+                    { type: 'text', content: '{On|grammar|verb|is} means "is." That\'s it. Finnish stacks words simply — no tricks to learn yet.' },
+                    {
+                        type: 'examples', items: [
+                            { fi: 'Tää {on|grammar|verb|is} kahvi.', en: 'This is coffee.' },
+                            { fi: 'Tää {on|grammar|verb|is} auto.', en: 'This is a car.' },
+                            { fi: 'Tää {on|grammar|verb|is} ongelma.', en: 'This is a problem.' },
+                        ]
+                    },
+                    { type: 'note', color: 'tip', title: 'Anchoring Rule', text: 'Finnish has no "a" or "the." Never mourn what a language lacks. Move on.' },
+                    { type: 'heading', text: 'Now flip it — ask!' },
+                    {
+                        type: 'dialogue', lines: [
+                            { speaker: 'A', fi: 'Mikä tää on?', en: 'What is this?' },
+                            { speaker: 'B', fi: 'Tää on kahvi.', en: 'This is coffee.' },
+                        ]
+                    },
+                    { type: 'heading', text: 'Add one word: hyvä' },
+                    {
+                        type: 'examples', items: [
+                            { fi: 'Tää on {hyvä|word|adjective|good}.', en: 'This is good.' },
+                            { fi: 'Tää kahvi on {hyvä|word|adjective|good}.', en: 'This coffee is good.' },
+                        ]
+                    },
+                    { type: 'pronunciation', content: 'ää sounds like the "a" in "cat" — but longer and more open. So tää rhymes with "yeah" said lazily. Try it: tääää.' },
+                    {
+                        type: 'vocab', rows: [
+                            { fi: 'on', en: 'is', type: 'grammar' },
+                            { fi: 'tää', en: 'this (colloquial)', type: 'word' },
+                            { fi: 'mikä', en: 'what', type: 'word' },
+                            { fi: 'hyvä', en: 'good', type: 'word' },
+                        ]
+                    },
+                    { type: 'checklist', title: 'What you now own', items: ['on — is', 'tää — this (real colloquial)', 'mikä — what', 'hyvä — good', 'Word order: subject + on + complement'] },
+                ]
+            },
+            {
+                id: 'l2', number: 2,
+                title: 'Mikä sun nimi on?', subtitle: 'What is your name?',
+                tags: ['basics', 'introductions', 'pronouns'],
+                blocks: [
+                    { type: 'intro', text: 'From Lesson 1 you know: Mikä tää on? Today you bend that sentence into something new. No new grammar. Just new words in a shape you already recognise.' },
+                    { type: 'heading', text: 'Meet: mun and sun' },
+                    { type: 'note', color: 'culture', title: 'Real vs Textbook', text: 'Textbooks say minun (my) and sinun (your). Real street Finnish says mun and sun. We learn real street Finnish.' },
+                    {
+                        type: 'comparison', headers: ['Colloquial', 'Formal/Textbook', 'English'], rows: [
+                            ['mä', 'minä', 'I'],
+                            ['mun', 'minun', 'my'],
+                            ['sun', 'sinun', 'your'],
+                            ['oon', 'olen', 'I am'],
+                            ['on', 'on', 'is (stays the same!)'],
+                        ]
+                    },
+                    { type: 'heading', text: 'The word: nimi' },
+                    {
+                        type: 'examples', items: [
+                            { fi: '{Mun|word|pronoun|my} {nimi|word|noun|name} on Pekka.', en: 'My name is Pekka.' },
+                            { fi: '{Mun|word|pronoun|my} {nimi|word|noun|name} on ___. (fill in yours!)', en: 'My name is ___.' },
+                        ]
+                    },
+                    { type: 'note', color: 'grammar', title: 'Pattern recognition', text: 'From Lesson 1: [thing] + on + [thing]. Now: Mun nimi + on + Pekka. You already knew how to build that sentence!' },
+                    { type: 'heading', text: 'Ask it' },
+                    { type: 'phrase', annotated: '{Mikä|grammar|Q-word|what} {sun|word|pronoun|your} {nimi|word|noun|name} {on|grammar|verb|is}?', translation: 'What is your name?' },
+                    { type: 'heading', text: 'Your first real exchange' },
+                    {
+                        type: 'dialogue', lines: [
+                            { speaker: 'A', fi: 'Mikä sun nimi on?', en: 'What is your name?' },
+                            { speaker: 'B', fi: 'Mun nimi on ___. Mikä sun nimi on?', en: 'My name is ___. What\'s yours?' },
+                            { speaker: 'A', fi: 'Mun nimi on ___!', en: 'My name is ___!' },
+                        ]
+                    },
+                    { type: 'heading', text: 'The lazy version Finns actually use' },
+                    { type: 'phrase', annotated: '{Mä|word|pronoun|I} {oon|grammar|verb|am} Pekka.', translation: 'I\'m Pekka.' },
+                    { type: 'note', color: 'tip', title: 'Notice', text: 'on never changes. It\'s your anchor. oon is only for "I am." Everything else uses on.' },
+                    {
+                        type: 'vocab', rows: [
+                            { fi: 'mun', en: 'my (colloquial)', type: 'word' },
+                            { fi: 'sun', en: 'your (colloquial)', type: 'word' },
+                            { fi: 'nimi', en: 'name', type: 'word' },
+                            { fi: 'mä', en: 'I (colloquial)', type: 'word' },
+                            { fi: 'oon', en: 'I am (colloquial)', type: 'grammar' },
+                        ]
+                    },
+                    { type: 'checklist', title: 'What you now own', items: ['mun — my', 'sun — your', 'nimi — name', 'mä — I', 'oon — am', 'Ask & answer "what\'s your name?" like a real Finn'] },
+                ]
+            },
+            {
+                id: 'l3', number: 3,
+                title: 'Mistä sä oot?', subtitle: 'Where are you from?',
+                tags: ['basics', 'places', 'origins', 'cases'],
+                blocks: [
+                    { type: 'intro', text: 'You can introduce yourself. Now — where are you from? Finnish has a wonderfully logical way of expressing this. Once you see the pattern, it practically builds itself.' },
+                    { type: 'heading', text: 'The new question word: mistä' },
+                    { type: 'note', color: 'grammar', title: 'Grammar Insight', text: 'Mistä means "from where." The ending -stä signals "from" in Finnish. This is your first Finnish case suffix. Don\'t fear it — just notice it.' },
+                    { type: 'phrase', annotated: '{Mistä|grammar|from-where|from where} {sä|word|pronoun|you} {oot|grammar|verb|are}?', translation: 'Where are you from?' },
+                    { type: 'note', color: 'culture', title: 'Wait — sä and oot?', text: 'Textbooks say sinä (you) and olet (you are). Street Finnish says sä and oot. You\'re learning street Finnish.' },
+                    {
+                        type: 'comparison', headers: ['Colloquial', 'Formal', 'English'], rows: [
+                            ['mä', 'minä', 'I'],
+                            ['sä', 'sinä', 'you'],
+                            ['oon', 'olen', 'I am'],
+                            ['oot', 'olet', 'you are'],
+                        ]
+                    },
+                    { type: 'heading', text: 'Answer it — the -stä / -sta ending' },
+                    { type: 'text', content: 'To say "from [place]", add {-stä|grammar|suffix|from} or {-sta|grammar|suffix|from} to the city. Use -stä after front vowels (ä ö y), -sta after back vowels (a o u). Finnish is consistent — this is called vowel harmony.' },
+                    {
+                        type: 'examples', items: [
+                            { fi: 'Mä oon {Helsingistä|phrase|ablative|from Helsinki}.', en: 'I\'m from Helsinki.' },
+                            { fi: 'Mä oon {Lontoosta|phrase|ablative|from London}.', en: 'I\'m from London.' },
+                            { fi: 'Mä oon {Tokiosta|phrase|ablative|from Tokyo}.', en: 'I\'m from Tokyo.' },
+                        ]
+                    },
+                    {
+                        type: 'dialogue', lines: [
+                            { speaker: 'A', fi: 'Mistä sä oot?', en: 'Where are you from?' },
+                            { speaker: 'B', fi: 'Mä oon Lontoosta. Entä sä?', en: 'I\'m from London. What about you?' },
+                            { speaker: 'A', fi: 'Mä oon Helsingistä.', en: 'I\'m from Helsinki.' },
+                        ]
+                    },
+                    { type: 'note', color: 'word', title: 'Bonus word — free!', text: 'Entä sä? = "What about you?" — one of the most useful phrases in any language. You got it for free.' },
+                    { type: 'pronunciation', content: 'Finnish vowels are pure — no diphthongs sneaking in. Hel-sin-gis-tä: four clean syllables. Finnish never swallows syllables the way English does.' },
+                    {
+                        type: 'vocab', rows: [
+                            { fi: 'mistä', en: 'from where', type: 'grammar' },
+                            { fi: 'sä', en: 'you (colloquial)', type: 'word' },
+                            { fi: 'oot', en: 'you are (colloquial)', type: 'grammar' },
+                            { fi: '-stä / -sta', en: '"from" suffix (case)', type: 'grammar' },
+                            { fi: 'entä sä?', en: 'what about you?', type: 'phrase' },
+                        ]
+                    },
+                    { type: 'checklist', title: 'What you now own', items: ['mistä — from where', 'sä — you (colloquial)', 'oot — you are', '—stä/—sta: the "from" ending', 'entä sä? — what about you?', 'A complete 3-line real Finnish conversation'] },
+                ]
+            },
+        ];
+
+        // ─────────────────────────────────────────────
+        // STATE
+        // ─────────────────────────────────────────────
+        let lessons = [];
+        let currentId = null;
+        let editLesson = null;
+        let editBlocks = [];
+        let currentEditId = null;
+
+        // ─────────────────────────────────────────────
+        // STORAGE
+        // ─────────────────────────────────────────────
+        function load() {
+            try {
+                const s = localStorage.getItem('fbe-lessons');
+                lessons = s ? JSON.parse(s) : JSON.parse(JSON.stringify(INIT));
+                if (!lessons.length) lessons = JSON.parse(JSON.stringify(INIT));
+            } catch (e) { lessons = JSON.parse(JSON.stringify(INIT)); }
+        }
+        function save() { localStorage.setItem('fbe-lessons', JSON.stringify(lessons)); }
+
+        // ─────────────────────────────────────────────
+        // ANNOTATION PARSER
+        // ─────────────────────────────────────────────
+        function parseAnn(text) {
+            if (!text) return [];
+            const parts = [], re = /\{([^|{}]+)\|([^|{}]+)\|([^|{}]+)\|([^}]+)\}/g;
+            let last = 0, m;
+            while ((m = re.exec(text)) !== null) {
+                if (m.index > last) parts.push({ t: 'txt', v: text.slice(last, m.index) });
+                parts.push({ t: 'ann', word: m[1], color: m[2], label: m[3], meaning: m[4] });
+                last = re.lastIndex;
+            }
+            if (last < text.length) parts.push({ t: 'txt', v: text.slice(last) });
+            return parts;
+        }
+
+        function renderAnn(text, big = false) {
+            if (!text) return '';
+            const parts = parseAnn(text);
+            const anns = parts.filter(p => p.t === 'ann');
+            const fs = big ? 'font-size:28px;font-weight:600;font-family:\'Playfair Display\',serif;' : '';
+            let h = `<span style="${fs}">`;
+            for (const p of parts) {
+                if (p.t === 'txt') h += esc(p.v);
+                else h += `<span class="chip chip-${p.color}" title="${esc(p.meaning)}"><span class="chip-lbl">${esc(p.label)}</span>${esc(p.word)}</span>`;
+            }
+            h += '</span>';
+            if (anns.length) {
+                h += '<div class="ann-row">';
+                for (const a of anns)
+                    h += `<span class="ann-note ann-note-${a.color}"><strong>${esc(a.word)}</strong>&nbsp;=&nbsp;${esc(a.meaning)}</span>`;
+                h += '</div>';
+            }
+            return h;
+        }
+
+        function esc(s) { return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
+
+        // ─────────────────────────────────────────────
+        // RENDER LESSON
+        // ─────────────────────────────────────────────
+        function renderLesson(lesson) {
+            const idx = lessons.findIndex(l => l.id === lesson.id);
+            let h = `
+    <div class="lh">
+      <div class="lh-actions">
+        <button class="icon-btn" onclick="openEditor('${lesson.id}')" title="Edit lesson">✏️</button>
+        <button class="icon-btn" onclick="exportLesson('${lesson.id}')" title="Export JSON">⬇️</button>
+        <button class="icon-btn" onclick="document.getElementById('importSingle').click()" title="Import lesson">⬆️</button>
+      </div>
+      <div class="lh-badge">Lesson ${lesson.number} of 100</div>
+      <div class="lh-title">${esc(lesson.title)}</div>
+      <div class="lh-sub">${esc(lesson.subtitle)}</div>
+      <div class="lh-tags">${(lesson.tags || []).map(t => `<span class="lh-tag">${esc(t)}</span>`).join('')}</div>
+    </div>`;
+            for (const b of (lesson.blocks || [])) h += renderBlock(b);
+            if (idx < lessons.length - 1) {
+                const nxt = lessons[idx + 1];
+                h += `<div class="next-box">
+      <div class="next-lbl">Coming up next</div>
+      <div class="next-ttl">${esc(nxt.title)} — ${esc(nxt.subtitle)}</div>
+      <button class="btn-next" onclick="selectLesson('${nxt.id}')">Continue to Lesson ${nxt.number} →</button>
+    </div>`;
+            }
+            return h;
+        }
+
+        function renderBlock(b) {
+            let h = '<div class="block">';
+            switch (b.type) {
+                case 'intro':
+                    h += `<p class="b-intro">${esc(b.text)}</p>`; break;
+                case 'heading':
+                    h += `<div class="b-heading">${esc(b.text)}</div>`; break;
+                case 'text':
+                    h += `<div class="b-text">${renderAnn(b.content)}</div>`; break;
+                case 'phrase':
+                    h += `<div class="b-phrase">
+        <div class="b-phrase-fi">${renderAnn(b.annotated, true)}</div>
+        ${b.translation ? `<div class="b-phrase-en">${esc(b.translation)}</div>` : ''}
+      </div>`; break;
+                case 'examples':
+                    h += '<div class="b-examples">';
+                    for (const i of (b.items || []))
+                        h += `<div class="ex-item"><div class="ex-fi">${renderAnn(i.fi)}</div><div class="ex-en">${esc(i.en)}</div></div>`;
+                    h += '</div>'; break;
+                case 'note':
+                    h += `<div class="b-note b-note-${b.color || 'tip'}">
+        ${b.title ? `<div class="b-note-ttl">${esc(b.title)}</div>` : ''}
+        <div class="b-note-txt">${esc(b.text)}</div>
+      </div>`; break;
+                case 'dialogue':
+                    h += '<div class="b-dialogue">';
+                    for (const l of (b.lines || []))
+                        h += `<div class="dl-line">
+          <div class="dl-spk spk-${esc(l.speaker)}">${esc(l.speaker)}</div>
+          <div class="dl-body">
+            <div class="dl-fi">${renderAnn(l.fi)}</div>
+            ${l.en ? `<div class="dl-en">${esc(l.en)}</div>` : ''}
+          </div></div>`;
+                    h += '</div>'; break;
+                case 'vocab':
+                    h += `<div class="b-vocab"><table class="vtable">
+        <thead><tr><th>Finnish</th><th>English</th><th>Type</th></tr></thead>
+        <tbody>${(b.rows || []).map(r => `<tr>
+          <td class="vfi">${esc(r.fi)}</td>
+          <td>${esc(r.en)}</td>
+          <td><span class="vbadge vb-${r.type || 'word'}">${esc(r.type || '')}</span></td>
+        </tr>`).join('')}</tbody>
+      </table></div>`; break;
+                case 'comparison':
+                    h += `<div class="b-comp"><table class="ctable">
+        <thead><tr>${(b.headers || []).map(hd => `<th>${esc(hd)}</th>`).join('')}</tr></thead>
+        <tbody>${(b.rows || []).map(r => `<tr>${r.map(c => `<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody>
+      </table></div>`; break;
+                case 'checklist':
+                    h += `<div>
+        ${b.title ? `<div class="cl-ttl">${esc(b.title)}</div>` : ''}
+        <div class="cl-items">${(b.items || []).map(i => `
+          <div class="cl-item"><div class="cl-ck">✓</div><span>${esc(i)}</span></div>
+        `).join('')}</div>
+      </div>`; break;
+                case 'pronunciation':
+                    h += `<div class="b-pron"><div class="pron-lbl">🔊 Pronunciation</div><div class="pron-txt">${esc(b.content)}</div></div>`; break;
+                case 'image':
+                    if (b.src) h += `<div class="b-img"><img src="${b.src}" alt="${esc(b.caption || '')}">
+        ${b.caption ? `<div class="b-img-cap">${esc(b.caption)}</div>` : ''}</div>`;
+                    break;
+                case 'divider':
+                    h += `<hr class="b-div">`; break;
+            }
+            return h + '</div>';
+        }
+
+        // ─────────────────────────────────────────────
+        // NAV
+        // ─────────────────────────────────────────────
+        function renderNav(filter = '') {
+            const nav = document.getElementById('lessonNav');
+            const flt = lessons.filter(l =>
+                !filter ||
+                l.title.toLowerCase().includes(filter.toLowerCase()) ||
+                l.subtitle.toLowerCase().includes(filter.toLowerCase()) ||
+                (l.tags || []).some(t => t.toLowerCase().includes(filter.toLowerCase()))
+            );
+            nav.innerHTML = flt.map(l => `
+    <div class="sb-item ${l.id === currentId ? 'active' : ''}" onclick="selectLesson('${l.id}')">
+      <div class="sb-num">L${String(l.number).padStart(2, '0')}</div>
+      <div class="sb-item-text">
+        <div class="sb-item-title">${esc(l.title)}</div>
+        <div class="sb-item-sub">${esc(l.subtitle)}</div>
+      </div>
+    </div>`).join('');
+        }
+
+        function filterNav(v) { renderNav(v); }
+
+        function selectLesson(id) {
+            currentId = id;
+            const l = lessons.find(x => x.id === id);
+            if (!l) return;
+            document.getElementById('lessonView').innerHTML = renderLesson(l);
+            renderNav();
+            document.querySelector('.main').scrollTo(0, 0);
+        }
+
+        // ─────────────────────────────────────────────
+        // EDITOR
+        // ─────────────────────────────────────────────
+        function openEditor(id) {
+            currentEditId = id;
+            const del = document.getElementById('btnDel');
+            if (id) {
+                const l = lessons.find(x => x.id === id);
+                editLesson = JSON.parse(JSON.stringify(l));
+                document.getElementById('modalTitle').textContent = `Edit Lesson ${l.number}`;
+                del.classList.remove('hidden');
+            } else {
+                const maxN = lessons.length ? Math.max(...lessons.map(l => l.number)) : 0;
+                editLesson = { id: 'l' + Date.now(), number: maxN + 1, title: '', subtitle: '', tags: [], blocks: [] };
+                document.getElementById('modalTitle').textContent = 'New Lesson';
+                del.classList.add('hidden');
+            }
+            editBlocks = JSON.parse(JSON.stringify(editLesson.blocks || []));
+            renderModalBody();
+            document.getElementById('overlay').classList.add('open');
+        }
+
+        function closeEditor() { document.getElementById('overlay').classList.remove('open'); }
+        function overlayClick(e) { if (e.target === document.getElementById('overlay')) closeEditor(); }
+
+        function renderModalBody() {
+            const l = editLesson;
+            document.getElementById('modalBody').innerHTML = `
+    <div class="ef">
+      <label class="el">Lesson Number</label>
+      <input class="ei" type="number" id="eNum" value="${l.number}" min="1">
+    </div>
+    <div class="ef">
+      <label class="el">Title (Finnish phrase)</label>
+      <input class="ei" type="text" id="eTitle" value="${esc(l.title)}" placeholder="e.g. Mikä tää on?">
+    </div>
+    <div class="ef">
+      <label class="el">Subtitle (English translation)</label>
+      <input class="ei" type="text" id="eSub" value="${esc(l.subtitle)}" placeholder="e.g. What is this?">
+    </div>
+    <div class="ef">
+      <label class="el">Tags (comma-separated)</label>
+      <input class="ei" type="text" id="eTags" value="${esc((l.tags || []).join(', '))}" placeholder="basics, questions, verbs">
+    </div>
+    <div style="margin-top:20px">
+      <div style="font-size:10px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:var(--muted);margin-bottom:10px;font-family:'JetBrains Mono',monospace">Content Blocks</div>
+      <div id="eBlocks"></div>
+      <div style="margin-top:12px">
+        <div style="font-size:10px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--muted);margin-bottom:7px;font-family:'JetBrains Mono',monospace">Add Block</div>
+        <div class="add-row">
+          ${['intro', 'heading', 'text', 'phrase', 'examples', 'dialogue', 'vocab', 'comparison', 'note', 'checklist', 'pronunciation', 'image', 'divider']
+                    .map(t => `<button class="add-btn" onclick="addBlock('${t}')">+ ${t}</button>`).join('')}
+        </div>
+      </div>
+    </div>`;
+            renderEBlocks();
+        }
+
+        function renderEBlocks() {
+            const c = document.getElementById('eBlocks');
+            if (!c) return;
+            if (!editBlocks.length) {
+                c.innerHTML = '<div style="color:#bbb;font-size:12px;padding:10px 0">No blocks yet — add some below.</div>';
+                return;
+            }
+            c.innerHTML = editBlocks.map((b, i) => renderEBlock(b, i)).join('');
+        }
+
+        function annBar(fid) {
+            return `<div class="ann-bar">${Object.keys(COLORS).map(k =>
+                `<button class="ann-btn ann-${k}" onclick="wrapAnn('${fid}','${k}')">${COLORS[k].label}</button>`
+            ).join('')}</div>
+  <div class="ann-hint">Select text → click a label to annotate it as {word|type|label|meaning}</div>`;
+        }
+
+        function renderEBlock(b, i) {
+            let body = '';
+            switch (b.type) {
+                case 'intro': case 'heading':
+                    body = `<label class="el">${b.type === 'heading' ? 'Heading' : 'Intro'} Text</label>
+        <textarea class="ei ei-ta ei-sm" id="eb-text-${i}" onchange="upd(${i},'text',this.value)">${esc(b.text || '')}</textarea>`;
+                    break;
+                case 'text':
+                    body = `<label class="el">Text (annotation syntax: {word|colorType|label|meaning})</label>
+        <textarea class="ei ei-ta" id="eb-con-${i}" onchange="upd(${i},'content',this.value)">${esc(b.content || '')}</textarea>
+        ${annBar(`eb-con-${i}`)}`;
+                    break;
+                case 'phrase':
+                    body = `<label class="el">Annotated Finnish</label>
+        <textarea class="ei ei-ta ei-sm" id="eb-ann-${i}" onchange="upd(${i},'annotated',this.value)">${esc(b.annotated || '')}</textarea>
+        ${annBar(`eb-ann-${i}`)}
+        <label class="el">English Translation</label>
+        <input class="ei" type="text" value="${esc(b.translation || '')}" onchange="upd(${i},'translation',this.value)" placeholder="English meaning…">`;
+                    break;
+                case 'note':
+                    body = `<label class="el">Color</label>
+        <select class="ei" onchange="upd(${i},'color',this.value)">
+          ${Object.keys(COLORS).map(k => `<option value="${k}"${b.color === k ? ' selected' : ''}>${COLORS[k].label}</option>`).join('')}
+        </select>
+        <label class="el">Title</label>
+        <input class="ei" type="text" value="${esc(b.title || '')}" onchange="upd(${i},'title',this.value)" placeholder="Note title…">
+        <label class="el">Text</label>
+        <textarea class="ei ei-ta ei-sm" onchange="upd(${i},'text',this.value)">${esc(b.text || '')}</textarea>`;
+                    break;
+                case 'pronunciation':
+                    body = `<label class="el">Pronunciation Guide</label>
+        <textarea class="ei ei-ta ei-sm" onchange="upd(${i},'content',this.value)">${esc(b.content || '')}</textarea>`;
+                    break;
+                case 'examples':
+                    body = `<label class="el">Examples — one per line: Finnish|English (annotation syntax ok in Finnish)</label>
+        <textarea class="ei ei-ta" id="eb-ex-${i}" style="min-height:100px"
+          onchange="updEx(${i},this.value)">${(b.items || []).map(x => `${x.fi}|${x.en}`).join('\n')}</textarea>
+        ${annBar(`eb-ex-${i}`)}`;
+                    break;
+                case 'dialogue':
+                    body = `<label class="el">Dialogue — one line: SPEAKER|Finnish|English</label>
+        <textarea class="ei ei-ta" style="min-height:100px"
+          onchange="updDl(${i},this.value)">${(b.lines || []).map(l => `${l.speaker}|${l.fi}|${l.en}`).join('\n')}</textarea>
+        <div class="ann-hint">Example: A|Mikä tää on?|What is this?</div>`;
+                    break;
+                case 'vocab':
+                    body = `<label class="el">Vocab rows — Finnish|English|Type (one per line)</label>
+        <textarea class="ei ei-ta" style="min-height:100px"
+          onchange="updVoc(${i},this.value)">${(b.rows || []).map(r => `${r.fi}|${r.en}|${r.type}`).join('\n')}</textarea>
+        <div class="ann-hint">Types: word, grammar, phrase, pronun</div>`;
+                    break;
+                case 'comparison':
+                    body = `<label class="el">Headers (comma-separated)</label>
+        <input class="ei" type="text" value="${esc((b.headers || []).join(','))}"
+          onchange="updCmp(${i},'h',this.value)" placeholder="Colloquial,Formal,English">
+        <label class="el">Rows (pipe-separated, one row per line)</label>
+        <textarea class="ei ei-ta" style="min-height:90px"
+          onchange="updCmp(${i},'r',this.value)">${(b.rows || []).map(r => r.join('|')).join('\n')}</textarea>`;
+                    break;
+                case 'checklist':
+                    body = `<label class="el">Section Title</label>
+        <input class="ei" type="text" value="${esc(b.title || '')}" onchange="upd(${i},'title',this.value)">
+        <label class="el">Items (one per line)</label>
+        <textarea class="ei ei-ta" style="min-height:90px"
+          onchange="updCL(${i},this.value)">${(b.items || []).join('\n')}</textarea>`;
+                    break;
+                case 'image':
+                    body = `<label class="el">Upload Image</label>
+        ${b.src ? `<img src="${b.src}" style="width:100%;max-height:140px;object-fit:cover;border-radius:8px;margin-bottom:8px">` : ''}
+        <input type="file" accept="image/*" onchange="uploadImg(${i},this)" style="font-size:12px;width:100%;margin-bottom:7px">
+        <label class="el">Caption</label>
+        <input class="ei" type="text" value="${esc(b.caption || '')}" onchange="upd(${i},'caption',this.value)" placeholder="Caption…">`;
+                    break;
+                case 'divider':
+                    body = `<div style="text-align:center;color:#bbb;font-size:12px">— Horizontal Divider —</div>`;
+                    break;
+            }
+            return `<div class="eblock">
+    <div class="eblock-head">
+      <span class="eblock-type">${b.type}</span>
+      <div class="eblock-btns">
+        <button class="eb-btn" onclick="mvBlock(${i},-1)" title="Move up">↑</button>
+        <button class="eb-btn" onclick="mvBlock(${i},1)" title="Move down">↓</button>
+        <button class="eb-btn del" onclick="rmBlock(${i})" title="Delete">✕</button>
+      </div>
+    </div>
+    <div class="eblock-body">${body}</div>
+  </div>`;
+        }
+
+        function upd(i, f, v) { editBlocks[i][f] = v; }
+        function updEx(i, v) { editBlocks[i].items = v.split('\n').filter(l => l.trim()).map(l => { const p = l.split('|'); return { fi: p[0] || '', en: p[1] || '' } }); }
+        function updDl(i, v) { editBlocks[i].lines = v.split('\n').filter(l => l.trim()).map(l => { const p = l.split('|'); return { speaker: p[0] || 'A', fi: p[1] || '', en: p[2] || '' } }); }
+        function updVoc(i, v) { editBlocks[i].rows = v.split('\n').filter(l => l.trim()).map(l => { const p = l.split('|'); return { fi: p[0] || '', en: p[1] || '', type: p[2] || 'word' } }); }
+        function updCmp(i, t, v) {
+            if (t === 'h') editBlocks[i].headers = v.split(',').map(s => s.trim());
+            else editBlocks[i].rows = v.split('\n').filter(l => l.trim()).map(l => l.split('|'));
+        }
+        function updCL(i, v) { editBlocks[i].items = v.split('\n').filter(l => l.trim()); }
+
+        function addBlock(type) {
+            const D = {
+                intro: { type: 'intro', text: '' },
+                heading: { type: 'heading', text: '' },
+                text: { type: 'text', content: '' },
+                phrase: { type: 'phrase', annotated: '', translation: '' },
+                examples: { type: 'examples', items: [] },
+                dialogue: { type: 'dialogue', lines: [] },
+                vocab: { type: 'vocab', rows: [] },
+                comparison: { type: 'comparison', headers: ['Col1', 'Col2', 'Col3'], rows: [] },
+                note: { type: 'note', color: 'tip', title: '', text: '' },
+                checklist: { type: 'checklist', title: 'What you now own', items: [] },
+                pronunciation: { type: 'pronunciation', content: '' },
+                image: { type: 'image', src: '', caption: '' },
+                divider: { type: 'divider' },
+            };
+            editBlocks.push({ ...D[type] });
+            renderEBlocks();
+        }
+        function rmBlock(i) { editBlocks.splice(i, 1); renderEBlocks(); }
+        function mvBlock(i, d) { const n = i + d; if (n < 0 || n >= editBlocks.length) return;[editBlocks[i], editBlocks[n]] = [editBlocks[n], editBlocks[i]]; renderEBlocks(); }
+
+        function uploadImg(i, input) {
+            const f = input.files[0]; if (!f) return;
+            const r = new FileReader();
+            r.onload = e => { editBlocks[i].src = e.target.result; renderEBlocks(); };
+            r.readAsDataURL(f);
+        }
+
+        function wrapAnn(fid, colorKey) {
+            const el = document.getElementById(fid);
+            if (!el) return;
+            const s = el.selectionStart, e = el.selectionEnd;
+            const sel = el.value.substring(s, e);
+            if (!sel.trim()) { toast('Select text in the field first'); return; }
+            const label = prompt(`Label for "${sel}" (e.g. verb, noun, pronoun):`, colorKey);
+            if (label === null) return;
+            const meaning = prompt(`English meaning of "${sel}":`, '');
+            if (meaning === null) return;
+            const wrapped = `{${sel}|${colorKey}|${label || colorKey}|${meaning}}`;
+            el.value = el.value.substring(0, s) + wrapped + el.value.substring(e);
+            el.dispatchEvent(new Event('change'));
+            toast(`Annotated "${sel}" as ${COLORS[colorKey].label}`);
+        }
+
+        function saveLesson() {
+            const num = parseInt(document.getElementById('eNum').value) || 1;
+            const title = document.getElementById('eTitle').value.trim();
+            const sub = document.getElementById('eSub').value.trim();
+            const tags = document.getElementById('eTags').value.split(',').map(t => t.trim()).filter(Boolean);
+            if (!title) { toast('Please enter a lesson title'); return; }
+            editLesson.number = num; editLesson.title = title; editLesson.subtitle = sub;
+            editLesson.tags = tags; editLesson.blocks = [...editBlocks];
+            const idx = lessons.findIndex(l => l.id === editLesson.id);
+            if (idx >= 0) lessons[idx] = editLesson;
+            else { lessons.push(editLesson); lessons.sort((a, b) => a.number - b.number); }
+            save(); closeEditor(); renderNav(); selectLesson(editLesson.id);
+            toast('Lesson saved! 🎉');
+        }
+
+        function deleteCurrent() {
+            if (!currentEditId) return;
+            if (!confirm('Delete this lesson? Cannot be undone.')) return;
+            lessons = lessons.filter(l => l.id !== currentEditId);
+            save(); closeEditor(); renderNav();
+            if (lessons.length) selectLesson(lessons[0].id);
+            else document.getElementById('lessonView').innerHTML = emptyState();
+            toast('Lesson deleted.');
+        }
+
+        function exportEditing() {
+            if (!editLesson) return;
+            dlJson({ ...editLesson, blocks: editBlocks }, `lesson-${editLesson.number}.json`);
+        }
+
+        // ─────────────────────────────────────────────
+        // IMPORT / EXPORT
+        // ─────────────────────────────────────────────
+        function exportLesson(id) {
+            const l = lessons.find(x => x.id === id); if (!l) return;
+            dlJson(l, `lesson-${l.number}-${l.title.replace(/[^a-z0-9]/gi, '_')}.json`);
+            toast('Lesson exported');
+        }
+        function exportAll() {
+            dlJson(lessons, 'finnish-by-ear-all-lessons.json');
+            toast(`Exported ${lessons.length} lessons`);
+        }
+        function importAll(input) {
+            const f = input.files[0]; if (!f) return;
+            const r = new FileReader();
+            r.onload = e => {
+                try {
+                    const d = JSON.parse(e.target.result);
+                    if (!Array.isArray(d)) throw 0;
+                    lessons = d; save(); renderNav();
+                    if (lessons.length) selectLesson(lessons[0].id);
+                    toast(`Imported ${lessons.length} lessons!`);
+                } catch (err) { toast('Error: Invalid JSON'); }
+            };
+            r.readAsText(f); input.value = '';
+        }
+        function importSingleLesson(input) {
+            const f = input.files[0]; if (!f) return;
+            const r = new FileReader();
+            r.onload = e => {
+                try {
+                    const l = JSON.parse(e.target.result);
+                    if (!l.id || !l.title) throw 0;
+                    const i = lessons.findIndex(x => x.id === l.id);
+                    if (i >= 0) lessons[i] = l; else { lessons.push(l); lessons.sort((a, b) => a.number - b.number); }
+                    save(); renderNav(); selectLesson(l.id);
+                    toast('Lesson imported!');
+                } catch (err) { toast('Error: Invalid lesson JSON'); }
+            };
+            r.readAsText(f); input.value = '';
+        }
+        function dlJson(data, name) {
+            const b = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+            const a = Object.assign(document.createElement('a'), { href: URL.createObjectURL(b), download: name });
+            a.click(); URL.revokeObjectURL(a.href);
+        }
+
+        // ─────────────────────────────────────────────
+        // TOAST
+        // ─────────────────────────────────────────────
+        function toast(msg) {
+            const t = document.getElementById('toast');
+            t.textContent = msg; t.classList.add('show');
+            setTimeout(() => t.classList.remove('show'), 2800);
+        }
+
+        // ─────────────────────────────────────────────
+        // KEYBOARD
+        // ─────────────────────────────────────────────
+        document.addEventListener('keydown', e => {
+            if (e.key === 'Escape') closeEditor();
+        });
+
+        // ─────────────────────────────────────────────
+        // INIT
+        // ─────────────────────────────────────────────
+        function emptyState() {
+            return `<div class="empty">
+    <div class="empty-icon">🇫🇮</div>
+    <div class="empty-ttl">Finnish by Ear</div>
+    <div class="empty-txt">Colloquial Finnish with the Anchoring method.<br>Select a lesson or create a new one.</div>
+  </div>`;
+        }
+
+        load();
+        renderNav();
+        if (lessons.length) selectLesson(lessons[0].id);
+        else document.getElementById('lessonView').innerHTML = emptyState();
+    </script>
+</body>
+
+</html>
