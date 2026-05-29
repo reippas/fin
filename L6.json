@@ -1,0 +1,325 @@
+{
+    "id": "l6",
+    "number": 6,
+    "title": "Energiasyöppö vai maineteko?",
+    "subtitle": "Reading real Finnish — an editorial on data centers",
+    "tags": [
+        "reading",
+        "idioms",
+        "business",
+        "energy",
+        "B1",
+        "colloquialisms"
+    ],
+    "blocks": [
+        {
+            "type": "intro",
+            "text": "You just encountered real Finnish journalism — not textbook Finnish, but the kind Finns actually read over morning coffee. This lesson pulls out the most reusable vocabulary, the vivid colloquialisms, and the idioms that will make you sound genuinely fluent. No invented examples here — every phrase comes from a real editorial."
+        },
+        {
+            "type": "heading",
+            "text": "Start with the headline concept"
+        },
+        {
+            "type": "phrase",
+            "annotated": "{Energiasyöppö|phrase|compound noun|energy guzzler} vai {maineteko|phrase|compound noun|PR stunt / reputation act}?",
+            "translation": "Energy guzzler or reputation act?"
+        },
+        {
+            "type": "note",
+            "color": "culture",
+            "title": "Finnish compound words — a superpower",
+            "text": "Finnish builds new words by gluing existing ones together. Energia (energy) + syöppö (guzzler, from syödä = to eat) = energiasyöppö. Maine (reputation) + teko (act/deed) = maineteko. Once you know the roots, you can decode — and invent — compound words freely. This is one of Finnish's great gifts to the learner."
+        },
+        {
+            "type": "heading",
+            "text": "The vivid verb metaphors — Finnish 'eats' electricity"
+        },
+        {
+            "type": "note",
+            "color": "tip",
+            "title": "Paul Noble insight",
+            "text": "Finnish uses syödä (to eat) and imeä (to suck) for consuming electricity. This is not slang — it's completely normal usage. Once you own these verbs in this context, you'll hear them constantly in everyday Finnish speech about energy, money, and resources."
+        },
+        {
+            "type": "examples",
+            "items": [
+                {
+                    "fi": "Datakeskukset {syövät|word|verb|eat/consume} paljon {sähköä|word|noun|electricity}.",
+                    "en": "Data centers consume a lot of electricity."
+                },
+                {
+                    "fi": "Ne ovat {imeneet|word|verb|sucked/drained} sähköä vuosia.",
+                    "en": "They have been draining electricity for years."
+                },
+                {
+                    "fi": "Auto {syö|word|verb|eats/consumes} paljon bensaa.",
+                    "en": "The car guzzles a lot of petrol. (same pattern!)"
+                }
+            ]
+        },
+        {
+            "type": "heading",
+            "text": "Idioms you'll reuse everywhere"
+        },
+        {
+            "type": "examples",
+            "items": [
+                {
+                    "fi": "{Yllin kyllin|phrase|idiom|plenty / more than enough}",
+                    "en": "Plenty / an abundance — 'we have yllin kyllin of something' means you're not short of it."
+                },
+                {
+                    "fi": "{Jonon kärjessä|phrase|idiom|at the front of the queue}",
+                    "en": "At the front of the queue / top priority. Olla jonon kärjessä = to be first in line."
+                },
+                {
+                    "fi": "{Yksi yhteen|phrase|idiom|one-to-one / directly matching}",
+                    "en": "One-to-one. Eivät siirry yksi yhteen = they do not transfer directly / don't map exactly."
+                },
+                {
+                    "fi": "{Valikoida parhaita päältä|phrase|idiom|to cherry-pick}",
+                    "en": "To cherry-pick — literally 'to pick the best ones from the top.'"
+                },
+                {
+                    "fi": "{Noussut kohisten|phrase|idiom|grown roaringly}",
+                    "en": "Grown rapidly / boomed — kohisten is the sound of rushing, like water. A vivid way to say something shot up."
+                },
+                {
+                    "fi": "{Ihan ilman pakkoakin|phrase|colloquial|completely voluntarily}",
+                    "en": "Even without being forced to / completely of their own accord. Pakko = compulsion."
+                }
+            ]
+        },
+        {
+            "type": "heading",
+            "text": "Key collocations — words that travel together"
+        },
+        {
+            "type": "vocab",
+            "rows": [
+                {
+                    "fi": "ulkomainen investointi",
+                    "en": "foreign investment",
+                    "type": "phrase"
+                },
+                {
+                    "fi": "poliittisesti vakaa",
+                    "en": "politically stable",
+                    "type": "phrase"
+                },
+                {
+                    "fi": "uusiutuva sähkö",
+                    "en": "renewable electricity",
+                    "type": "phrase"
+                },
+                {
+                    "fi": "fossiilinen energia",
+                    "en": "fossil energy",
+                    "type": "phrase"
+                },
+                {
+                    "fi": "vakava uhka",
+                    "en": "serious threat",
+                    "type": "phrase"
+                },
+                {
+                    "fi": "keskeytymätön saatavuus",
+                    "en": "uninterrupted availability",
+                    "type": "phrase"
+                },
+                {
+                    "fi": "markkinaehtoisesti",
+                    "en": "on market terms",
+                    "type": "word"
+                },
+                {
+                    "fi": "konkreettinen projekti",
+                    "en": "concrete / tangible project",
+                    "type": "phrase"
+                }
+            ]
+        },
+        {
+            "type": "note",
+            "color": "tip",
+            "title": "Markkinaehtoisesti — one word does the work of four",
+            "text": "Finnish adverbs like markkinaehtoisesti (on market terms / market-driven) are built by adding -sesti to an adjective. Markkinaehtoinen (market-based) → markkinaehtoisesti. You'll see this -sesti ending constantly in formal Finnish and journalism. It's always an adverb."
+        },
+        {
+            "type": "heading",
+            "text": "Power vocabulary — single words worth owning"
+        },
+        {
+            "type": "vocab",
+            "rows": [
+                {
+                    "fi": "ilmiö",
+                    "en": "phenomenon",
+                    "type": "word"
+                },
+                {
+                    "fi": "epäilijä",
+                    "en": "doubter / skeptic",
+                    "type": "word"
+                },
+                {
+                    "fi": "ratkaisu",
+                    "en": "solution",
+                    "type": "word"
+                },
+                {
+                    "fi": "hätätapaus",
+                    "en": "emergency",
+                    "type": "word"
+                },
+                {
+                    "fi": "asiantuntija",
+                    "en": "expert",
+                    "type": "word"
+                },
+                {
+                    "fi": "kansanedustaja",
+                    "en": "Member of Parliament (MP)",
+                    "type": "word"
+                },
+                {
+                    "fi": "jalostusarvo",
+                    "en": "added processing value",
+                    "type": "word"
+                },
+                {
+                    "fi": "tuloskehitys",
+                    "en": "financial performance trend",
+                    "type": "word"
+                },
+                {
+                    "fi": "kartoitus",
+                    "en": "survey / mapping",
+                    "type": "word"
+                },
+                {
+                    "fi": "noussut häly",
+                    "en": "a fuss has been raised",
+                    "type": "phrase"
+                }
+            ]
+        },
+        {
+            "type": "heading",
+            "text": "Useful sentences from the editorial"
+        },
+        {
+            "type": "examples",
+            "items": [
+                {
+                    "fi": "{Ilmiö|word|noun|phenomenon} ei lopulta {yllätä|word|verb|surprise}.",
+                    "en": "The phenomenon ultimately does not surprise."
+                },
+                {
+                    "fi": "Markkinatalous on tehokas {ohjaamaan|word|verb form|at directing} resursseja oikeaan paikkaan.",
+                    "en": "A market economy is efficient at directing resources to the right place."
+                },
+                {
+                    "fi": "Irlannin ongelmat eivät ole Suomen.",
+                    "en": "Ireland's problems are not Finland's. (Elegant Finnish structure — no verb needed at the end)"
+                },
+                {
+                    "fi": "Jos asia {hoidetaan|grammar|passive|is handled} hyvin…",
+                    "en": "If the matter is handled well… (hoidetaan = passive, very common in Finnish)"
+                },
+                {
+                    "fi": "{Menisi|grammar|conditional|would go/be lost} rahaa ja maine.",
+                    "en": "Money and reputation would be lost. (menisi = conditional of mennä, to go)"
+                }
+            ]
+        },
+        {
+            "type": "note",
+            "color": "grammar",
+            "title": "Hinnan pompahdettua — when prices bounce",
+            "text": "Pompahtaa is a beautiful Finnish descriptive verb (describing a sudden bouncing motion) used for prices that spike sharply. Hinnan pompahdettua = after the price spiked. Finnish has dozens of these -htaa/-htää verbs that imply a sudden, brief action. You don't need to produce them yet — just recognise the pattern."
+        },
+        {
+            "type": "heading",
+            "text": "The -ttaa / -stää verbs — forcing and burdening"
+        },
+        {
+            "type": "examples",
+            "items": [
+                {
+                    "fi": "{Patistetaan|grammar|passive causative|are prodded/urged} tekemään jotain.",
+                    "en": "People are prodded / pushed to do something."
+                },
+                {
+                    "fi": "{Sälyttää|word|verb|to burden/impose} ehtoja.",
+                    "en": "To burden with conditions / to impose conditions."
+                }
+            ]
+        },
+        {
+            "type": "note",
+            "color": "grammar",
+            "title": "Causative verbs — Finnish makes things happen",
+            "text": "Patistaa (to prod/urge someone into action) belongs to a family of Finnish verbs that imply causing or forcing something. You'll recognise them by the -ttaa or -stää ending. They appear constantly in journalism and formal speech. No need to produce them yet — just spot them."
+        },
+        {
+            "type": "dialogue",
+            "lines": [
+                {
+                    "speaker": "A",
+                    "fi": "Oletko lukenut artikkelin datakeskuksista?",
+                    "en": "Have you read the article about data centers?"
+                },
+                {
+                    "speaker": "B",
+                    "fi": "Joo! Ne ovat tosi energiasyöppöjä.",
+                    "en": "Yeah! They're really energy guzzlers."
+                },
+                {
+                    "speaker": "A",
+                    "fi": "Niin, mutta Suomessa on uusiutuvaa sähköä yllin kyllin.",
+                    "en": "True, but in Finland there's renewable electricity in abundance."
+                },
+                {
+                    "speaker": "B",
+                    "fi": "Se on hyvä ratkaisu, jos asia hoidetaan hyvin.",
+                    "en": "That's a good solution, if the matter is handled well."
+                },
+                {
+                    "speaker": "A",
+                    "fi": "Täsmälleen. Markkinatalous ohjaa resursseja oikeaan paikkaan.",
+                    "en": "Exactly. The market economy directs resources to the right place."
+                }
+            ]
+        },
+        {
+            "type": "note",
+            "color": "word",
+            "title": "Täsmälleen — a word worth stealing immediately",
+            "text": "Täsmälleen = exactly / precisely. It's one of the most satisfying words to drop into a conversation. Finns use it constantly to signal strong agreement. Steal it today."
+        },
+        {
+            "type": "pronunciation",
+            "content": "Energiasyöppö: e-NER-gi-a-SYÖ-ppö (syö = like French 'eu', short and rounded). Kansanedustaja: KAN-sa-ne-DUS-ta-ja (six clean syllables — Finnish never rushes). Täsmälleen: TÄSMÄL-leen (long ee at the end, stress on first syllable as always in Finnish). Kohisten: KO-his-ten (the rushing sound is in the word itself)."
+        },
+        {
+            "type": "checklist",
+            "title": "What you now own",
+            "items": [
+                "energiasyöppö — energy guzzler (and how Finnish compounds work)",
+                "syödä / imeä sähköä — to consume / drain electricity",
+                "yllin kyllin — in abundance / plenty",
+                "jonon kärjessä — at the front of the queue / top priority",
+                "valikoida parhaita päältä — to cherry-pick",
+                "noussut kohisten — grown roaringly / boomed",
+                "yksi yhteen — one-to-one / directly matching",
+                "markkinaehtoisesti — on market terms (-sesti adverb pattern)",
+                "ratkaisu, ilmiö, asiantuntija, epäilijä — high-frequency nouns",
+                "täsmälleen — exactly (steal this today)",
+                "pompahtaa — to spike/bounce (descriptive verb pattern)",
+                "hoidetaan — is handled (passive voice pattern in journalism)"
+            ]
+        }
+    ]
+}
