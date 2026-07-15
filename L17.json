@@ -1,0 +1,189 @@
+{
+  "id": "l17",
+  "number": 17,
+  "title": "Palauttivat auton korjattuna",
+  "subtitle": "They returned the car as fixed",
+  "tags": [
+    "basics",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "cases",
+    "grammar"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "You know korjaantunut, the participle for 'got fixed', from Lesson 3. This lesson attaches a new ending to participles and nouns alike, to mark a state someone claims something is in — often the exact claim a reviewer is about to contradict. You'll also get -ksi, for things that become or are given for free."
+    },
+    {
+      "type": "phrase",
+      "annotated": "Palauttivat auton {korjattuna|grammar|essive|as fixed}.",
+      "translation": "They returned the car as fixed."
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "A loaded little ending",
+      "text": "In the actual review this line comes from, the car broke down again on the way home. Korjattuna — 'as [supposedly] fixed' — carries a quiet edge of doubt that the plain word korjattu wouldn't. Watch for this ending whenever a reviewer is reporting someone else's claim rather than a confirmed fact."
+    },
+    {
+      "type": "heading",
+      "text": "Piece 1 — Essive -na/-nä: being in a state or role"
+    },
+    {
+      "type": "text",
+      "content": "The {essive|grammar|case name|as/in the state of} case, ending in -na or -nä, marks a temporary state or role — 'as X', 'in the capacity of X'. Korjattu (fixed) → {korjattuna|grammar|essive|as fixed}. Takuu (warranty) → {takuuna|grammar|essive|as a warranty/under warranty} — used when a replacement part is given free because it's covered."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Palauttivat auton {korjattuna|grammar|essive|as fixed}.",
+          "en": "They returned the car as fixed."
+        },
+        {
+          "fi": "Uusi ahdin {takuuna|grammar|essive|as a warranty}.",
+          "en": "A new turbocharger under warranty."
+        },
+        {
+          "fi": "Toimi hyvänä {esimerkkinä|grammar|essive|as an example}.",
+          "en": "It worked as a good example."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 2 — Translative -ksi: becoming or for"
+    },
+    {
+      "type": "text",
+      "content": "The {translative|grammar|case name|into/becoming/for} case, ending in -ksi, marks a change into a state, or 'for' in the sense of purpose. Ilmainen (free) → {ilmaiseksi|grammar|translative|for free} — literally 'becoming free', the standard way to say something was done at no cost. You'll see luvattiin korjata ilmaiseksi, 'promised to fix for free'."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Luvattiin korjata oma virhe {ilmaiseksi|grammar|translative|for free}.",
+          "en": "They promised to fix their own mistake for free."
+        },
+        {
+          "fi": "Auto muuttui {rikkinäiseksi|grammar|translative|into broken}.",
+          "en": "The car turned broken/faulty."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 3 — Essive vs. translative: staying vs. becoming"
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "One is a photo, the other is a video",
+      "text": "Essive (-na/-nä) describes a state as it already is — a snapshot: korjattuna, 'as [already] fixed'. Translative (-ksi) describes movement into a new state — a transition: ilmaiseksi, 'becoming free / turning out to be free'. If nothing is changing, reach for essive. If something is turning into something else, reach for translative."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Se oli takuuna {ilmaiseksi|grammar|translative|for free}.",
+          "en": "It was under warranty, for free."
+        },
+        {
+          "fi": "Autoni palautettiin {korjattuna|grammar|essive|as fixed}, muttei ollut.",
+          "en": "My car was returned as fixed, but it wasn't."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Millaisena sait auton takaisin?",
+          "en": "In what state did you get the car back?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Sain sen korjattuna, mutta se hajosi jo kotimatkalla.",
+          "en": "I got it back as fixed, but it broke down already on the way home."
+        },
+        {
+          "speaker": "A",
+          "fi": "Korjasivatko sen sitten ilmaiseksi?",
+          "en": "Did they then fix it for free?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Lupasivat, mutta lasku tuli silti.",
+          "en": "They promised to, but a bill came anyway."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Paul Noble Rule",
+      "text": "Essive and translative both attach to words you already know: korjattu (Lesson 3's participle family) becomes korjattuna, ilmainen becomes ilmaiseksi. You're not learning new vocabulary here — you're learning two new endings to place on vocabulary you already own. That's the whole lesson."
+    },
+    {
+      "type": "pronunciation",
+      "content": "Korjattuna: KOR-yat-tu-na (four even syllables, stress stays on KOR). Ilmaiseksi: IL-mai-sek-si (the 'ai' glides like 'eye', and the ending -ksi is crisp — don't soften the k). Takuuna: TA-kuu-na (long double 'uu' held clearly)."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "korjattuna",
+          "en": "as fixed (essive of korjattu)",
+          "type": "grammar"
+        },
+        {
+          "fi": "takuuna",
+          "en": "as a warranty / under warranty (essive of takuu)",
+          "type": "grammar"
+        },
+        {
+          "fi": "ilmaiseksi",
+          "en": "for free (translative of ilmainen)",
+          "type": "grammar"
+        },
+        {
+          "fi": "takuu",
+          "en": "warranty",
+          "type": "word"
+        },
+        {
+          "fi": "ilmainen",
+          "en": "free (of charge)",
+          "type": "word"
+        },
+        {
+          "fi": "-na / -nä",
+          "en": "essive case — as/in the state of",
+          "type": "grammar"
+        },
+        {
+          "fi": "-ksi",
+          "en": "translative case — into/becoming/for",
+          "type": "grammar"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "the essive -na/-nä: korjattuna, takuuna — describing an unchanging state",
+        "the translative -ksi: ilmaiseksi — describing a change into a state",
+        "you can tell the two apart: essive is a snapshot, translative is a transition",
+        "takuu and ilmainen, two very useful words for warranty and cost complaints",
+        "you can now read the subtle doubt reviewers plant with korjattuna when a claim later turns out false"
+      ]
+    }
+  ]
+}

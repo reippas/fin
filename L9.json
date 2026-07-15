@@ -1,0 +1,227 @@
+{
+  "id": "l9",
+  "number": 9,
+  "title": "Vika ei korjaantunut",
+  "subtitle": "The fault wasn't fixed",
+  "tags": [
+    "basics",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "negation",
+    "past tense"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "So far every review you can read is a happy one. But roughly half of this corpus is complaints — and complaints all run on one grammatical engine: negation. This lesson gives you the words for what goes wrong (vika, ongelma, rikki), and the actual mechanics of how Finnish says 'not', which you've already glimpsed with en suosittele in Lesson 1."
+    },
+    {
+      "type": "phrase",
+      "annotated": "{Vika|word|noun|fault/defect} {ei|grammar|negation, 3rd person|did not} {korjaantunut|grammar|past participle|get fixed}.",
+      "translation": "The fault wasn't fixed."
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "Finnish complaints don't soften",
+      "text": "Where an English review might say 'unfortunately this didn't quite work out', Finnish reviewers state the failure flatly: vika ei korjaantunut, full stop. There's no cushioning phrase before it. This bluntness isn't rudeness by Finnish standards — it's just precision. Once you stop expecting a softening word, these reviews get much easier to read."
+    },
+    {
+      "type": "heading",
+      "text": "Piece 1 — Naming what's wrong: vika, ongelma, rikki"
+    },
+    {
+      "type": "text",
+      "content": "{Vika|word|noun|fault/defect} is a fault or defect — something specifically broken about a part or diagnosis. {Ongelma|word|noun|problem} is the general word for 'problem', wider than vika. {Rikki|word|adjective|broken} isn't a noun at all — it's a predicate word that pairs with on/oli, just like hyvä did in Lesson 1: auto on rikki, 'the car is broken'."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Auto on {rikki|word|adjective|broken}.",
+          "en": "The car is broken."
+        },
+        {
+          "fi": "Auto {oli|grammar|past tense of 'on'|was} {rikki|word|adjective|broken}.",
+          "en": "The car was broken."
+        },
+        {
+          "fi": "{Vika|word|noun|fault} löytyi nopeasti.",
+          "en": "The fault was found quickly."
+        },
+        {
+          "fi": "{Ongelmia|grammar|partitive plural|problems} ei ilmennyt.",
+          "en": "No problems appeared."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 2 — Negation: swapping en for ei"
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "The negation verb changes with the subject",
+      "text": "From Lesson 1 you know en suosittele — 'I don't recommend'. En is the 'I' form of Finnish negation. When the subject is 'it' (like auto, vika, ongelma), the word changes to {ei|grammar|negation, 3rd person|does not/did not}. Same job, different person: en (I don't), ei (it doesn't). The main verb itself drops its ending either way — this bare form is called the connegative."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Auto {ei|grammar|negation, 3rd person|does not} toimi.",
+          "en": "The car doesn't work."
+        },
+        {
+          "fi": "En suosittele.",
+          "en": "I don't recommend it."
+        },
+        {
+          "fi": "Ongelma {ei|grammar|negation, 3rd person|does not} ratkennut.",
+          "en": "The problem wasn't solved."
+        },
+        {
+          "fi": "Eivät palauttaneet rahoja.",
+          "en": "They didn't return the money."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 3 — Past negative: ei + participle"
+    },
+    {
+      "type": "text",
+      "content": "Here's the twist: in the past tense, ei is followed not by a plain verb stem but by a past participle ending in {-nut|grammar|past participle suffix|-ed (past participle)} or -nyt. Toimia (to work/function) becomes toiminut. So 'it didn't work' is ei toiminut — not ei toimi-past. This is a genuinely new pattern, so let's see it a few times."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Auto ei {toiminut|grammar|past participle|worked}.",
+          "en": "The car didn't work."
+        },
+        {
+          "fi": "Korjaus ei {auttanut|grammar|past participle|helped}.",
+          "en": "The repair didn't help."
+        },
+        {
+          "fi": "Vika ei {korjaantunut|grammar|past participle|got fixed}.",
+          "en": "The fault wasn't fixed."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Paul Noble Rule",
+      "text": "Don't panic at the word 'participle'. You already know the shape from English: 'broken', 'fixed', 'solved' are all participles too. Finnish just always uses this same -nut/-nyt shape after ei in the past, no matter the verb. Spot the -nut/-nyt ending and you'll recognise this pattern instantly, everywhere."
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Toimiko auto huollon jälkeen?",
+          "en": "Did the car work after the service?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Ei, auto ei toiminut. Vika ei korjaantunut.",
+          "en": "No, the car didn't work. The fault wasn't fixed."
+        },
+        {
+          "speaker": "A",
+          "fi": "Oliko se rikki edelleen?",
+          "en": "Was it still broken?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Kyllä, ja ongelma jatkui. En suosittele tätä korjaamoa.",
+          "en": "Yes, and the problem continued. I don't recommend this repair shop."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "word",
+      "title": "Free word from the dialogue",
+      "text": "Edelleen means 'still' — a very useful word for complaints: auto on edelleen rikki, 'the car is still broken'. Jatkui comes from jatkua, 'to continue' — ongelma jatkui, 'the problem continued'."
+    },
+    {
+      "type": "pronunciation",
+      "content": "Vika: VI-ka (short, sharp, stress on VI). Ongelma: ON-gel-ma (three even syllables — the 'g' is soft, close to English 'g' in 'go'). Korjaantunut: KOR-yaan-tu-nut (long word — break it into KOR-yaan, then tu-nut, and it stops feeling intimidating)."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "vika",
+          "en": "fault / defect",
+          "type": "word"
+        },
+        {
+          "fi": "ongelma",
+          "en": "problem",
+          "type": "word"
+        },
+        {
+          "fi": "rikki",
+          "en": "broken (predicate word, used with on/oli)",
+          "type": "word"
+        },
+        {
+          "fi": "en",
+          "en": "I don't (negation, 1st person)",
+          "type": "grammar"
+        },
+        {
+          "fi": "ei",
+          "en": "it/he/she doesn't (negation, 3rd person)",
+          "type": "grammar"
+        },
+        {
+          "fi": "eivät",
+          "en": "they don't (negation, 3rd person plural)",
+          "type": "grammar"
+        },
+        {
+          "fi": "toiminut",
+          "en": "worked (past participle of toimia)",
+          "type": "grammar"
+        },
+        {
+          "fi": "korjaantunut",
+          "en": "got fixed (past participle of korjaantua)",
+          "type": "grammar"
+        },
+        {
+          "fi": "edelleen",
+          "en": "still",
+          "type": "word"
+        },
+        {
+          "fi": "jatkui",
+          "en": "continued (past tense of jatkua)",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "vika, ongelma, rikki — fault, problem, broken",
+        "en / ei / eivät — negation changes with the subject: I / it / they don't",
+        "the past-negative pattern: ei + past participle (ei toiminut, ei auttanut, ei korjaantunut)",
+        "edelleen — still, and jatkui — continued",
+        "You can now read and write a full negative review, not just a positive one",
+        "You recognise the -nut/-nyt ending as 'past participle' wherever it appears"
+      ]
+    }
+  ]
+}

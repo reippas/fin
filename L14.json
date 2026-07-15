@@ -1,0 +1,198 @@
+{
+  "id": "l14",
+  "number": 14,
+  "title": "Sain ajan nopeasti",
+  "subtitle": "I got an appointment quickly",
+  "tags": [
+    "basics",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "past tense",
+    "grammar"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "You've had on → oli since Lesson 2, but that's an irregular verb. Most Finnish verbs build their past tense the same predictable way — and reviewers use it constantly to narrate their own experience: sain (I got), vein (I took), soitin (I called), kuulin (I heard). Today you get the pattern behind all of them."
+    },
+    {
+      "type": "phrase",
+      "annotated": "{Sain|grammar|1st person past|I got} ajan nopeasti.",
+      "translation": "I got an appointment quickly."
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "First person vs. the passive",
+      "text": "Lesson 4 gave you the passive (tehtiin, vaihdettiin) for describing what the shop did. This lesson gives you the mirror image: what the reviewer personally did or experienced. Notice how reviews switch between the two — sain palvelua (I got service, personal) next to autoon tehtiin huolto (a service was done, impersonal). Both are needed to tell the full story."
+    },
+    {
+      "type": "heading",
+      "text": "Piece 1 — The -i- past tense marker"
+    },
+    {
+      "type": "text",
+      "content": "Most Finnish verbs build the past tense the same way: stem + {-i-|grammar|past tense marker|-ed} + personal ending. Soittaa (to call) → soit + i + n → {soitin|grammar|1st person past|I called}. Kuulla (to hear) → kuul + i + n → {kuulin|grammar|1st person past|I heard}. Käyttää (to use) → käyt + i + n → {käytin|grammar|1st person past|I used}. Same -n for 'I' you already know from suosittelen."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Soitin|grammar|1st person past|I called} korjaamolle.",
+          "en": "I called the repair shop."
+        },
+        {
+          "fi": "{Kuulin|grammar|1st person past|I heard} paikasta ystävältä.",
+          "en": "I heard about the place from a friend."
+        },
+        {
+          "fi": "{Käytin|grammar|1st person past|I used} tätä autohuoltoa monta vuotta.",
+          "en": "I used this car service centre for many years."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 2 — Frequent irregulars: sain, vein, näin"
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "Same job, shorter shape",
+      "text": "A handful of very common verbs fuse the -i- straight into the stem instead of adding it separately, so the result looks shorter: saada (to get) → {sain|grammar|1st person past, irregular|I got}, viedä (to take/bring) → {vein|grammar|1st person past, irregular|I took}, nähdä (to see) → {näin|grammar|1st person past, irregular|I saw}. These appear so often in reviews that it's worth just learning the whole words directly rather than deriving them each time."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Sain|grammar|1st person past, irregular|I got} ajan nopeasti.",
+          "en": "I got an appointment quickly."
+        },
+        {
+          "fi": "{Vein|grammar|1st person past, irregular|I took} autoni korjaamoon.",
+          "en": "I took my car to the repair shop."
+        },
+        {
+          "fi": "{Näin|grammar|1st person past, irregular|I saw} hinta-arvion etukäteen.",
+          "en": "I saw the price estimate in advance."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 3 — He/she called: dropping the -n"
+    },
+    {
+      "type": "text",
+      "content": "For 'he/she/it', the past tense uses the exact same stem + -i-, but with no personal ending at all. Soitin (I called) becomes {soitti|grammar|3rd person past|he/she called} — just drop the -n. This is the form you'll see most often in reviews describing what the shop or a staff member did: korjaamo lupasi soittaa, 'the shop promised to call'."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Korjaamo {soitti|grammar|3rd person past|called} seuraavana päivänä.",
+          "en": "The repair shop called the next day."
+        },
+        {
+          "fi": "Hän {lupasi|grammar|3rd person past|promised} korjata virheen ilmaiseksi.",
+          "en": "They promised to fix the mistake for free."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Miten sait ajan korjaamolle?",
+          "en": "How did you get an appointment at the repair shop?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Soitin heille, ja sain ajan nopeasti.",
+          "en": "I called them, and I got an appointment quickly."
+        },
+        {
+          "speaker": "A",
+          "fi": "Entä auto?",
+          "en": "And the car?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Vein sen sinne, ja korjaamo soitti heti, kun se oli valmis.",
+          "en": "I took it there, and the repair shop called right away when it was ready."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Paul Noble Rule",
+      "text": "You now have two past tense engines running side by side: on → oli (Lesson 2, one irregular verb) and stem + -i- + ending (this lesson, almost every other verb). When you meet a brand new verb in the past tense, first check: does it look like oli's family, or does it have that telltale -i- sitting in the middle? That single question will tell you which pattern you're looking at."
+    },
+    {
+      "type": "pronunciation",
+      "content": "Sain: SAIN (one syllable, the 'ai' glides like English 'eye'). Soitin: SOI-tin (two syllables, 'oi' like 'oy' in 'boy'). Soitti: SOIT-ti (the double 't' is held — soitin and soitti sound close, listen for that final n vs i)."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "sain",
+          "en": "I got (irregular past of saada)",
+          "type": "grammar"
+        },
+        {
+          "fi": "vein",
+          "en": "I took (irregular past of viedä)",
+          "type": "grammar"
+        },
+        {
+          "fi": "näin",
+          "en": "I saw (irregular past of nähdä)",
+          "type": "grammar"
+        },
+        {
+          "fi": "soitin",
+          "en": "I called (past of soittaa)",
+          "type": "grammar"
+        },
+        {
+          "fi": "kuulin",
+          "en": "I heard (past of kuulla)",
+          "type": "grammar"
+        },
+        {
+          "fi": "käytin",
+          "en": "I used (past of käyttää)",
+          "type": "grammar"
+        },
+        {
+          "fi": "soitti",
+          "en": "he/she called (3rd person past)",
+          "type": "grammar"
+        },
+        {
+          "fi": "lupasi",
+          "en": "he/she promised (3rd person past of luvata)",
+          "type": "grammar"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "the regular past tense pattern: stem + -i- + personal ending",
+        "sain, vein, näin — three frequent irregular past-tense verbs, learned as whole words",
+        "soitti, lupasi — the he/she past tense, same stem but no personal ending",
+        "you can now narrate your own experience in the past, not just describe states with oli",
+        "you can tell irregular verbs like oli apart from the regular -i- pattern on sight"
+      ]
+    }
+  ]
+}

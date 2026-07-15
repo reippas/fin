@@ -1,0 +1,202 @@
+{
+  "id": "l10",
+  "number": 10,
+  "title": "Autoon tehtiin vuosihuolto",
+  "subtitle": "An annual service was done on the car",
+  "tags": [
+    "basics",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "passive voice",
+    "past tense"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "You can already say what things were (oli), and what didn't happen (ei toiminut). Now you need the verb shape that runs through almost every review describing actual work: the passive. This lets Finnish say 'a service was done', 'the part was changed', 'I was charged' — without ever naming who did it. It's everywhere in this corpus, and once you spot the pattern you'll never un-see it."
+    },
+    {
+      "type": "phrase",
+      "annotated": "Autoon {tehtiin|grammar|passive past|was done} {vuosihuolto|word|compound noun|annual service}.",
+      "translation": "An annual service was done on the car."
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "Why nobody is named",
+      "text": "Notice: the reviewer never says who did the service. Not 'the mechanic did', not 'they did' — just tehtiin, 'was done'. Finnish uses this passive constantly, far more than English does, especially when describing a process rather than a person. It's the natural, neutral way to report 'this happened', and reviewers lean on it heavily."
+    },
+    {
+      "type": "heading",
+      "text": "Piece 1 — Tehtiin: the passive of tehdä"
+    },
+    {
+      "type": "text",
+      "content": "Tehdä means 'to do/make'. Its passive past form is {tehtiin|grammar|passive past|was done/was made} — 'was done'. You attach it to whatever got done: autoon tehtiin huolto (a service was done on the car), autoon tehtiin lommoja (dents were made on the car — from a bad review you'll recognise later)."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Autoon {tehtiin|grammar|passive past|was done} vuosihuolto.",
+          "en": "An annual service was done on the car."
+        },
+        {
+          "fi": "Työ {tehtiin|grammar|passive past|was done} hyvin.",
+          "en": "The work was done well."
+        },
+        {
+          "fi": "Korjaus {tehtiin|grammar|passive past|was done} virheellisesti.",
+          "en": "The repair was done incorrectly."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 2 — Vaihdettiin and veloitettiin: parts and money"
+    },
+    {
+      "type": "text",
+      "content": "Two more passives you'll meet constantly: {vaihdettiin|grammar|passive past|was changed/replaced}, from vaihtaa (to change/replace) — used every time a part gets swapped. And {veloitettiin|grammar|passive past|was charged}, from veloittaa (to charge/bill) — used every time a reviewer reports what they paid."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Termostaatti {vaihdettiin|grammar|passive past|was changed}.",
+          "en": "The thermostat was changed."
+        },
+        {
+          "fi": "Alipaineyksikkö {vaihdettiin|grammar|passive past|was changed}.",
+          "en": "The vacuum unit was changed."
+        },
+        {
+          "fi": "Minulta {veloitettiin|grammar|passive past|was charged} 161 euroa.",
+          "en": "I was charged 161 euros."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 3 — The pattern: -ttiin / -tiin"
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "One ending, dozens of verbs",
+      "text": "Tehtiin, vaihdettiin, veloitettiin, sanottiin, soitettiin — all passive past, all built the same way: take the verb stem and add {-ttiin|grammar|suffix|passive past ending} or -tiin. No subject, no personal ending, just the action itself reported as having happened. Once you can hear this ending, you can identify a passive verb even if you don't know its exact meaning yet."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Minulle {soitettiin|grammar|passive past|was called} seuraavana päivänä.",
+          "en": "I was called the next day."
+        },
+        {
+          "fi": "Näin {sanottiin|grammar|passive past|was said}.",
+          "en": "That's what was said."
+        },
+        {
+          "fi": "Auto {korjattiin|grammar|passive past|was fixed} etuajassa.",
+          "en": "The car was fixed ahead of schedule."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Mitä autolle tehtiin?",
+          "en": "What was done to the car?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Autoon tehtiin vuosihuolto ja termostaatti vaihdettiin.",
+          "en": "An annual service was done on the car and the thermostat was changed."
+        },
+        {
+          "speaker": "A",
+          "fi": "Paljonko veloitettiin?",
+          "en": "How much was charged?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Minulta veloitettiin 161 euroa, mutta hinta-arvio piti paikkansa.",
+          "en": "I was charged 161 euros, but the price estimate was accurate."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Paul Noble Rule",
+      "text": "You don't need to memorise every passive verb separately. Learn the shape -ttiin/-tiin once, and every new verb you meet that ends this way is instantly readable: korjattiin (fixed), katsottiin (looked at), annettiin (given). Pattern first, vocabulary second."
+    },
+    {
+      "type": "pronunciation",
+      "content": "Tehtiin: TEH-tiin (long 'ii' at the end — hold it). Vaihdettiin: VAIH-det-tiin (the 'vaih' rhymes with English 'my', not 'vay'). Veloitettiin: VE-loi-tet-tiin (four syllables, stress stays on the first — Finnish never moves the stress no matter how long the word gets)."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "tehtiin",
+          "en": "was done/made (passive past of tehdä)",
+          "type": "grammar"
+        },
+        {
+          "fi": "vaihdettiin",
+          "en": "was changed/replaced (passive past of vaihtaa)",
+          "type": "grammar"
+        },
+        {
+          "fi": "veloitettiin",
+          "en": "was charged (passive past of veloittaa)",
+          "type": "grammar"
+        },
+        {
+          "fi": "korjattiin",
+          "en": "was fixed (passive past of korjata)",
+          "type": "grammar"
+        },
+        {
+          "fi": "soitettiin",
+          "en": "was called (passive past of soittaa)",
+          "type": "grammar"
+        },
+        {
+          "fi": "sanottiin",
+          "en": "was said (passive past of sanoa)",
+          "type": "grammar"
+        },
+        {
+          "fi": "vuosihuolto",
+          "en": "annual service (vuosi + huolto)",
+          "type": "phrase"
+        },
+        {
+          "fi": "-ttiin / -tiin",
+          "en": "passive past ending — 'was [verb]-ed'",
+          "type": "grammar"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "tehtiin, vaihdettiin, veloitettiin — was done, was changed, was charged",
+        "the general -ttiin/-tiin passive past pattern, usable on new verbs you meet",
+        "vuosihuolto — annual service, another compound word built from parts you know",
+        "You can now describe what a shop did to a car without ever naming who did it",
+        "You can recognise a passive verb on sight, even one you've never seen before"
+      ]
+    }
+  ]
+}

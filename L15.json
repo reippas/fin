@@ -1,0 +1,194 @@
+{
+  "id": "l15",
+  "number": 15,
+  "title": "Halvemmalla mitä arvioitu",
+  "subtitle": "Cheaper than estimated",
+  "tags": [
+    "basics",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "comparatives",
+    "price"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "Lesson 2 gave you hinta, kallis, kohtuullinen — enough to state a price. But half the point of a review is comparing: cheaper than expected, more expensive than the competitor, the best shop in town. This lesson gives you that comparing machinery."
+    },
+    {
+      "type": "phrase",
+      "annotated": "{Halvemmalla|grammar|comparative + adessive|cheaper} mitä {arvioitu|grammar|past participle|estimated}.",
+      "translation": "Cheaper than estimated."
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "The most satisfying review sentence",
+      "text": "'Cheaper than estimated' might be the single most positive thing a Finnish reviewer can say about a repair shop — trust in the original hinta-arvio (Lesson 2) plus a pleasant surprise. You'll see this exact structure, or something very close to it, repeated across many five-star reviews in this corpus."
+    },
+    {
+      "type": "heading",
+      "text": "Piece 1 — Building comparatives: -mpi"
+    },
+    {
+      "type": "text",
+      "content": "To compare, add {-mpi|grammar|comparative suffix|-er/more} to the adjective stem. Halpa (cheap) → {halvempi|grammar|comparative|cheaper}. Kallis (expensive) → {kalliimpi|grammar|comparative|more expensive}. The stem sometimes shifts slightly (halpa → halve-, kallis → kallii-) but the -mpi ending is always the signal you're looking at a comparison."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Tämä korjaamo on {halvempi|grammar|comparative|cheaper}.",
+          "en": "This repair shop is cheaper."
+        },
+        {
+          "fi": "Toinen paikka oli {kalliimpi|grammar|comparative|more expensive}.",
+          "en": "The other place was more expensive."
+        },
+        {
+          "fi": "Hinta oli {edullisempi|grammar|comparative|more affordable} kuin odotin.",
+          "en": "The price was more affordable than I expected."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 2 — Mitä and kuin: both mean 'than'"
+    },
+    {
+      "type": "text",
+      "content": "To finish a comparison, Finnish uses {kuin|grammar|comparison word|than} — the standard, textbook word for 'than'. But in casual speech and in these reviews, you'll often see {mitä|grammar|comparison word, colloquial|than} doing the exact same job instead: halvemmalla mitä arvioitu. Same meaning, more relaxed register — remember mä/sä from way back? Same spirit."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Halvemmalla {mitä|grammar|comparison word, colloquial|than} arvioitu.",
+          "en": "Cheaper than estimated."
+        },
+        {
+          "fi": "Käynnistä selviää edullisemmin {kuin|grammar|comparison word|than} ensin arvioitu.",
+          "en": "The visit turns out more affordable than first estimated."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 3 — Superlative: paras, the best of all"
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "Paras — an irregular superlative worth knowing by heart",
+      "text": "The regular superlative ending is {-in|grammar|superlative suffix|-est}: halvin (cheapest), kallein (most expensive). But hyvä (good) doesn't play by the rules — its superlative is the irregular word {paras|grammar|superlative, irregular|best}, not 'hyvin'. You'll see paras korjaamo, 'the best repair shop', used as flat, confident praise."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Paras|grammar|superlative, irregular|best} korjaamo.",
+          "en": "The best repair shop."
+        },
+        {
+          "fi": "Tämä oli {halvin|grammar|superlative|cheapest} vaihtoehto.",
+          "en": "This was the cheapest option."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Oliko tämä korjaamo kalliimpi kuin edellinen?",
+          "en": "Was this repair shop more expensive than the previous one?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Ei, päinvastoin — auto korjattiin halvemmalla mitä arvioitu.",
+          "en": "No, the opposite — the car was fixed for less than estimated."
+        },
+        {
+          "speaker": "A",
+          "fi": "Suosittelisitko sitä siis muille?",
+          "en": "Would you recommend it to others, then?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Kyllä. Mielestäni tämä on paras korjaamo täällä.",
+          "en": "Yes. I think this is the best repair shop around here."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Paul Noble Rule",
+      "text": "-mpi means 'more', -in means 'most' — that's the entire system, minus one exception (hyvä → paras). Every adjective you've already learned (hyvä, huono, kallis, halpa, ystävällinen) can take these same two endings. Try building kalliimpi and kalliin yourself before checking — you already have everything you need."
+    },
+    {
+      "type": "pronunciation",
+      "content": "Halvemmalla: HAL-vem-mal-la (double 'm', four syllables — take it slow). Kalliimpi: KAL-liim-pi (the double 'ii' is held long — that length is what marks it as comparative, not just kallis). Paras: PA-ras (short, punchy, stress on PA)."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "halvempi",
+          "en": "cheaper (comparative of halpa)",
+          "type": "grammar"
+        },
+        {
+          "fi": "kalliimpi",
+          "en": "more expensive (comparative of kallis)",
+          "type": "grammar"
+        },
+        {
+          "fi": "edullisempi",
+          "en": "more affordable (comparative of edullinen)",
+          "type": "grammar"
+        },
+        {
+          "fi": "kuin",
+          "en": "than (standard)",
+          "type": "grammar"
+        },
+        {
+          "fi": "mitä",
+          "en": "than (colloquial, also 'what')",
+          "type": "grammar"
+        },
+        {
+          "fi": "paras",
+          "en": "best (irregular superlative of hyvä)",
+          "type": "grammar"
+        },
+        {
+          "fi": "halvin",
+          "en": "cheapest (superlative of halpa)",
+          "type": "grammar"
+        },
+        {
+          "fi": "-mpi / -in",
+          "en": "comparative / superlative suffixes — more / most",
+          "type": "grammar"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "the comparative -mpi: halvempi, kalliimpi, edullisempi",
+        "kuin and its colloquial twin mitä, both meaning 'than'",
+        "the superlative -in, plus the one irregular exception: hyvä → paras",
+        "you can now say a repair shop was cheaper, more expensive, or the best — not just good or bad",
+        "you recognise the register difference between kuin and mitä, formal vs colloquial"
+      ]
+    }
+  ]
+}

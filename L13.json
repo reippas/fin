@@ -1,0 +1,196 @@
+{
+  "id": "l13",
+  "number": 13,
+  "title": "Sain hyvää palvelua Espoon autohuollossa",
+  "subtitle": "I got good service at the Espoo car service centre",
+  "tags": [
+    "basics",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "cases",
+    "grammar"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "Back in Lesson 2, you saw autohuoltoon — 'to the car service centre' — without stopping to explain it. Finnish doesn't use prepositions like English 'in', 'to', 'from' — it changes the ending of the noun itself instead. This lesson gives you the three endings that do that job for places: being in one, going into one, and coming from one."
+    },
+    {
+      "type": "phrase",
+      "annotated": "Sain hyvää palvelua Espoon {autohuollossa|grammar|inessive|at the car service centre}.",
+      "translation": "I got good service at the Espoo car service centre."
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "No prepositions, just endings",
+      "text": "English needs three separate little words — in, to, from — to do what Finnish does by changing the tail of one word: autohuolto, autohuollossa, autohuoltoon, autohuollosta. Reviewers name the shop constantly, so these place-endings appear on almost every business name in the corpus."
+    },
+    {
+      "type": "heading",
+      "text": "Piece 1 — -ssa/-ssä: being in/at a place"
+    },
+    {
+      "type": "text",
+      "content": "To say something is inside or at a place, add {-ssa|grammar|inessive suffix|in/at} after back vowels (a, o, u) or {-ssä|grammar|inessive suffix|in/at} after front vowels (ä, ö, y) — the same vowel harmony rule from Lesson 2's -sta/-stä. Autohuolto → autohuollossa, 'at the car service centre'."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Sain palvelua Espoon {autohuollossa|grammar|inessive|at the car service centre}.",
+          "en": "I got service at the Espoo car service centre."
+        },
+        {
+          "fi": "Hinta oli kohtuullinen tässä {korjaamossa|grammar|inessive|at this repair shop}.",
+          "en": "The price was reasonable at this repair shop."
+        },
+        {
+          "fi": "Odotin {tiskillä|grammar|adessive, related pattern|at the counter}.",
+          "en": "I waited at the counter."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 2 — Illative: going into a place"
+    },
+    {
+      "type": "text",
+      "content": "You met this one already in Lesson 2: autohuoltoon, 'into/to the car service centre'. This is the {illative|grammar|case name|into} case. Its ending varies more than -ssa does — often -Vn (doubling the last vowel + n), sometimes -hVn or -seen for longer words — but the meaning is always 'movement into'."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Vein autoni Espoon {autohuoltoon|grammar|illative|into the car service centre}.",
+          "en": "I took my car to the Espoo car service centre."
+        },
+        {
+          "fi": "Vein auton {huoltoon|grammar|illative|into service}.",
+          "en": "I took the car in for service."
+        },
+        {
+          "fi": "Meni {korjaamoon|grammar|illative|into the repair shop}.",
+          "en": "It went into the repair shop."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 3 — -sta/-stä: coming from a place"
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "Elative — the third leg of the triangle",
+      "text": "The elative case, {-sta|grammar|elative suffix|from} or {-stä|grammar|elative suffix|from}, marks 'out of/from'. Same vowel harmony rule as always: back vowels get -sta, front vowels get -stä. Now you have all three: autohuollossa (at), autohuoltoon (into), autohuollosta (from) — one noun, three endings, three directions."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Korjautin autoni muualla, ei tästä {korjaamosta|grammar|elative|from this repair shop}.",
+          "en": "I got my car fixed elsewhere, not from this repair shop."
+        },
+        {
+          "fi": "Soitin {korjaamosta|grammar|elative|from the repair shop} takaisin.",
+          "en": "I called back from the repair shop."
+        },
+        {
+          "fi": "Vika löytyi {huollosta|grammar|elative|from the service}.",
+          "en": "The fault was found during the service."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Missä sait palvelua?",
+          "en": "Where did you get service?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Sain palvelua Espoon autohuollossa. Vein autoni sinne autohuoltoon eilen.",
+          "en": "I got service at the Espoo car service centre. I took my car there yesterday."
+        },
+        {
+          "speaker": "A",
+          "fi": "Mistä kuulit paikasta?",
+          "en": "Where did you hear about the place from?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Kuulin siitä korjaamosta ystävältä.",
+          "en": "I heard about that repair shop from a friend."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Paul Noble Rule",
+      "text": "Don't memorise these three endings as separate words. Picture one triangle: -ssa (staying in), -Vn (going into), -sta (coming from). Every place name in Finnish — a shop, a city, a room — cycles through this exact same triangle. Learn the shape once, apply it everywhere."
+    },
+    {
+      "type": "pronunciation",
+      "content": "Autohuollossa: AU-to-huol-los-sa (long word — the double 's' and double 'o' both get held slightly). Autohuoltoon: AU-to-huol-toon (long final 'oo', that's the illative marker doing its job). Korjaamosta: KOR-yaa-mos-ta (the double 'aa' stays long even with the ending attached)."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "-ssa / -ssä",
+          "en": "inessive case — in/at",
+          "type": "grammar"
+        },
+        {
+          "fi": "-Vn / -hVn / -seen",
+          "en": "illative case — into/to",
+          "type": "grammar"
+        },
+        {
+          "fi": "-sta / -stä",
+          "en": "elative case — from/out of",
+          "type": "grammar"
+        },
+        {
+          "fi": "autohuollossa",
+          "en": "at the car service centre",
+          "type": "grammar"
+        },
+        {
+          "fi": "autohuoltoon",
+          "en": "to/into the car service centre",
+          "type": "grammar"
+        },
+        {
+          "fi": "autohuollosta",
+          "en": "from the car service centre",
+          "type": "grammar"
+        },
+        {
+          "fi": "korjaamosta",
+          "en": "from the repair shop",
+          "type": "grammar"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "the three local cases: -ssa/-ssä (in/at), illative (into), -sta/-stä (from)",
+        "how one noun like autohuolto cycles through all three: autohuollossa, autohuoltoon, autohuollosta",
+        "you can now say where you got service, where you took the car, and where a fault was found",
+        "you can apply this same triangle to any new place name you meet later, without needing a new rule"
+      ]
+    }
+  ]
+}
