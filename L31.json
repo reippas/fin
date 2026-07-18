@@ -1,0 +1,149 @@
+{
+  "id": "l31",
+  "number": 31,
+  "title": "Diagnoosi oli virheellinen eikä korjaus auttanut mitään",
+  "subtitle": "Review lesson — reading a full insurance-dispute review",
+  "tags": [
+    "review",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "reading",
+    "consolidation"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "Lessons 21 to 24 gave you gradation, connectors, and two new tenses — a lot to absorb without a real text to hang it on. Here's one: a full insurance-dispute review, dense with exactly the grammar you've just built."
+    },
+    {
+      "type": "heading",
+      "text": "Quick recap — Lessons 21 to 24"
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Vika|grammar|strong grade|fault} löytyi, mutta {viat|grammar|weak grade|faults} olivat useita.",
+          "en": "(Lesson 21 — consonant gradation)"
+        },
+        {
+          "fi": "{Kun|grammar|conjunction|when} auto vietiin muualle, totuus paljastui.",
+          "en": "(Lesson 22 — kun/koska/jos)"
+        },
+        {
+          "fi": "{Olen|grammar|perfect|I have} {käyttänyt|grammar|past participle|used} tätä huoltamoa vuosia.",
+          "en": "(Lesson 23 — perfect tense)"
+        },
+        {
+          "fi": "{Olin|grammar|pluperfect|I had} jo {maksanut|grammar|past participle|paid} liikaa.",
+          "en": "(Lesson 24 — pluperfect)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Now — a full real review, fully annotated"
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Read it once unaided first",
+      "text": "This is a genuinely complex, multi-sentence real review about a disputed engine diagnosis. Read the raw Finnish first, then check yourself against the breakdown below."
+    },
+    {
+      "type": "text",
+      "content": "Vein autoni Espoon Autohuoltoon moottorin lämpöongelman {vuoksi|grammar|postposition|because of}. He vaihtoivat termostaatin ja veloittivat {minulta|grammar|ablative|from me} 161 eurolla vikadiagnoosista, mutta ongelma {ei ratkennut|grammar|negation + past participle|wasn't solved}."
+    },
+    {
+      "type": "text",
+      "content": "Vakuutusyhtiö myöhemmin totesi, {että|grammar|conjunction|that} diagnoosi {oli|grammar|past tense of 'on'|was} virheellinen {eikä|grammar|negation, 'and not'|and} korjaus {auttanut|grammar|past participle|helped} mitään."
+    },
+    {
+      "type": "text",
+      "content": "Vakuutus myös peruutti maksuluvan, {koska|grammar|conjunction|because} työ ei vastannut vikaa. Siitä huolimatta korjaamo kieltäytyy palauttamasta rahojani. Auto on {edelleen|word|adverb|still} {rikki|word|adjective|broken}, ja nyt joudun viemään sen muualle."
+    },
+    {
+      "type": "note",
+      "color": "word",
+      "title": "A handful of bonus words in this text",
+      "text": "Vakuutusyhtiö is vakuutus (insurance) + yhtiö (company) — another compound you can decode. Totesi means 'stated/concluded'. Virheellinen means 'incorrect/erroneous' — the adjective form of virhe (mistake), which you've met since Lesson 5. Peruutti maksuluvan means 'cancelled the payment authorisation'. Kieltäytyy means 'refuses'. Joudun means 'I'm forced to / I have to' (a cousin of piti's family, but grammatically its own verb). Muualle means 'to somewhere else'."
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Miksi veit auton Espoon Autohuoltoon?",
+          "en": "Why did you take the car to Espoo Autohuolto?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Moottorin lämpöongelman vuoksi. Veloittivat minulta 161 eurolla, mutta ongelma ei ratkennut.",
+          "en": "Because of an engine heat problem. They charged me 161 euros, but the problem wasn't solved."
+        },
+        {
+          "speaker": "A",
+          "fi": "Mitä vakuutusyhtiö totesi?",
+          "en": "What did the insurance company conclude?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Että diagnoosi oli virheellinen. Korjaamo kieltäytyy silti palauttamasta rahojani.",
+          "en": "That the diagnosis was incorrect. The repair shop still refuses to return my money."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "vakuutusyhtiö",
+          "en": "insurance company (vakuutus + yhtiö)",
+          "type": "phrase"
+        },
+        {
+          "fi": "totesi",
+          "en": "stated/concluded (past of todeta)",
+          "type": "word"
+        },
+        {
+          "fi": "virheellinen",
+          "en": "incorrect/erroneous (adjective from virhe)",
+          "type": "word"
+        },
+        {
+          "fi": "kieltäytyy",
+          "en": "refuses (present of kieltäytyä)",
+          "type": "word"
+        },
+        {
+          "fi": "joudun",
+          "en": "I'm forced to / I have to",
+          "type": "grammar"
+        },
+        {
+          "fi": "muualle",
+          "en": "to somewhere else",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "you can read a full, dense, multi-clause real review about a disputed diagnosis",
+        "you can spot gradation, conjunctions, and both new tenses working together in one text",
+        "vakuutusyhtiö, virheellinen, kieltäytyy — vocabulary that extends words you already know",
+        "you're ready for the second half of the curriculum, covering the remaining cases and finer verb forms"
+      ]
+    }
+  ]
+}

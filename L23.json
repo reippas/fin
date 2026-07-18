@@ -1,0 +1,184 @@
+{
+  "id": "l23",
+  "number": 23,
+  "title": "Minulta veloitettiin 161 euroa",
+  "subtitle": "I was charged 161 euros",
+  "tags": [
+    "basics",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "cases",
+    "possession"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "Lesson 7 gave you one triangle of place-endings — -ssa/illative/-sta — for being inside, going into, and coming out of a container-like place. Finnish has a second triangle for surfaces and, importantly, for people: -lla, -lle, -lta. This is also how Finnish says 'I have', and how reviewers describe money moving to or from them."
+    },
+    {
+      "type": "phrase",
+      "annotated": "{Minulta|grammar|ablative|from me} {veloitettiin|grammar|passive past|was charged} 161 euroa.",
+      "translation": "I was charged 161 euros."
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "Money moves 'from' you, literally",
+      "text": "Where English says 'I was charged', Finnish says minulta veloitettiin — literally 'from me it was charged'. The money is pictured leaving you, grammatically, even though you're the passive party. This ablative-plus-passive combination is extremely common across the price complaints in this corpus."
+    },
+    {
+      "type": "heading",
+      "text": "Piece 1 — -lla/-llä: on/at, and 'I have'"
+    },
+    {
+      "type": "text",
+      "content": "{-lla|grammar|adessive suffix|on/at} (or -llä after front vowels) marks being on a surface or, with people, 'at/by' that person. Finnish reuses this exact ending to express possession: there's no separate verb for 'to have' — instead you say [person]-lla on [thing], literally 'at [person] is [thing]'. {Minulla|grammar|adessive, 1st person|at me / I have} on auto — 'I have a car'."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Minulla|grammar|adessive, 1st person|I have} on kysymys.",
+          "en": "I have a question."
+        },
+        {
+          "fi": "{Korjaamolla|grammar|adessive|at the repair shop} oli hyvä maine.",
+          "en": "The repair shop had a good reputation."
+        },
+        {
+          "fi": "Kaverillani on sama auto.",
+          "en": "My friend has the same car."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 2 — -lta/-ltä: from (a person)"
+    },
+    {
+      "type": "text",
+      "content": "{-lta|grammar|ablative suffix|from} (or -ltä) marks 'from', specifically moving away from a person or a surface — the exact mirror of -lla. Minulta veloitettiin, 'charged from me'. You also saw this back in Lesson 1: apu löytyi kaverilta, 'help was found from a friend'."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Minulta|grammar|ablative, 1st person|from me} veloitettiin liikaa.",
+          "en": "I was overcharged (charged too much from me)."
+        },
+        {
+          "fi": "Kuulin siitä {kaverilta|grammar|ablative|from a friend}.",
+          "en": "I heard about it from a friend."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 3 — -lle: to/onto (a person)"
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "The third corner of the triangle",
+      "text": "{-lle|grammar|allative suffix|to/onto} completes the set: movement toward a person or surface. Soitettiin minulle, 'I was called' (literally 'it was called to me'). Same three-way pattern as Lesson 7's container triangle — just built for people and surfaces instead of rooms and buildings: minulla (at me), minulle (to me), minulta (from me)."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Soitettiin {minulle|grammar|allative, 1st person|to me} seuraavana päivänä.",
+          "en": "I was called the next day."
+        },
+        {
+          "fi": "Annettiin hinta-arvio {minulle|grammar|allative, 1st person|to me} etukäteen.",
+          "en": "A price estimate was given to me in advance."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Onko sinulla autoa korjattavana?",
+          "en": "Do you have a car being repaired?"
+        },
+        {
+          "speaker": "B",
+          "fi": "On. Minulta veloitettiin 161 euroa, mutta korjaamolta ei kuulunut mitään sen jälkeen.",
+          "en": "Yes. I was charged 161 euros, but I didn't hear anything from the repair shop after that."
+        },
+        {
+          "speaker": "A",
+          "fi": "Soitettiinko sinulle koskaan?",
+          "en": "Were you ever called?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Ei. Jouduin soittamaan heille itse.",
+          "en": "No. I had to call them myself."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Paul Noble Rule",
+      "text": "Picture two triangles now: Lesson 7's -ssa/illative/-sta for rooms and containers, and today's -lla/-lle/-lta for surfaces and people. Same three directions — staying, arriving, leaving — just aimed at a different kind of noun. If the noun is a place you go inside, use Lesson 7's set. If it's a person, a surface, or possession, use today's."
+    },
+    {
+      "type": "pronunciation",
+      "content": "Minulta: MI-nul-ta (three even syllables, stress on MI). Minulla: MI-nul-la (nearly identical to minulta — listen closely for -lla vs -lta at the end, the meaning flips). Minulle: MI-nul-le (same root, third ending)."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "minulla on",
+          "en": "I have (literally 'at me is')",
+          "type": "phrase"
+        },
+        {
+          "fi": "minulta",
+          "en": "from me",
+          "type": "grammar"
+        },
+        {
+          "fi": "minulle",
+          "en": "to me",
+          "type": "grammar"
+        },
+        {
+          "fi": "-lla / -llä",
+          "en": "adessive case — on/at, also possession",
+          "type": "grammar"
+        },
+        {
+          "fi": "-lta / -ltä",
+          "en": "ablative case — from (a person/surface)",
+          "type": "grammar"
+        },
+        {
+          "fi": "-lle",
+          "en": "allative case — to/onto (a person/surface)",
+          "type": "grammar"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "minulla on — I have, Finnish's way of expressing possession without a 'to have' verb",
+        "the second case triangle: -lla (at), -lle (to), -lta (from), for people and surfaces",
+        "you can now read minulta veloitettiin and similar money-and-person constructions correctly",
+        "you can tell Lesson 7's container triangle apart from this lesson's people/surface triangle",
+        "you can say what you have, who gave you something, and who you heard something from"
+      ]
+    }
+  ]
+}

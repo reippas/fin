@@ -1,0 +1,180 @@
+{
+  "id": "l20",
+  "number": 20,
+  "title": "Autoni hinattiin kolme kertaa",
+  "subtitle": "My car was towed three times",
+  "tags": [
+    "basics",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "possessive",
+    "grammar"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "Autoni has appeared unglossed since Lesson 2 — vein autoni, autoni hinattiin. And piti paikkansa, sitting quietly since Lesson 2 too, has been hiding a possessive suffix the whole time. Today both get explained: Finnish attaches 'my/his/her/their' directly onto the end of the noun, no separate word needed."
+    },
+    {
+      "type": "phrase",
+      "annotated": "{Autoni|grammar|possessive suffix -ni|my car} {hinattiin|grammar|passive past|was towed} kolme kertaa.",
+      "translation": "My car was towed three times."
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "One word instead of two",
+      "text": "English needs two words: 'my' and 'car'. Formal written Finnish, the register of these reviews, often needs only one: autoni. In casual speech you'll sometimes hear the redundant-sounding mun autoni — the colloquial possessive word mun stacked in front of the suffix anyway — but the reviews here mostly use the clean, single-word version."
+    },
+    {
+      "type": "heading",
+      "text": "Piece 1 — -ni: my"
+    },
+    {
+      "type": "text",
+      "content": "Add {-ni|grammar|possessive suffix|my} straight onto a noun to mean 'my [noun]'. Auto (car) → {autoni|grammar|possessive suffix -ni|my car}. No possessive pronoun word is needed at all — the suffix carries the whole meaning by itself."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Vein {autoni|grammar|possessive suffix -ni|my car} korjaamoon.",
+          "en": "I took my car to the repair shop."
+        },
+        {
+          "fi": "{Autoni|grammar|possessive suffix -ni|my car} on edelleen rikki.",
+          "en": "My car is still broken."
+        },
+        {
+          "fi": "Kysyin {asiaani|grammar|possessive suffix -ni|my matter/question}.",
+          "en": "I asked about my matter."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 2 — Unlocking piti paikkansa"
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "The suffix you've been using since Lesson 2",
+      "text": "Paikkansa, from piti paikkansa (Lesson 2, 'held true'), breaks down as paikka (place) + {-nsa|grammar|possessive suffix, 3rd person|its/his/her/their}. Literally: 'it held its own place'. Same job as -ni, just for 'its/his/her/their' instead of 'my'. You were already reading a possessive suffix two lessons before you had the word for it."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Hinta-arvio piti {paikkansa|grammar|possessive suffix, 3rd person|its place}.",
+          "en": "The price estimate held true."
+        },
+        {
+          "fi": "He eivät kantaneet vastuuta {virheistään|grammar|possessive suffix, 3rd person, plural noun|their own mistakes}.",
+          "en": "They didn't take responsibility for their own mistakes."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 3 — -mme, -nne: our, your (plural)"
+    },
+    {
+      "type": "text",
+      "content": "The same idea extends to 'we' and 'you (plural)': {-mme|grammar|possessive suffix|our} and {-nne|grammar|possessive suffix|your (pl.)}. Auto → automme, 'our car' — you already saw the shape meidän Focuksemme in Lesson 13's dialogue, which uses exactly this ending."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Automme|grammar|possessive suffix|our car} toimi hyvin huollon jälkeen.",
+          "en": "Our car worked well after the service."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Missä autosi on nyt?",
+          "en": "Where is your car now?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Autoni hinattiin korjaamoon kolme kertaa.",
+          "en": "My car was towed to the repair shop three times."
+        },
+        {
+          "speaker": "A",
+          "fi": "Pitikö hinta-arvio paikkansa?",
+          "en": "Did the price estimate hold true?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Ei. Eivät kantaneet vastuuta virheistään.",
+          "en": "No. They didn't take responsibility for their own mistakes."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Paul Noble Rule",
+      "text": "Every possessive suffix does exactly the same job as the personal verb endings from Lesson 13 — -ni echoes -n (minä), -nsa echoes the hän pattern, -mme is identical in both systems. You're not learning six new rules; you're recognising one Finnish habit — marking 'whose' directly on the word — applied a second time."
+    },
+    {
+      "type": "pronunciation",
+      "content": "Autoni: AU-to-ni (four even syllables, stress on AU). Paikkansa: PAIK-kan-sa (the double k is held, then a light final -sa). Virheistään: VIR-heis-tään (a mouthful — break it into vir-heis-tää-n and it settles down)."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "autoni",
+          "en": "my car (auto + -ni)",
+          "type": "grammar"
+        },
+        {
+          "fi": "paikkansa",
+          "en": "its place (paikka + -nsa)",
+          "type": "grammar"
+        },
+        {
+          "fi": "virheistään",
+          "en": "their own mistakes (virhe + -nsa, plural)",
+          "type": "grammar"
+        },
+        {
+          "fi": "-ni",
+          "en": "possessive suffix — my",
+          "type": "grammar"
+        },
+        {
+          "fi": "-nsa / -nsä",
+          "en": "possessive suffix — his/her/its/their",
+          "type": "grammar"
+        },
+        {
+          "fi": "-mme / -nne",
+          "en": "possessive suffix — our / your (pl.)",
+          "type": "grammar"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "the possessive suffix -ni — autoni, my car",
+        "-nsa/-nsä — the suffix hiding inside piti paikkansa since Lesson 2, now fully explained",
+        "-mme, -nne — our, your (plural), matching the verb endings from Lesson 13",
+        "you can now say 'my car', 'their mistake', 'our service' without a separate possessive word",
+        "you can look back at earlier lessons and recognise possessive suffixes you'd only half-noticed before"
+      ]
+    }
+  ]
+}

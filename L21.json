@@ -1,0 +1,176 @@
+{
+  "id": "l21",
+  "number": 21,
+  "title": "Älkää menkö tänne!",
+  "subtitle": "Don't go here!",
+  "tags": [
+    "basics",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "imperative",
+    "grammar"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "The angriest reviews in this corpus stop describing and start commanding: VAROKAA HUIJAUSTA, älkää menkö tänne, älä usko. This is the imperative mood — and its negative form leans directly on the negation family you already know from Lesson 3."
+    },
+    {
+      "type": "phrase",
+      "annotated": "{Älkää|grammar|negative imperative, plural|do not (you all)} {menkö|grammar|connegative|go} tänne!",
+      "translation": "Don't go here!"
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "Shouting in written form",
+      "text": "When a Finnish reviewer switches to imperative — and often to capital letters, like VAROKAA HUIJAUSTA — it's a clear tonal shift from personal complaint to public warning. They're no longer just describing their own bad experience; they're issuing an instruction to every future reader. It's one of the strongest moves a review can make."
+    },
+    {
+      "type": "heading",
+      "text": "Piece 1 — Positive command: varokaa"
+    },
+    {
+      "type": "text",
+      "content": "A plural command (addressing 'you all', including the polite formal 'you') adds {-kaa|grammar|imperative plural suffix|command, you all} or -kää to the verb stem. Varoa (to beware) → {varokaa|grammar|imperative, plural|beware!}. This is a direct, one-word instruction — no subject pronoun needed."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Varokaa|grammar|imperative, plural|beware} huijausta!",
+          "en": "Beware of fraud!"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 2 — Negative command: älä / älkää"
+    },
+    {
+      "type": "text",
+      "content": "To say 'don't', Finnish uses a negation word just like en/ei/eivät from Lesson 3 — but in a special imperative form. {Älä|grammar|negative imperative, singular|do not (you)} is for one person, {älkää|grammar|negative imperative, plural|do not (you all)} for several or for formal address. Exactly like ei toimi, the main verb after älä/älkää loses its normal ending and takes the bare connegative form: mennä (to go) → älkää {menkö|grammar|connegative|go}."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Älä|grammar|negative imperative, singular|do not} usko, jos korjaamo väittää vastaan.",
+          "en": "Don't believe it if the repair shop claims otherwise."
+        },
+        {
+          "fi": "{Älkää|grammar|negative imperative, plural|do not} {menkö|grammar|connegative|go} tänne!",
+          "en": "Don't go here!"
+        },
+        {
+          "fi": "{Älkää|grammar|negative imperative, plural|do not} {viekö|grammar|connegative|take} autoanne tänne.",
+          "en": "Don't take your car here."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 3 — Same family as en, ei, eivät"
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "One negation system, three moods",
+      "text": "En (I don't), ei (it doesn't), älä/älkää (don't! — command) are all part of the same negation-verb family from Lesson 3. In every case, the negation word carries the person, and the main verb drops down to its bare connegative stem: en suosittele, ei toimi, älkää menkö — same shape, three different jobs."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Älkää|grammar|negative imperative, plural|do not} {ikinä|word|adverb|ever} {viekö|grammar|connegative|take} tänne pienimpäänkään korjaukseen.",
+          "en": "Never take it here for even the smallest repair."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Kannattaako viedä auto tuonne korjaamoon?",
+          "en": "Is it worth taking the car to that repair shop?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Ei missään nimessä. Älkää menkö tänne!",
+          "en": "Absolutely not. Don't go here!"
+        },
+        {
+          "speaker": "A",
+          "fi": "Miksi ei?",
+          "en": "Why not?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Varokaa huijausta — älä usko, vaikka he väittävät vastaan.",
+          "en": "Beware of fraud — don't believe it, even if they claim otherwise."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Paul Noble Rule",
+      "text": "You don't need to learn älä and älkää as brand new words. They're just en and eivät's cousins, wearing a command hat. If you can already build ei toimi, you can build älkää menkö the exact same way — negation word first, bare verb stem second."
+    },
+    {
+      "type": "pronunciation",
+      "content": "Älkää: ÄL-kää (the 'ä' is like 'a' in 'cat', double 'ää' held long — this word is often the loudest in a warning review). Menkö: MEN-kö (short, sharp — the 'ö' rounds your lips slightly, like German 'ö'). Varokaa: VA-ro-kaa (three syllables, long final 'aa')."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "varokaa",
+          "en": "beware! (positive imperative, plural)",
+          "type": "grammar"
+        },
+        {
+          "fi": "älä",
+          "en": "don't (negative imperative, singular)",
+          "type": "grammar"
+        },
+        {
+          "fi": "älkää",
+          "en": "don't (negative imperative, plural/formal)",
+          "type": "grammar"
+        },
+        {
+          "fi": "menkö",
+          "en": "go (connegative of mennä, used after älä/älkää)",
+          "type": "grammar"
+        },
+        {
+          "fi": "viekö",
+          "en": "take (connegative of viedä, used after älä/älkää)",
+          "type": "grammar"
+        },
+        {
+          "fi": "ikinä",
+          "en": "ever",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "the positive imperative -kaa/-kää: varokaa, beware!",
+        "the negative imperative älä (singular) / älkää (plural), plus the connegative that follows them",
+        "you can now read and write the sharpest warning-style reviews in the corpus",
+        "you see the family resemblance between en/ei/eivät and älä/älkää — one negation system, three moods",
+        "ikinä — ever, useful for emphatic warnings"
+      ]
+    }
+  ]
+}

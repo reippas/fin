@@ -1,0 +1,188 @@
+{
+  "id": "l32",
+  "number": 32,
+  "title": "Sain ajan nopeasti",
+  "subtitle": "The big picture behind palvelua and ajan",
+  "tags": [
+    "basics",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "object case",
+    "grammar"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "Sain ajan nopeasti has sat in your dialogues since Lesson 8, right alongside sain hyvää palvelua from Lesson 1. Ajan and palvelua are doing the exact same grammatical job — both are objects — but they end differently. This lesson finally explains why, and it's one of the most useful patterns in the whole language."
+    },
+    {
+      "type": "phrase",
+      "annotated": "Sain {ajan|grammar|accusative, total object|an appointment} nopeasti.",
+      "translation": "I got an appointment quickly."
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "Complete vs. in-progress, baked into grammar",
+      "text": "Finnish grammar makes a distinction English doesn't mark at all: was the object fully, definitely obtained/affected, or only partially/some of it/ongoing? Ajan (an appointment, Lesson 8) is one whole thing you definitely got. Palvelua (Lesson 1) is more like an uncountable quality you received some of. The ending tells you which, instantly."
+    },
+    {
+      "type": "heading",
+      "text": "Piece 1 — Partitive object: partial, ongoing, or uncountable"
+    },
+    {
+      "type": "text",
+      "content": "The {partitive|grammar|case name|some of/partial} object marks something uncountable, indefinite in amount, or an action still in progress. Sain hyvää {palvelua|grammar|partitive object|service} — 'I got good service' — palvelu is mass-noun-like here, not one countable thing you fully consumed."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Sain hyvää {palvelua|grammar|partitive object|service}.",
+          "en": "I got good service."
+        },
+        {
+          "fi": "Odotin {autoa|grammar|partitive object|the car}.",
+          "en": "I was waiting for the car (ongoing, not yet resolved)."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 2 — Accusative object: one whole, complete thing"
+    },
+    {
+      "type": "text",
+      "content": "The {accusative|grammar|case name|total/complete} object marks a single, definite, fully-affected thing — usually ending in -n for singular nouns, the same shape as the genitive you learned in Lesson 12. Sain {ajan|grammar|accusative, total object|an appointment} nopeasti — one specific appointment, fully obtained, done."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Sain {ajan|grammar|accusative, total object|an appointment} nopeasti.",
+          "en": "I got an appointment quickly."
+        },
+        {
+          "fi": "Vaihdoin {osan|grammar|accusative, total object|the part}.",
+          "en": "I changed the part (the whole part, completely)."
+        },
+        {
+          "fi": "Korjasin {vian|grammar|accusative, total object|the fault}.",
+          "en": "I fixed the fault (fully resolved)."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 3 — Three triggers that force the partitive"
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "You've already met all three triggers",
+      "text": "You now have every piece needed to predict which case an object takes. Three things always force partitive, no exceptions: negation (Lesson 3 — ei ilmennyt {ongelmia|grammar|partitive, forced by negation|problems}), a number of 2 or more (Lesson 19 — kolme {kertaa|grammar|partitive, forced by number|times}), and an incomplete/uncountable object like today's palvelua. Anywhere none of those three apply, and the object is one whole, specific thing, reach for the accusative -n instead."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Ei löytynyt {vikoja|grammar|partitive, forced by negation|faults}.",
+          "en": "No faults were found."
+        },
+        {
+          "fi": "Vaihdettiin kaksi {osaa|grammar|partitive, forced by number|parts}.",
+          "en": "Two parts were changed."
+        },
+        {
+          "fi": "Vaihdettiin {osa|grammar|accusative-looking, total object|the part}.",
+          "en": "The part was changed (one, complete)."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Saitko ajan nopeasti?",
+          "en": "Did you get an appointment quickly?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Kyllä, ja sain myös hyvää palvelua.",
+          "en": "Yes, and I also got good service."
+        },
+        {
+          "speaker": "A",
+          "fi": "Korjattiinko vika kokonaan?",
+          "en": "Was the fault fixed completely?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Kyllä, korjasivat vian, eikä ongelmia ilmennyt sen jälkeen.",
+          "en": "Yes, they fixed the fault, and no problems appeared after that."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Paul Noble Rule",
+      "text": "One question decides the ending: is the object whole, specific, and fully affected? If yes — accusative -n. If it's negated, plural-counted, or vague/uncountable — partitive. Run every object you meet from now on through that single question, and the case almost always follows."
+    },
+    {
+      "type": "pronunciation",
+      "content": "Ajan: A-jan (short, the 'j' is a 'y' sound). Palvelua: PAL-ve-lu-a (four syllables, the final -a is light). Osan vs osaa: O-san (crisp final n, accusative) vs O-saa (held final vowel, partitive) — that length difference is the whole signal."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "ajan",
+          "en": "an appointment (accusative object)",
+          "type": "grammar"
+        },
+        {
+          "fi": "palvelua",
+          "en": "service (partitive object)",
+          "type": "grammar"
+        },
+        {
+          "fi": "osan / osaa",
+          "en": "the part (accusative) / a part, some (partitive)",
+          "type": "grammar"
+        },
+        {
+          "fi": "vian",
+          "en": "the fault (accusative object)",
+          "type": "grammar"
+        },
+        {
+          "fi": "accusative -n",
+          "en": "marks a whole, complete, specific object",
+          "type": "grammar"
+        },
+        {
+          "fi": "partitive object",
+          "en": "marks partial, ongoing, uncountable, negated, or counted (2+) objects",
+          "type": "grammar"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "the big-picture rule behind every object ending you've seen since Lesson 1",
+        "accusative -n for whole, complete, specific objects: ajan, osan, vian",
+        "the three partitive triggers: negation, numbers 2+, and incomplete/uncountable objects",
+        "you can now predict the case of a new object noun instead of memorising each one",
+        "sain ajan vs sain palvelua, finally explained side by side"
+      ]
+    }
+  ]
+}

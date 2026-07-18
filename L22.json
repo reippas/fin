@@ -1,0 +1,170 @@
+{
+  "id": "l22",
+  "number": 22,
+  "title": "Vaihdettiin osa, jota ei olisi tarvinnut vaihtaa",
+  "subtitle": "A part was changed that wouldn't have needed changing",
+  "tags": [
+    "basics",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "relative clauses",
+    "grammar"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "Every sentence so far has stood alone. But the sharpest complaints in this corpus link two ideas together with one small, powerful word family: joka. This lesson gives you Finnish's version of 'who/which/that', including the twist that it changes its own ending depending on its job in the sentence — just like the nouns you've already been bending for eight lessons."
+    },
+    {
+      "type": "phrase",
+      "annotated": "Vaihdettiin osa, {jota|grammar|relative pronoun, partitive|which} ei olisi tarvinnut vaihtaa.",
+      "translation": "A part was changed that wouldn't have needed changing."
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "Relative clauses as evidence",
+      "text": "Notice the shape of this kind of complaint: state what happened (vaihdettiin osa), then attach a joka-clause that quietly proves it shouldn't have (jota ei olisi tarvinnut vaihtaa). This one-two structure — action, then relative-clause judgement — is the backbone of the most detailed, most damning reviews in the corpus."
+    },
+    {
+      "type": "heading",
+      "text": "Piece 1 — Joka: who/which/that (singular)"
+    },
+    {
+      "type": "text",
+      "content": "{Joka|grammar|relative pronoun, nominative singular|who/which/that} refers back to a single thing already mentioned. Mies, joka korjasi auton — 'the man who fixed the car'. It sits right where English 'who' or 'that' would."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Mies, {joka|grammar|relative pronoun, nominative singular|who} korjasi auton, oli ystävällinen.",
+          "en": "The man who fixed the car was friendly."
+        },
+        {
+          "fi": "Korjaamo, {joka|grammar|relative pronoun, nominative singular|which} sai pohjat testissä, ei ole luotettava.",
+          "en": "The repair shop, which scored at the bottom in the test, isn't reliable."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 2 — Jotka: who/which/that (plural)"
+    },
+    {
+      "type": "text",
+      "content": "When the thing being referred back to is plural, joka becomes {jotka|grammar|relative pronoun, nominative plural|who/which/that (plural)}. This is exactly the word in one of the corpus's harshest lines: virheistä, jotka myönsivät tehneensä — 'mistakes that they admitted having made'."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Virheistä, {jotka|grammar|relative pronoun, nominative plural|that} myönsivät tehneensä.",
+          "en": "The mistakes that they admitted having made."
+        },
+        {
+          "fi": "Asiakkaat, {jotka|grammar|relative pronoun, nominative plural|who} soittivat, saivat vastauksen hitaasti.",
+          "en": "Customers who called got a slow response."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 3 — Joka bends too: jota, jonka"
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "The relative pronoun takes cases, just like nouns",
+      "text": "Joka isn't frozen — it takes whatever case its role in its own clause demands, exactly like any noun. After negation, objects usually go partitive (a pattern you'll see fully later), which is why the hero phrase uses {jota|grammar|relative pronoun, partitive|which} rather than joka: jota ei olisi tarvinnut vaihtaa. The genitive form {jonka|grammar|relative pronoun, genitive|whose/of which} works the same way when the relative clause needs a genitive: korjaamo, jonka palvelu oli hyvä, 'the repair shop whose service was good'."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Jarrusatula, {jota|grammar|relative pronoun, partitive|which} ei olisi tarvinnut uusia.",
+          "en": "The brake caliper, which wouldn't have needed renewing."
+        },
+        {
+          "fi": "Korjaamo, {jonka|grammar|relative pronoun, genitive|whose} palvelu oli hyvä.",
+          "en": "The repair shop whose service was good."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Mitä osaa vaihdettiin?",
+          "en": "What part was changed?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Jarrusatula, jota ei olisi tarvinnut vaihtaa ollenkaan.",
+          "en": "A brake caliper, which wouldn't have needed changing at all."
+        },
+        {
+          "speaker": "A",
+          "fi": "Myönsivätkö virheensä?",
+          "en": "Did they admit their mistake?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Eivät. Korjaamo, jonka palvelu oli muuten hyvä, ei ottanut vastuuta.",
+          "en": "No. The repair shop, whose service was otherwise good, didn't take responsibility."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Paul Noble Rule",
+      "text": "Don't try to memorise every case-form of joka at once. Just remember the shape: joka/jotka for the plain subject role, and any other case ending you already know (jota, jonka, joista, jolle...) can attach the same way it would to a regular noun. The word bends; the underlying case rules you already learned don't change."
+    },
+    {
+      "type": "pronunciation",
+      "content": "Joka: YO-ka (the 'j' is a 'y' sound, short and even). Jotka: YOT-ka (same start, crisper ending). Jota: YO-ta (long o, soft t). Jonka: YON-ka (nasal 'n' before the k)."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "joka",
+          "en": "who/which/that (nominative singular)",
+          "type": "grammar"
+        },
+        {
+          "fi": "jotka",
+          "en": "who/which/that (nominative plural)",
+          "type": "grammar"
+        },
+        {
+          "fi": "jota",
+          "en": "which/that (partitive singular)",
+          "type": "grammar"
+        },
+        {
+          "fi": "jonka",
+          "en": "whose/of which (genitive singular)",
+          "type": "grammar"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "joka/jotka — who/which/that, singular and plural",
+        "jota, jonka — the relative pronoun taking cases like any noun",
+        "you can now build two-part sentences: an action, followed by a joka-clause that judges it",
+        "you can read the exact quote virheistä, jotka myönsivät tehneensä from the sharpest complaint in the corpus",
+        "you understand that joka bends using the same case system you've already learned, not a new one"
+      ]
+    }
+  ]
+}

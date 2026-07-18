@@ -1,0 +1,147 @@
+{
+  "id": "l26",
+  "number": 26,
+  "title": "Kyl olis se ensimmäinen tarvinnut silmälasit",
+  "subtitle": "Review lesson — reading a harder real review, halfway checkpoint",
+  "tags": [
+    "review",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "reading",
+    "consolidation"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "Twenty lessons in, halfway through the plan. Lessons 7-19 buried you in cases, possessives, relative clauses, the imperative, infinitives, and numbers — a lot of machinery. This lesson doesn't add anything new. It just hands you one genuinely hard, unsimplified review and lets you watch all of that machinery fire at once."
+    },
+    {
+      "type": "heading",
+      "text": "Quick recap — Lessons 7 to 19"
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Sain palvelua Espoon {autohuollossa|grammar|inessive|at the car service centre}.",
+          "en": "(Lesson 7 — local cases)"
+        },
+        {
+          "fi": "{Suosittelemme|grammar|1st person plural|we recommend} tätä korjaamoa.",
+          "en": "(Lesson 13 — full pronoun paradigm)"
+        },
+        {
+          "fi": "{Autoni|grammar|possessive suffix|my car} hinattiin kolme {kertaa|grammar|partitive after number|times}.",
+          "en": "(Lessons 14 & 19 — possessive suffix and numbers)"
+        },
+        {
+          "fi": "{Älkää|grammar|negative imperative|do not} menkö tänne!",
+          "en": "(Lesson 15 — imperative)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Now — a harder real review, fully annotated"
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Read it once unaided first",
+      "text": "This one is intentionally messier than Lesson 6's reading — real spoken-register Finnish, with a colloquial quoted line right in the middle. Try it cold first, then check the annotations."
+    },
+    {
+      "type": "text",
+      "content": "{Vein|grammar|1st person past, irregular|I took} auton huoltoon ja saivat sen korjattua. Löysivät samalla lisävikoja ja laskivat niille alustavasti laskun."
+    },
+    {
+      "type": "text",
+      "content": "Kun sitten {vein|grammar|1st person past, irregular|I took} auton luottohuoltoon toiselle paikkakunnalle, sanoi tämä että kyl {olis|grammar|conditional, colloquial for olisi|would} se ensimmäinen {tarvinnut|grammar|past participle|needed} silmälasit, {ei|grammar|negation, 3rd person|is not} täällä mikään {rikki|word|adjective|broken} ole."
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "Olis — the colloquial cousin of olisi",
+      "text": "You know olisi (Lesson 5) as the formal conditional of on. In casual speech — including a quoted mechanic in this review — the final vowel often drops: olisi becomes {olis|grammar|conditional, colloquial|would}. Same meaning, same -isi- engine, just worn down the way fast speech wears down endings in any language."
+    },
+    {
+      "type": "note",
+      "color": "word",
+      "title": "A handful of bonus words in this text",
+      "text": "Silmälasit means 'glasses/spectacles' — the mechanic's sarcastic joke is that the first shop 'would have needed glasses', i.e. couldn't see straight. Paikkakunnalle is 'to a locality/town' (allative, Lesson 17's family). Lisävikoja is 'additional faults' (partitive plural, Lesson 10's family: lisä- + vika). Alustavasti means 'preliminarily'."
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Mitä toinen korjaamo sanoi ensimmäisestä?",
+          "en": "What did the second repair shop say about the first?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Sanoivat, että ensimmäinen olis tarvinnut silmälasit — ei siellä mikään rikki ollut.",
+          "en": "They said the first one would've needed glasses — nothing there was actually broken."
+        },
+        {
+          "speaker": "A",
+          "fi": "Löysitkö lisävikoja itse?",
+          "en": "Did you find additional faults yourself?"
+        },
+        {
+          "speaker": "B",
+          "fi": "En. Ensimmäinen korjaamo laski niistä laskun turhaan.",
+          "en": "No. The first repair shop billed for them for nothing."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "silmälasit",
+          "en": "glasses/spectacles (used idiomatically here)",
+          "type": "word"
+        },
+        {
+          "fi": "paikkakunnalle",
+          "en": "to a locality/town (allative)",
+          "type": "grammar"
+        },
+        {
+          "fi": "lisävikoja",
+          "en": "additional faults (lisä- + vika, partitive plural)",
+          "type": "phrase"
+        },
+        {
+          "fi": "alustavasti",
+          "en": "preliminarily",
+          "type": "word"
+        },
+        {
+          "fi": "olis",
+          "en": "would (colloquial for olisi)",
+          "type": "grammar"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own after twenty lessons",
+      "items": [
+        "two full case triangles: -ssa/illative/-sta for places, -lla/-lle/-lta for people",
+        "the full six-person pronoun and possessive systems",
+        "negation, imperative, relative clauses, the infinitive, and numbers, all working together",
+        "you can now read a genuinely messy, colloquial-inflected real review — not just a clean textbook one",
+        "you recognise olis as casual olisi, and can spot other worn-down colloquial forms the same way"
+      ]
+    }
+  ]
+}
