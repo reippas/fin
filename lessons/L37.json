@@ -1,0 +1,185 @@
+{
+  "id": "l37",
+  "number": 37,
+  "title": "Täysin epäluotettava ja vastuuton",
+  "subtitle": "Completely unreliable and irresponsible",
+  "tags": [
+    "basics",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "word formation",
+    "adjectives"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "Puolueeton snuck past in Lesson 30 as 'impartial', built from puolue + -ton. That -ton ending is actually one half of a matched pair Finnish uses to build negative or opposite adjectives — the other half is the prefix epä-. Between them, they generate a huge share of this corpus's harshest vocabulary."
+    },
+    {
+      "type": "phrase",
+      "annotated": "Täysin {epäluotettava|grammar|epä- + adjective|unreliable} ja {vastuuton|grammar|noun + -ton|irresponsible}.",
+      "translation": "Completely unreliable and irresponsible."
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "Two ways to say 'not'",
+      "text": "English mostly relies on one prefix for this job — un-, in-, dis- depending on the word. Finnish cleanly splits the job in two: epä- flips an adjective to its opposite, while -ton/-tön removes a quality from a noun entirely. Once you know both, you can decode a huge number of 'bad review' adjectives without ever looking them up."
+    },
+    {
+      "type": "heading",
+      "text": "Piece 1 — Epä-: flipping an adjective"
+    },
+    {
+      "type": "text",
+      "content": "{Epä-|grammar|negative prefix|un-/not} attaches to the front of an adjective (or noun) to flip its meaning. Luotettava (reliable) → {epäluotettava|grammar|epä- + adjective|unreliable}. Rehellinen (honest) → {epärehellinen|grammar|epä- + adjective|dishonest}. Ammattitaitoinen (professional, Lesson 1) → {epäammattitaitoinen|grammar|epä- + adjective|unprofessional}."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Firma on täysin {epäluotettava|grammar|epä- + adjective|unreliable}.",
+          "en": "The company is completely unreliable."
+        },
+        {
+          "fi": "Kaikinpuolin {epärehellinen|grammar|epä- + adjective|dishonest} korjaamo.",
+          "en": "A dishonest repair shop in every respect."
+        },
+        {
+          "fi": "Todella {epäammattitaitoista|grammar|epä- + adjective, partitive|unprofessional} palvelua.",
+          "en": "Truly unprofessional service."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 2 — -ton/-tön: removing a quality from a noun"
+    },
+    {
+      "type": "text",
+      "content": "{-ton|grammar|negative suffix|-less/without} (or -tön after front vowels) attaches to the end of a noun, meaning 'without [that noun]'. Vastuu (responsibility) → {vastuuton|grammar|noun + -ton|irresponsible} — literally 'without responsibility'. Puolue (side/party) → puolueeton, 'without a side' = impartial, from Lesson 30."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Eivät kantaneet vastuuta — täysin {vastuuton|grammar|noun + -ton|irresponsible} korjaamo.",
+          "en": "They didn't take responsibility — a completely irresponsible repair shop."
+        },
+        {
+          "fi": "Puolueeton korjaamo paljasti totuuden.",
+          "en": "An impartial repair shop revealed the truth."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 3 — Stacking both, for maximum emphasis"
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "Reviewers stack negatives for effect",
+      "text": "Some of the harshest lines in the corpus stack epä- and -ton adjectives back to back: epäluotettava, eivät kanna vastuuta. This piling-up of negative adjectives is a deliberate rhetorical move — each one narrows the shop's reputation a little further, building toward a flat verdict of total distrust."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Epäluotettava|grammar|epä- + adjective|unreliable}, {vastuuton|grammar|noun + -ton|irresponsible}, ja lopulta {epärehellinen|grammar|epä- + adjective|dishonest}.",
+          "en": "Unreliable, irresponsible, and ultimately dishonest."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Millainen korjaamo se oli?",
+          "en": "What kind of repair shop was it?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Täysin epäluotettava ja vastuuton. En suosittele kenellekään.",
+          "en": "Completely unreliable and irresponsible. I don't recommend it to anyone."
+        },
+        {
+          "speaker": "A",
+          "fi": "Entä palvelu?",
+          "en": "And the service?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Epäammattitaitoista alusta loppuun.",
+          "en": "Unprofessional from start to finish."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Paul Noble Rule",
+      "text": "Whenever you meet a new adjective starting with epä- or ending in -ton/-tön, don't panic — strip the affix off, check whether you already know the word underneath (luotettava, vastuu, rehellinen), and you'll usually land on the meaning yourself, flipped or stripped exactly as this lesson describes."
+    },
+    {
+      "type": "pronunciation",
+      "content": "Epäluotettava: E-pä-luo-tet-ta-va (six syllables — epä- is always light and quick, the weight sits on the word after it). Vastuuton: VAS-tuu-ton (long held 'uu' in the middle). Puolueeton: PUO-lu-ee-ton (the 'uo' glides, then a long held 'ee')."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "epä-",
+          "en": "negative prefix — un-/not (on adjectives)",
+          "type": "grammar"
+        },
+        {
+          "fi": "-ton / -tön",
+          "en": "negative suffix — -less/without (on nouns)",
+          "type": "grammar"
+        },
+        {
+          "fi": "epäluotettava",
+          "en": "unreliable (epä- + luotettava)",
+          "type": "word"
+        },
+        {
+          "fi": "epärehellinen",
+          "en": "dishonest (epä- + rehellinen)",
+          "type": "word"
+        },
+        {
+          "fi": "epäammattitaitoinen",
+          "en": "unprofessional (epä- + ammattitaitoinen)",
+          "type": "word"
+        },
+        {
+          "fi": "vastuuton",
+          "en": "irresponsible (vastuu + -ton)",
+          "type": "word"
+        },
+        {
+          "fi": "puolueeton",
+          "en": "impartial (puolue + -ton)",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "epä- — flips an adjective to its opposite",
+        "-ton/-tön — strips a quality from a noun entirely",
+        "epäluotettava, epärehellinen, epäammattitaitoinen, vastuuton — the core negative-adjective vocabulary of harsh reviews",
+        "you can now decode new negative adjectives yourself, by stripping the affix and checking the word underneath",
+        "you understand why reviewers stack these adjectives for rhetorical effect"
+      ]
+    }
+  ]
+}

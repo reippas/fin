@@ -1,0 +1,171 @@
+{
+  "id": "l34",
+  "number": 34,
+  "title": "Hyvässä kunnossa",
+  "subtitle": "In good condition — when adjectives take the case too",
+  "tags": [
+    "basics",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "case agreement",
+    "grammar"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "Every case ending so far has landed on a noun: autohuollossa, korjaamolta, autoni. But adjectives sitting next to those nouns have to agree — they take the same case ending too. This lesson shows you that matching rule, using patterns straight from the corpus."
+    },
+    {
+      "type": "phrase",
+      "annotated": "Auto tuli {hyvässä|grammar|inessive, agreeing adjective|good} {kunnossa|grammar|inessive|condition}.",
+      "translation": "The car came in good condition."
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "Two words moving together",
+      "text": "In English, only the noun changes shape depending on grammar; the adjective 'good' stays 'good' no matter what. In Finnish, hyvä matches whatever case its noun is wearing — hyvä, hyvässä, hyvän, hyvältä — like two dancers stepping in sync. Miss this, and a sentence like hyvässä kunnossa would sound as broken as English 'in gooding condition'."
+    },
+    {
+      "type": "heading",
+      "text": "Piece 1 — The core rule: same case, both words"
+    },
+    {
+      "type": "text",
+      "content": "Whatever ending the noun takes, the adjective describing it takes the identical ending. Hyvä kunto (good condition, plain form) → {hyvässä|grammar|inessive, agreeing adjective|good} {kunnossa|grammar|inessive|condition} (Lesson 7's -ssa, on both words). Kallis korjaamo (expensive repair shop) → tästä {kalliista|grammar|elative, agreeing adjective|expensive} {korjaamosta|grammar|elative|repair shop} (Lesson 7's -sta, on both words)."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Auto tuli {hyvässä|grammar|inessive, agreeing adjective|good} {kunnossa|grammar|inessive|condition}.",
+          "en": "The car came in good condition."
+        },
+        {
+          "fi": "En osta osia {kalliista|grammar|elative, agreeing adjective|expensive} {korjaamosta|grammar|elative|repair shop}.",
+          "en": "I don't buy parts from an expensive repair shop."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 2 — Agreement with the accusative/partitive objects too"
+    },
+    {
+      "type": "text",
+      "content": "This same matching applies to the object cases from Lesson 26. Sain hyvää palvelua — hyvää (Lesson 1's hyvä, now in the partitive) matches palvelua exactly, ending for ending. Vaihdoin uuden osan — {uuden|grammar|accusative, agreeing adjective|new} matches {osan|grammar|accusative|the part}, both taking the -n shape."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Sain {hyvää|grammar|partitive, agreeing adjective|good} palvelua.",
+          "en": "I got good service."
+        },
+        {
+          "fi": "Vaihdoin {uuden|grammar|accusative, agreeing adjective|new} osan.",
+          "en": "I changed the new part."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 3 — Genitive and possessive agreement"
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "Even genitive phrases follow the rule",
+      "text": "Lesson 12's genitive works the same way: {ammattitaitoisen|grammar|genitive, agreeing adjective|skilled} korjaamon palvelu, 'the service of a skilled repair shop' — ammattitaitoinen matches korjaamon's genitive -n exactly. You now have enough case knowledge from Lessons 7-19 to build phrases like this yourself, one matching pair at a time."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Ammattitaitoisen|grammar|genitive, agreeing adjective|skilled} korjaamon palvelu oli erinomaista.",
+          "en": "The service of a skilled repair shop was excellent."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Missä kunnossa auto oli?",
+          "en": "What condition was the car in?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Auto tuli hyvässä kunnossa, ja sain hyvää palvelua koko käynnin ajan.",
+          "en": "The car came in good condition, and I got good service the whole visit."
+        },
+        {
+          "speaker": "A",
+          "fi": "Entä hinta kalliissa korjaamossa?",
+          "en": "And the price at the expensive repair shop?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Kallis, mutta ammattitaitoisen korjaamon palvelu on sen arvoista.",
+          "en": "Expensive, but a skilled repair shop's service is worth it."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Paul Noble Rule",
+      "text": "You don't need a new set of endings for this lesson — you need the habit of applying the endings you already know twice in a row. Find the noun's case, then simply stamp the identical ending onto its adjective. Once this becomes automatic, your Finnish sentences will suddenly sound far more fluent."
+    },
+    {
+      "type": "pronunciation",
+      "content": "Hyvässä kunnossa: HY-väs-sä KUN-nos-sa (both words end in the same -ssä/-ssa sound — let that rhyme guide your ear). Kalliista korjaamosta: KAL-liis-ta KOR-yaa-mos-ta (both end in -sta — again, listen for the matching rhyme)."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "hyvässä kunnossa",
+          "en": "in good condition (adjective + noun, both inessive)",
+          "type": "phrase"
+        },
+        {
+          "fi": "kalliista korjaamosta",
+          "en": "from an expensive repair shop (both elative)",
+          "type": "phrase"
+        },
+        {
+          "fi": "hyvää palvelua",
+          "en": "good service (both partitive)",
+          "type": "phrase"
+        },
+        {
+          "fi": "uuden osan",
+          "en": "the new part (both accusative)",
+          "type": "phrase"
+        },
+        {
+          "fi": "kunto",
+          "en": "condition",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "the core rule: adjectives always take the same case ending as the noun they describe",
+        "hyvässä kunnossa, kalliista korjaamosta — agreement working across the case triangles from Lessons 7 and 17",
+        "agreement across object cases too, from Lesson 26's partitive/accusative system",
+        "you can now build accurate, fluent-sounding noun phrases instead of leaving adjectives in their plain form",
+        "kunto — condition, a useful new word for describing a car's overall state"
+      ]
+    }
+  ]
+}

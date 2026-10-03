@@ -1,0 +1,175 @@
+{
+  "id": "l39",
+  "number": 39,
+  "title": "Korjauttaa vai korjata?",
+  "subtitle": "Having something fixed, versus fixing it yourself",
+  "tags": [
+    "basics",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "causative verbs",
+    "grammar"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "Huollattanut and korjauttanut sat side by side, unglossed, in Lesson 23's vocabulary — olen huollattanut, 'I have had [my car] serviced'. There's a whole verb-building pattern behind that extra -tta-, and it's exactly the distinction a car-repair corpus needs: did you do it, or did you have someone else do it for you?"
+    },
+    {
+      "type": "phrase",
+      "annotated": "{Korjauttaa|grammar|causative verb|to have (something) fixed} vai {korjata|grammar|infinitive|to fix (yourself)}?",
+      "translation": "To have it fixed by someone, or to fix it yourself?"
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "Why every review needs this distinction",
+      "text": "A whole review corpus about repair shops is, almost by definition, about causative actions — customers don't fix their own cars, they have shops fix them. This one small verb-building trick is quietly doing enormous work throughout the entire corpus."
+    },
+    {
+      "type": "heading",
+      "text": "Piece 1 — Building the causative: insert -tta-/-ttä-"
+    },
+    {
+      "type": "text",
+      "content": "To turn a plain verb into 'have [someone] do it', insert {-tta-|grammar|causative infix|have (someone) do} or -ttä- into the stem before the normal ending. Korjata (to fix, yourself) → {korjauttaa|grammar|causative verb|to have (something) fixed}. Huoltaa (to service/maintain) → {huollattaa|grammar|causative verb|to have (something) serviced}."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Vein auton {korjauttaa|grammar|causative verb|to have fixed}.",
+          "en": "I took the car to have it fixed."
+        },
+        {
+          "fi": "Olen {huollattanut|grammar|causative verb, past participle|had [my car] serviced} täällä viisi vuotta.",
+          "en": "I have had [my car] serviced here for five years."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 2 — Comparing the plain and causative side by side"
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "One small syllable, a whole different meaning",
+      "text": "Korjata means 'to fix' — the subject fixes it themselves. Korjauttaa means 'to have it fixed' — the subject arranges for someone else to do it. Compare korjasin auton (I fixed the car, myself) with korjautin auton (I had the car fixed, by a shop) — both perfectly grammatical, describing very different levels of hands-on involvement."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Korjasin|grammar|1st person past, plain verb|I fixed} auton itse.",
+          "en": "I fixed the car myself."
+        },
+        {
+          "fi": "{Korjautin|grammar|1st person past, causative verb|I had fixed} auton muualla.",
+          "en": "I had the car fixed elsewhere."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 3 — More causatives you'll meet in the corpus"
+    },
+    {
+      "type": "text",
+      "content": "This pattern extends beyond cars: uusia (to renew) → uusittaa; teettää, from tehdä, meaning 'to have [something] made/done'. Once you know to look for -tta-/-ttä- sitting inside a familiar verb, you can decode this whole family yourself."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Korjautin autoni muualla 105 eurolla.",
+          "en": "I had my car fixed elsewhere for 105 euros."
+        },
+        {
+          "fi": "En huollattaisi autoani enää täällä.",
+          "en": "I would no longer have my car serviced here."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Korjasitko auton itse, vai korjautitko sen jossain?",
+          "en": "Did you fix the car yourself, or did you have it fixed somewhere?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Korjautin sen muualla. Olen huollattanut autoani siellä viisi vuotta.",
+          "en": "I had it fixed elsewhere. I've had my car serviced there for five years."
+        },
+        {
+          "speaker": "A",
+          "fi": "Huollattaisitko sitä täällä jatkossa?",
+          "en": "Would you have it serviced here going forward?"
+        },
+        {
+          "speaker": "B",
+          "fi": "En huollattaisi.",
+          "en": "I would not."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Paul Noble Rule",
+      "text": "Whenever you meet a verb that looks slightly longer than one you already know — an extra -tta-/-ttä- sitting in the middle — check whether it means 'have someone else do X' instead of 'do X'. This single check unlocks huollattanut, korjauttaa, korjautin, and any new causative verb you'll meet from here on."
+    },
+    {
+      "type": "pronunciation",
+      "content": "Korjauttaa: KOR-yaut-taa (four syllables, the extra -tta- makes it noticeably longer than korjata). Huollattaa: HUOL-lat-taa (the 'uo' glides, double t held). Korjautin: KOR-yau-tin (three syllables, past tense 'I' ending -n at the very end)."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "korjata / korjauttaa",
+          "en": "to fix (yourself) / to have (it) fixed",
+          "type": "grammar"
+        },
+        {
+          "fi": "huoltaa / huollattaa",
+          "en": "to service (yourself) / to have (it) serviced",
+          "type": "grammar"
+        },
+        {
+          "fi": "korjautin",
+          "en": "I had (it) fixed (past of korjauttaa)",
+          "type": "grammar"
+        },
+        {
+          "fi": "huollattanut",
+          "en": "had (it) serviced (past participle of huollattaa)",
+          "type": "grammar"
+        },
+        {
+          "fi": "-tta- / -ttä-",
+          "en": "causative infix — 'have (someone) do'",
+          "type": "grammar"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "the causative infix -tta-/-ttä-: korjata → korjauttaa, huoltaa → huollattaa",
+        "the distinction between doing something yourself and having someone else do it",
+        "korjautin, huollattanut — causative verbs finally explained after appearing unglossed since Lesson 2",
+        "you understand why this pattern is central to an entire corpus about repair shops",
+        "you can spot new causative verbs by recognising the extra -tta-/-ttä- syllable"
+      ]
+    }
+  ]
+}

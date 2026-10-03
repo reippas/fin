@@ -1,0 +1,175 @@
+{
+  "id": "l41",
+  "number": 41,
+  "title": "Kuuntelin odottaessani",
+  "subtitle": "I listened while waiting",
+  "tags": [
+    "basics",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "infinitive",
+    "grammar"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "Odottaessa sat in the corpus's harshest review, unglossed: muutama vanhus oli siinä samalla, kuuntelin odottaessa. This is a second infinitive — a compact way to say 'while doing something' without needing a full kun-clause (Lesson 22). One word instead of a whole clause, just like Lesson 29's referative construction."
+    },
+    {
+      "type": "phrase",
+      "annotated": "Kuuntelin {odottaessani|grammar|second infinitive + possessive suffix|while I waited}.",
+      "translation": "I listened while waiting."
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "Eavesdropping, grammatically compressed",
+      "text": "In the original review, kuuntelin odottaessa lets the reviewer casually mention they were listening in on other customers' conversations while they themselves waited — all folded into a single compact verb form. It's a small, efficient aside, exactly the kind of detail that makes a complaint feel like an eyewitness account rather than hearsay."
+    },
+    {
+      "type": "heading",
+      "text": "Piece 1 — The shape: -essa/-essä"
+    },
+    {
+      "type": "text",
+      "content": "Take a verb stem and add {-essa|grammar|second infinitive suffix|while doing} or -essä to mean 'while/when doing [that action]'. Odottaa (to wait) → {odottaessa|grammar|second infinitive|while waiting}. This single word replaces an entire kun-clause: kun odotin becomes odottaessani — same meaning, more compact."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Kuuntelin {odottaessa|grammar|second infinitive|while waiting}.",
+          "en": "I listened while waiting."
+        },
+        {
+          "fi": "{Ajaessa|grammar|second infinitive|while driving} auto alkoi täristä.",
+          "en": "While driving, the car began to shake."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 2 — Adding the possessive suffix for 'while I...'"
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "Lesson 14's suffixes, once again",
+      "text": "To say specifically 'while I was waiting' rather than a general 'while waiting', attach Lesson 14's possessive suffix: odottaessa + -ni → {odottaessani|grammar|second infinitive + possessive suffix|while I was waiting}. Same suffix family as autoni, paikkansa, and tehneensä — always marking whose action or thing is being described."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Kuuntelin {odottaessani|grammar|second infinitive + possessive suffix, 1st person|while I was waiting}.",
+          "en": "I listened while I was waiting."
+        },
+        {
+          "fi": "He riitelivät {puhuessaan|grammar|second infinitive + possessive suffix, 3rd person|while they were talking}.",
+          "en": "They argued while they were talking."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 3 — A compact family, like Lesson 29's"
+    },
+    {
+      "type": "text",
+      "content": "You now have two ways to build 'while/when' sentences: the plain kun-clause (Lesson 22) and this compact second-infinitive shape. Formal written Finnish — again, the register of these reviews — often prefers the compact version, exactly as with Lesson 29's referative construction. Recognition matters more than fluent production here too."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Kun|grammar|conjunction|when} odotin, kuuntelin.",
+          "en": "When I waited, I listened."
+        },
+        {
+          "fi": "{Odottaessani|grammar|second infinitive + possessive suffix|while I was waiting} kuuntelin.",
+          "en": "While I was waiting, I listened."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Mitä kuulit odottaessasi?",
+          "en": "What did you hear while you were waiting?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Kuuntelin, ja kuulin korkeita hintoja perusteltavan muille asiakkaille.",
+          "en": "I listened, and I heard high prices being justified to other customers."
+        },
+        {
+          "speaker": "A",
+          "fi": "Ajaessasi kotiin, toimiko auto hyvin?",
+          "en": "While driving home, did the car work well?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Ei. Alkoi täristä jo matkalla.",
+          "en": "No. It started shaking already on the way."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Paul Noble Rule",
+      "text": "Same advice as Lesson 29: reach for the plain kun-clause when writing yourself, and simply recognise -essa/-essä plus a possessive suffix when you meet it in a review. You now have two matching compact constructions in your toolkit — one for reported actions (tehneensä), one for simultaneous timing (odottaessani)."
+    },
+    {
+      "type": "pronunciation",
+      "content": "Odottaessani: O-dot-ta-es-sa-ni (six syllables — long, but broken into odot-ta-essa-ni it settles). Ajaessa: A-ja-es-sa (four syllables, the 'j' is a 'y' sound). Puhuessaan: PU-hu-es-saan (long final 'aan')."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "odottaessa",
+          "en": "while waiting (general)",
+          "type": "grammar"
+        },
+        {
+          "fi": "odottaessani",
+          "en": "while I was waiting",
+          "type": "grammar"
+        },
+        {
+          "fi": "ajaessa",
+          "en": "while driving (general)",
+          "type": "grammar"
+        },
+        {
+          "fi": "puhuessaan",
+          "en": "while they/he/she was talking",
+          "type": "grammar"
+        },
+        {
+          "fi": "-essa / -essä",
+          "en": "second infinitive suffix — while/when doing",
+          "type": "grammar"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "the second infinitive -essa/-essä, finally explaining the corpus's odottaessa",
+        "combining it with Lesson 14's possessive suffix: odottaessani, puhuessaan",
+        "the compact alternative to Lesson 22's kun-clause for simultaneous actions",
+        "you can now read this construction confidently, alongside Lesson 29's referative construction as a matched pair of compact styles",
+        "you understand why formal Finnish reviews favour these compact one-word structures"
+      ]
+    }
+  ]
+}

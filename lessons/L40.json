@@ -1,0 +1,179 @@
+{
+  "id": "l40",
+  "number": 40,
+  "title": "Nopeasti ja ammattitaitoisesti",
+  "subtitle": "Quickly and professionally",
+  "tags": [
+    "basics",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "adverbs",
+    "grammar"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "Nopeasti has appeared in nearly every lesson since Lesson 1, always translated but never explained. It's an adjective wearing an adverb ending. This lesson gives you that ending, plus the one common adjective that stubbornly refuses to follow the rule."
+    },
+    {
+      "type": "phrase",
+      "annotated": "Hoidettu {nopeasti|grammar|adverb|quickly} ja {ammattitaitoisesti|grammar|adverb|professionally}.",
+      "translation": "Handled quickly and professionally."
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "Adverbs as the reviewer's final polish",
+      "text": "Where adjectives judge a noun (hyvä palvelu, good service), adverbs judge how an action happened (hoidettu nopeasti, handled quickly). Reviews often end their strongest lines by stacking two or three adverbs together — nopeasti, ammattitaitoisesti, ystävällisesti — as a kind of final polish on the verdict."
+    },
+    {
+      "type": "heading",
+      "text": "Piece 1 — Building the adverb: -sti"
+    },
+    {
+      "type": "text",
+      "content": "Take an adjective in its plain form and add {-sti|grammar|adverb suffix|-ly} to build the matching adverb. Nopea (quick) → {nopeasti|grammar|adverb|quickly}. Ammattitaitoinen (professional, Lesson 1) → {ammattitaitoisesti|grammar|adverb|professionally} — note the stem shifts slightly (-nen becomes -se-) before -sti attaches, a small sound-shift you'll get used to seeing."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Homma hoidettiin {nopeasti|grammar|adverb|quickly}.",
+          "en": "The matter was handled quickly."
+        },
+        {
+          "fi": "Kaikki hoidettiin {ammattitaitoisesti|grammar|adverb|professionally}.",
+          "en": "Everything was handled professionally."
+        },
+        {
+          "fi": "Minua kohdeltiin {ystävällisesti|grammar|adverb|kindly/in a friendly way}.",
+          "en": "I was treated kindly."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 2 — Hyvä breaks the rule: hyvin, not hyvästi"
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "One irregular adverb worth memorising",
+      "text": "Hyvä (good) is irregular here too, just as it was for the superlative back in Lesson 9 (paras, not 'hyvin'). Its adverb is {hyvin|grammar|adverb, irregular|well} — not hyvästi. Homma hoidettiin hyvin, 'the matter was handled well', is one of the most common closing lines in this entire corpus."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Homma hoidettiin {hyvin|grammar|adverb, irregular|well}.",
+          "en": "The matter was handled well."
+        },
+        {
+          "fi": "Hyvin {hoidettu|grammar|passive participle|handled} korjaus.",
+          "en": "A well-handled repair."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 3 — Stacking adverbs for a strong finish"
+    },
+    {
+      "type": "text",
+      "content": "You've now met enough adjectives (Lessons 1, 2, 9, 31) to build a whole family of adverbs yourself: ystävällinen → ystävällisesti, asiantunteva → asiantuntevasti, joustava → joustavasti. Reviewers often chain two or three together for emphasis, exactly the way English piles on 'quickly, professionally, and courteously'."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Homma hoidettiin {sutjakkaasti|grammar|adverb|smoothly} ilman komplikaatioita.",
+          "en": "The matter was handled smoothly, without complications."
+        },
+        {
+          "fi": "Kaikki sujui {joustavasti|grammar|adverb|flexibly} ja {nopeasti|grammar|adverb|quickly}.",
+          "en": "Everything went flexibly and quickly."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Miten homma hoidettiin?",
+          "en": "How was the matter handled?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Nopeasti ja ammattitaitoisesti. Kaikki sujui hyvin.",
+          "en": "Quickly and professionally. Everything went well."
+        },
+        {
+          "speaker": "A",
+          "fi": "Kohdeltiinko sinua ystävällisesti?",
+          "en": "Were you treated kindly?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Kyllä, todella ystävällisesti koko käynnin ajan.",
+          "en": "Yes, really kindly the whole visit."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Paul Noble Rule",
+      "text": "Every adjective you already own from earlier lessons can become an adverb by adding -sti, with exactly one exception to remember by heart: hyvä → hyvin, not hyvästi. Once that single irregular is locked in, the rest of this lesson is just recombination of vocabulary you already had."
+    },
+    {
+      "type": "pronunciation",
+      "content": "Nopeasti: NO-pe-as-ti (four syllables, stress on NO). Ammattitaitoisesti: a long word — break it into am-mat-ti-tai-toi-ses-ti and take it slowly, stress stays on the very first syllable regardless of length. Hyvin: HY-vin (short, two syllables, very common — worth knowing cold)."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "nopeasti",
+          "en": "quickly (nopea + -sti)",
+          "type": "grammar"
+        },
+        {
+          "fi": "ammattitaitoisesti",
+          "en": "professionally (ammattitaitoinen + -sti)",
+          "type": "grammar"
+        },
+        {
+          "fi": "ystävällisesti",
+          "en": "kindly/in a friendly way (ystävällinen + -sti)",
+          "type": "grammar"
+        },
+        {
+          "fi": "hyvin",
+          "en": "well (irregular adverb of hyvä)",
+          "type": "grammar"
+        },
+        {
+          "fi": "-sti",
+          "en": "adverb suffix — -ly",
+          "type": "grammar"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "the -sti adverb suffix, finally explaining nopeasti since Lesson 1",
+        "hyvin — the one irregular adverb, hyvä's cousin from Lesson 9's paras",
+        "you can now build adverbs yourself from any adjective you've already learned",
+        "you can read and construct the strong multi-adverb endings reviewers use to close out a positive review",
+        "you understand the adjective/adverb split: judging the noun versus judging the action"
+      ]
+    }
+  ]
+}

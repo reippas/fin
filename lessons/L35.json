@@ -1,0 +1,162 @@
+{
+  "id": "l35",
+  "number": 35,
+  "title": "Myönsivät tehneensä virheen",
+  "subtitle": "They admitted having made a mistake",
+  "tags": [
+    "basics",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "reported speech",
+    "grammar"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "Back in Lesson 16, virheistä, jotka myönsivät tehneensä sat only half-explained — you got jotka, but tehneensä was left alone. It's time to open it up. This is Finnish's compact alternative to että-clauses (Lesson 22): reporting what someone did or said, packed into one single word instead of two clauses."
+    },
+    {
+      "type": "phrase",
+      "annotated": "Myönsivät {tehneensä|grammar|referative construction|having done} virheen.",
+      "translation": "They admitted having made a mistake."
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "One word instead of a whole clause",
+      "text": "Compare the two ways to say this: myönsivät, että he olivat tehneet virheen (with että, using the pluperfect from Lesson 24) versus myönsivät tehneensä virheen (compact, one word). Formal written Finnish — exactly the register of these reviews — often prefers the compact version. It reads as more polished, and it's everywhere once you know to look for it."
+    },
+    {
+      "type": "heading",
+      "text": "Piece 1 — The shape: -neen + possessive suffix"
+    },
+    {
+      "type": "text",
+      "content": "Take the past participle you already know (Lesson 3's -nut/-nyt), shift it to {-neen|grammar|referative suffix|having done (base form)}, then attach a possessive suffix (Lesson 14) matching whoever did the action. Tehdä → tehnyt → tehneen-, then + -sa/-nsä for 'they/he/she' → {tehneensä|grammar|referative construction|having done}."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Myönsivät {tehneensä|grammar|referative construction, 3rd person|having done} virheen.",
+          "en": "They admitted having made a mistake."
+        },
+        {
+          "fi": "Hän kertoi {korjanneensa|grammar|referative construction, 3rd person|having fixed} auton itse.",
+          "en": "She said she had fixed the car herself."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 2 — Matching the possessive suffix to the subject"
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "Same suffix family as Lesson 14",
+      "text": "The ending after -neen isn't new — it's exactly Lesson 14's possessive suffix set, just doing a slightly different job. Tehneeni would be 'having done [by] me', tehneensä is 'having done [by] him/her/them'. Whoever is doing the admitting or reporting decides which suffix lands on the end."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Muistan {maksaneeni|grammar|referative construction, 1st person|having paid} liikaa.",
+          "en": "I remember having paid too much."
+        },
+        {
+          "fi": "He kertoivat {korjanneensa|grammar|referative construction, 3rd person|having fixed} kaiken.",
+          "en": "They said they had fixed everything."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 3 — Reading it, not necessarily producing it fluently"
+    },
+    {
+      "type": "text",
+      "content": "This is a genuinely advanced structure — even the Paul Noble method doesn't expect you to produce it fluently on day one. The realistic goal here is recognition: when you meet a word ending in -neensa/-neeni/-neemme, you now know to look for the participle hiding at its start and the reported action it's carrying, rather than treating it as an unknown vocabulary item."
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Myönsivätkö he virheensä?",
+          "en": "Did they admit their mistake?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Myönsivät tehneensä virheen, mutta eivät kantaneet vastuuta siitä.",
+          "en": "They admitted having made the mistake, but didn't take responsibility for it."
+        },
+        {
+          "speaker": "A",
+          "fi": "Kertoivatko korjanneensa sen ilmaiseksi?",
+          "en": "Did they say they had fixed it for free?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Kertoivat, mutta lasku tuli silti.",
+          "en": "They said so, but a bill came anyway."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Paul Noble Rule",
+      "text": "You now have two ways to build the same idea, formal one-word (tehneensä) and plain two-clause (että olivat tehneet). Reading both is what matters most right now — reach for the että version when you're writing yourself, and simply recognise the compact version wherever it shows up in a review."
+    },
+    {
+      "type": "pronunciation",
+      "content": "Tehneensä: TEH-neen-sä (three syllables, long held 'ee' in the middle). Korjanneensa: KOR-yan-neen-sa (four syllables — break it into kor-yan, neen, sa). Maksaneeni: MAK-sa-nee-ni (four even syllables, stress firmly on MAK)."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "tehneensä",
+          "en": "having done (by him/her/them)",
+          "type": "grammar"
+        },
+        {
+          "fi": "korjanneensa",
+          "en": "having fixed (by him/her/them)",
+          "type": "grammar"
+        },
+        {
+          "fi": "maksaneeni",
+          "en": "having paid (by me)",
+          "type": "grammar"
+        },
+        {
+          "fi": "myönsi / myönsivät",
+          "en": "admitted (past of myöntää)",
+          "type": "word"
+        },
+        {
+          "fi": "-neen + possessive suffix",
+          "en": "referative construction — 'having [done], according to [subject]'",
+          "type": "grammar"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "the -neen + possessive suffix shape, finally explaining Lesson 16's tehneensä",
+        "myönsivät tehneensä — admitted having done, a very common report structure in complaints",
+        "you can recognise this compact reported-speech shape and trace it back to the participle inside it",
+        "you understand it as a stylistic alternative to että-clauses (Lesson 22), not a wholly separate grammar",
+        "myönsi — admitted, a useful verb for reading disputed-responsibility reviews"
+      ]
+    }
+  ]
+}

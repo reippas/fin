@@ -1,0 +1,161 @@
+{
+  "id": "l43",
+  "number": 43,
+  "title": "Vaikka aikoivat itse olla yhteydessä",
+  "subtitle": "Even though they intended to be in touch themselves",
+  "tags": [
+    "basics",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "conjunctions",
+    "grammar"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "You have kun, koska, jos from Lesson 22 — timing, cause, condition. There's one more connector family reviewers reach for constantly: contrast. Vaikka ('although/even if') and its cousins kuitenkin and silti ('however/still') let a reviewer admit something positive right before undercutting it."
+    },
+    {
+      "type": "phrase",
+      "annotated": "{Vaikka|grammar|conjunction|although/even if} aikoivat itse olla yhteydessä.",
+      "translation": "Even though they intended to be in touch themselves."
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "Fairness through contrast",
+      "text": "A review that says only good things or only bad things can feel one-sided. Vaikka, kuitenkin, and silti are the words that let a reviewer sound balanced and credible — 'the price was fine, but the wait was long' — even inside an otherwise harsh complaint. Watch for these words whenever a review pivots mid-sentence."
+    },
+    {
+      "type": "heading",
+      "text": "Piece 1 — Vaikka: although/even if"
+    },
+    {
+      "type": "text",
+      "content": "{Vaikka|grammar|conjunction|although/even if} introduces a fact that doesn't stop the main point from being true. Vaikka aikoivat itse olla yhteydessä, piti itse olla yhteydessä — 'even though they intended to be in touch themselves, [I] had to be in touch myself [instead]'. It works exactly like English 'although' or 'even if', sitting at the front of its clause."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Vaikka|grammar|conjunction|even though} hinta oli korkea, palvelu oli hyvää.",
+          "en": "Even though the price was high, the service was good."
+        },
+        {
+          "fi": "Piti itse olla yhteydessä, {vaikka|grammar|conjunction|even though} aikoivat itse olla.",
+          "en": "I had to be in touch myself, even though they intended to be in touch themselves."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 2 — Kuitenkin and silti: however/still"
+    },
+    {
+      "type": "text",
+      "content": "Unlike vaikka, {kuitenkin|grammar|contrast adverb|however/nevertheless} and {silti|grammar|contrast adverb|still/nonetheless} don't need to sit at the front — they slot into the middle of a sentence and pivot it, exactly like English 'however' or 'still'. Muistivat kuitenkin laskuttaa täysmääräisesti — 'they nevertheless remembered to bill in full' — landing right after a run of apologetic-sounding sentences."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Pahoittelivat tilannetta, mutta muistivat {kuitenkin|grammar|contrast adverb|nevertheless} laskuttaa täysmääräisesti.",
+          "en": "They apologised for the situation, but nevertheless remembered to bill in full."
+        },
+        {
+          "fi": "Hinta oli korkea. Suosittelen {silti|grammar|contrast adverb|still}.",
+          "en": "The price was high. I still recommend it."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 3 — Stacking vaikka with what you already know"
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "Vaikka combines naturally with earlier lessons",
+      "text": "Vaikka often introduces a clause built from grammar you already own — a conditional (Lesson 5), a perfect (Lesson 23), or simply oli. Älä usko, vaikka he väittävät vastaan — 'don't believe it, even if they claim otherwise' — reuses Lesson 15's älä imperative right alongside vaikka."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Älä usko, {vaikka|grammar|conjunction|even if} he väittävät vastaan.",
+          "en": "Don't believe it, even if they claim otherwise."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Olivatko he yhteydessä sinuun?",
+          "en": "Were they in touch with you?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Eivät, vaikka aikoivat itse olla yhteydessä. Jouduin soittamaan itse.",
+          "en": "No, even though they intended to be in touch themselves. I had to call myself."
+        },
+        {
+          "speaker": "A",
+          "fi": "Suosittelisitko silti?",
+          "en": "Would you still recommend it?"
+        },
+        {
+          "speaker": "B",
+          "fi": "En. Muistivat kuitenkin laskuttaa täysmääräisesti.",
+          "en": "No. They nevertheless remembered to bill in full."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Paul Noble Rule",
+      "text": "Vaikka opens a clause the same way kun/koska/jos do (Lesson 22) — front position, then the rest follows. Kuitenkin and silti are more flexible, sliding into a sentence wherever the pivot needs to land. Spot any of these three, and you know a contrast is coming, even before you've read what it is."
+    },
+    {
+      "type": "pronunciation",
+      "content": "Vaikka: VAIK-ka (the 'vai' rhymes with English 'my', double k held). Kuitenkin: KUI-ten-kin (three syllables, the 'ui' glides). Silti: SIL-ti (short, crisp, two syllables)."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "vaikka",
+          "en": "although/even if/even though",
+          "type": "grammar"
+        },
+        {
+          "fi": "kuitenkin",
+          "en": "however/nevertheless",
+          "type": "grammar"
+        },
+        {
+          "fi": "silti",
+          "en": "still/nonetheless",
+          "type": "grammar"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "vaikka — although/even if, opening a contrast clause just like kun/koska/jos",
+        "kuitenkin and silti — however/still, pivoting mid-sentence rather than opening a clause",
+        "you can now read the fairness-signaling pivots reviewers use throughout the corpus",
+        "you can combine vaikka with earlier grammar — the imperative, the conditional, the perfect",
+        "your connector toolkit is now complete: kun, koska, jos (Lesson 22) plus vaikka, kuitenkin, silti (this lesson)"
+      ]
+    }
+  ]
+}

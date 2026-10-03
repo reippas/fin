@@ -1,0 +1,175 @@
+{
+  "id": "l42",
+  "number": 42,
+  "title": "Kaikki tekemänsä virheet",
+  "subtitle": "All the mistakes they made",
+  "tags": [
+    "basics",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "quantifiers",
+    "grammar"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "Kaikki, muutama, moni — these small quantifier words have drifted past unglossed since Lesson 6. They're what let a reviewer say 'everything', 'a few', 'many' without listing items one by one. This lesson rounds up the whole family."
+    },
+    {
+      "type": "phrase",
+      "annotated": "{Kaikki|grammar|quantifier|all/everything} {tekemänsä|grammar|possessive suffix|their own} virheet.",
+      "translation": "All the mistakes they made."
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "Quantifiers as blame-spreading",
+      "text": "When a reviewer reaches for kaikki (all/everything) instead of naming one specific fault, the complaint widens — it stops being about a single mistake and becomes about a pattern. Kaikki tekemänsä virheet lands very differently from yksi virhe, and reviewers choose their quantifier deliberately."
+    },
+    {
+      "type": "heading",
+      "text": "Piece 1 — Kaikki: all/everyone/everything"
+    },
+    {
+      "type": "text",
+      "content": "{Kaikki|grammar|quantifier|all/everyone/everything} covers 'all' in every sense — people, things, or a whole amount. It stays the same word whether it means 'everyone' or 'everything'; context decides which. Kaikki toimi hyvin — 'everything worked well'. Kaikki asiakkaat — 'all the customers'."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Kaikki|grammar|quantifier|everything} toimi hyvin huollon jälkeen.",
+          "en": "Everything worked well after the service."
+        },
+        {
+          "fi": "{Kaikki|grammar|quantifier|all} asiakkaat saivat saman kohtelun.",
+          "en": "All the customers got the same treatment."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 2 — Moni, muutama, joku: many, a few, someone"
+    },
+    {
+      "type": "text",
+      "content": "{Moni|grammar|quantifier|many} means 'many'. {Muutama|grammar|quantifier|a few/a couple} means 'a few/a couple'. {Joku|grammar|quantifier|someone/some} means 'someone/some'. All three commonly pair with a partitive noun, following the same logic as Lesson 19's numbers — an unspecified amount reaches for the partitive."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Moni|grammar|quantifier|many} asiakas on kertonut samasta ongelmasta.",
+          "en": "Many a customer has told of the same problem."
+        },
+        {
+          "fi": "{Muutama|grammar|quantifier|a few} vanhus oli siinä samalla.",
+          "en": "A few elderly people were there at the same time."
+        },
+        {
+          "fi": "{Joku|grammar|quantifier|someone} osa vaihdettiin ilman lupaa.",
+          "en": "Some part was changed without permission."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 3 — Jokainen: each/every"
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "The one-by-one quantifier",
+      "text": "{Jokainen|grammar|quantifier|each/every} singles things out one at a time, unlike kaikki's sweeping 'all'. Jokainen asiakas maksoi eri hinnan — 'each customer paid a different price' — emphasises the individual cases rather than the group as a whole."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Jokainen|grammar|quantifier|each} korjaus laskutettiin erikseen.",
+          "en": "Each repair was billed separately."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Myönsivätkö he kaikki tekemänsä virheet?",
+          "en": "Did they admit all the mistakes they made?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Eivät kaikkia. Muutama virhe myönnettiin, mutta moni jäi kiistanalaiseksi.",
+          "en": "Not all of them. A few mistakes were admitted, but many remained disputed."
+        },
+        {
+          "speaker": "A",
+          "fi": "Onko joku muu asiakas kertonut samasta?",
+          "en": "Has some other customer told of the same thing?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Kyllä, jokainen arvostelu kertoo samaa tarinaa.",
+          "en": "Yes, every review tells the same story."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Paul Noble Rule",
+      "text": "Think of these five words on a spectrum from sweeping to specific: kaikki (all, sweeping) → moni (many) → muutama (a few) → joku (someone/some, vague) → jokainen (each, one at a time). Picking the right one on that spectrum is often the difference between a fair review and an unfair generalisation — and now you can read which one a reviewer chose."
+    },
+    {
+      "type": "pronunciation",
+      "content": "Kaikki: KAIK-ki (short, double k held). Muutama: MUU-ta-ma (long held 'uu', three syllables). Jokainen: YO-kai-nen (the 'j' is a 'y' sound, three even syllables)."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "kaikki",
+          "en": "all/everyone/everything",
+          "type": "word"
+        },
+        {
+          "fi": "moni",
+          "en": "many",
+          "type": "word"
+        },
+        {
+          "fi": "muutama",
+          "en": "a few/a couple",
+          "type": "word"
+        },
+        {
+          "fi": "joku",
+          "en": "someone/some",
+          "type": "word"
+        },
+        {
+          "fi": "jokainen",
+          "en": "each/every",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "kaikki, moni, muutama, joku, jokainen — the core quantifier family",
+        "how these words commonly pair with a partitive noun, following Lesson 19's number logic",
+        "the spectrum from sweeping (kaikki) to individual (jokainen), and why the choice matters rhetorically",
+        "you can now read and build quantified statements instead of only single, specific ones",
+        "you can look back at Lesson 6 and other earlier lessons and recognise these words you'd only half-noticed"
+      ]
+    }
+  ]
+}

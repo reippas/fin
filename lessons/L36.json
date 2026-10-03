@@ -1,0 +1,139 @@
+{
+  "id": "l36",
+  "number": 36,
+  "title": "Auto hinattiin kolme kertaa parin viikon sisään",
+  "subtitle": "Review lesson — the towing saga, three-quarters checkpoint",
+  "tags": [
+    "review",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "reading",
+    "consolidation"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "Thirty lessons in. Lessons 26-29 gave you the object case system, questions, adjective agreement, and reported speech — dense, structural material. Time to let it settle into one long, real complaint: the towing saga first glimpsed back in Lesson 14."
+    },
+    {
+      "type": "heading",
+      "text": "Quick recap — Lessons 26 to 29"
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Sain {ajan|grammar|accusative object|an appointment}, sain hyvää {palvelua|grammar|partitive object|service}.",
+          "en": "(Lesson 26 — object case system)"
+        },
+        {
+          "fi": "{Toimiko|grammar|question particle|did it work} auto?",
+          "en": "(Lesson 27 — -ko/-kö questions)"
+        },
+        {
+          "fi": "Auto tuli {hyvässä|grammar|agreeing adjective|good} {kunnossa|grammar|noun|condition}.",
+          "en": "(Lesson 28 — adjective-noun agreement)"
+        },
+        {
+          "fi": "Myönsivät {tehneensä|grammar|referative construction|having done} virheen.",
+          "en": "(Lesson 29 — referative construction)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Now — the towing saga, fully annotated"
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Read it once unaided first",
+      "text": "This review escalates across several sentences — towing, a false repair claim, a breakdown, and a refusal to take responsibility. It's one of the angriest, most detailed complaints in the corpus. Try it cold before checking the breakdown."
+    },
+    {
+      "type": "text",
+      "content": "Autoni {hinattiin|grammar|passive past|was towed} kolme {kertaa|grammar|partitive after number|times} parin viikon sisään tänne, lupasivat tutkia huolella ja palauttivat auton {korjattuna|grammar|essive|as fixed} kolmesti."
+    },
+    {
+      "type": "text",
+      "content": "Auto hajosi jo kotimatkalla, mutta eivät palauttaneet rahoja tai kantaneet vastuuta virheistä, {jotka|grammar|relative pronoun, plural|that} {myönsivät|word|verb|admitted} {tehneensä|grammar|referative construction|having done}."
+    },
+    {
+      "type": "text",
+      "content": "{Kun|grammar|conjunction|when} auto vietiin puolueettomalle korjaamolle, paljastui, {että|grammar|conjunction|that} auton moottori {oli|grammar|pluperfect|had been} pysyvästi vaurioitunut väärän diagnoosin vuoksi, ja olin maksanut tälle firmalle yli 1000 euroa turhaan."
+    },
+    {
+      "type": "note",
+      "color": "word",
+      "title": "A handful of bonus words in this text",
+      "text": "Sisään here means 'within' (parin viikon sisään, 'within a couple of weeks'), not the illative 'into' from Lesson 7 — same word, different job depending on context. Kolmesti means 'three times', a slightly more formal cousin of kolme kertaa (Lesson 19). Puolueeton means 'impartial/independent' — puolue (side/party) + -ton (a 'without' suffix you'll formally meet later, but can already guess: 'without a side' = neutral)."
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Montako kertaa auto hinattiin?",
+          "en": "How many times was the car towed?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Kolme kertaa parin viikon sisään. Palauttivat sen aina korjattuna, mutta se hajosi joka kerta.",
+          "en": "Three times within a couple of weeks. They always returned it as fixed, but it broke down every time."
+        },
+        {
+          "speaker": "A",
+          "fi": "Mitä paljastui puolueettomalla korjaamolla?",
+          "en": "What was revealed at the independent repair shop?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Että moottori oli pysyvästi vaurioitunut, ja olin maksanut yli 1000 euroa täysin turhaan.",
+          "en": "That the engine had been permanently damaged, and I had paid over 1000 euros for absolutely nothing."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "sisään",
+          "en": "within (of time) / into (of place)",
+          "type": "word"
+        },
+        {
+          "fi": "kolmesti",
+          "en": "three times (formal cousin of kolme kertaa)",
+          "type": "word"
+        },
+        {
+          "fi": "puolueeton",
+          "en": "impartial/independent (puolue + -ton)",
+          "type": "word"
+        },
+        {
+          "fi": "hajosi",
+          "en": "broke down (past of hajota)",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own after thirty lessons",
+      "items": [
+        "you can read the full towing saga — one of the corpus's longest, angriest complaints — start to finish",
+        "you can trace the referative construction (tehneensä) back to its source, three lessons after first meeting it",
+        "you can spot the pluperfect (oli vaurioitunut) doing the reveal work you named in Lesson 24",
+        "you're ready for the final stretch of lessons, covering remaining verb forms and the finer points of style"
+      ]
+    }
+  ]
+}

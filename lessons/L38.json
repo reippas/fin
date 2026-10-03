@@ -1,0 +1,175 @@
+{
+  "id": "l38",
+  "number": 38,
+  "title": "Vaihdettu osa ja korjattu auto",
+  "subtitle": "A changed part and a fixed car",
+  "tags": [
+    "basics",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "participles",
+    "grammar"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "Lesson 3 gave you the active participle: ei toiminut, 'didn't work' — describing what a subject itself did or didn't do. There's a second participle, the passive one, that instead describes something that was done TO a noun — and it slots in front of that noun just like an ordinary adjective."
+    },
+    {
+      "type": "phrase",
+      "annotated": "{Vaihdettu|grammar|passive participle|changed} osa ja {korjattu|grammar|passive participle|fixed} auto.",
+      "translation": "A changed part and a fixed car."
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "The passive participle as everyday adjective",
+      "text": "English does this too — 'a fixed car', 'a changed part' — participles routinely double as adjectives. Finnish leans on this constantly in reviews, since it's a compact way to describe a part or car's history in a single word, right before naming it."
+    },
+    {
+      "type": "heading",
+      "text": "Piece 1 — Building the passive participle: -ttu/-tty"
+    },
+    {
+      "type": "text",
+      "content": "Where the active participle from Lesson 3 ends in -nut/-nyt (toiminut, 'having worked' — done by the subject), the passive participle ends in {-ttu|grammar|passive participle suffix|done to (past)} or -tty — describing something done to the noun. Vaihtaa (to change) → {vaihdettu|grammar|passive participle|changed}. Korjata (to fix) → {korjattu|grammar|passive participle|fixed}."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Vaihdettu|grammar|passive participle|changed} osa toimi hyvin.",
+          "en": "The changed part worked well."
+        },
+        {
+          "fi": "{Korjattu|grammar|passive participle|fixed} auto hajosi kotimatkalla.",
+          "en": "The fixed car broke down on the way home."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 2 — This ending should look familiar"
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "You've already met this shape",
+      "text": "Compare -ttu/-tty to Lesson 4's passive past -ttiin/-tiin: vaihdettiin (was changed, an event) versus vaihdettu (changed, a description). Same underlying passive family — one form reports an action happening, the other freezes that action into a descriptive word you can plant in front of a noun."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Osa {vaihdettiin|grammar|passive past, event|was changed} eilen.",
+          "en": "The part was changed yesterday."
+        },
+        {
+          "fi": "Eilen {vaihdettu|grammar|passive participle, description|changed} osa on jo rikki.",
+          "en": "The part changed yesterday is already broken."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 3 — Case agreement still applies"
+    },
+    {
+      "type": "text",
+      "content": "Since the passive participle behaves like an ordinary adjective, it follows Lesson 28's agreement rule too — it takes whatever case its noun takes. En luota {vaihdettuun|grammar|illative, agreeing participle|changed} osaan — 'I don't trust the changed part' — both words bending into the illative together."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "En luota {vaihdettuun|grammar|illative, agreeing participle|changed} osaan.",
+          "en": "I don't trust the changed part."
+        },
+        {
+          "fi": "Puhuin {korjatusta|grammar|elative, agreeing participle|fixed} autosta.",
+          "en": "I talked about the fixed car."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Toimiko vaihdettu osa hyvin?",
+          "en": "Did the changed part work well?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Ei. Korjattu auto hajosi jo kotimatkalla.",
+          "en": "No. The fixed car broke down already on the way home."
+        },
+        {
+          "speaker": "A",
+          "fi": "Luotatko vaihdettuun osaan enää?",
+          "en": "Do you still trust the changed part?"
+        },
+        {
+          "speaker": "B",
+          "fi": "En luota siihen ollenkaan.",
+          "en": "I don't trust it at all."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Paul Noble Rule",
+      "text": "Active participle (-nut/-nyt, Lesson 3) answers 'what did the subject do or not do?'. Passive participle (-ttu/-tty, this lesson) answers 'what was done to this noun?'. Ask yourself which question a participle is answering, and you'll always know which one you're looking at."
+    },
+    {
+      "type": "pronunciation",
+      "content": "Vaihdettu: VAIH-det-tu (three syllables, the 'vaih' rhymes with English 'my'). Korjattu: KOR-yat-tu (double t held). Vaihdettuun: VAIH-det-tuun (long final 'uun' — the illative ending stretching the word)."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "vaihdettu",
+          "en": "changed (passive participle of vaihtaa)",
+          "type": "grammar"
+        },
+        {
+          "fi": "korjattu",
+          "en": "fixed (passive participle of korjata)",
+          "type": "grammar"
+        },
+        {
+          "fi": "vaihdettuun",
+          "en": "to the changed [thing] (illative, agreeing)",
+          "type": "grammar"
+        },
+        {
+          "fi": "korjatusta",
+          "en": "about the fixed [thing] (elative, agreeing)",
+          "type": "grammar"
+        },
+        {
+          "fi": "-ttu / -tty",
+          "en": "passive participle suffix — 'done to' as an adjective",
+          "type": "grammar"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "the passive participle -ttu/-tty: vaihdettu, korjattu, describing what was done to a noun",
+        "how it differs from Lesson 3's active participle (-nut/-nyt, what the subject did)",
+        "how it relates to Lesson 4's passive past -ttiin/-tiin — same family, different job",
+        "the passive participle follows Lesson 28's case agreement rule just like any adjective",
+        "you can now read and build phrases like vaihdettu osa, korjattu auto, and their case-bent forms"
+      ]
+    }
+  ]
+}

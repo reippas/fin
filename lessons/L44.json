@@ -1,0 +1,174 @@
+{
+  "id": "l44",
+  "number": 44,
+  "title": "Kaikki tekemänsä virheet",
+  "subtitle": "All the mistakes they made — unpacking tekemänsä",
+  "tags": [
+    "basics",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "participles",
+    "grammar"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "Tekemänsä rode past in Lesson 36 tagged only as 'possessive suffix' — time to open the whole word. This is the agent participle: a third participle family, alongside Lesson 3's active (-nut/-nyt) and Lesson 32's passive (-ttu/-tty), used to say '[the thing] that [someone] made/did', packed into one word instead of a joka-clause."
+    },
+    {
+      "type": "phrase",
+      "annotated": "Kaikki {tekemänsä|grammar|agent participle + possessive suffix|that they made} virheet.",
+      "translation": "All the mistakes that they made."
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "A third way to build the same idea",
+      "text": "You can now say this same idea three different ways: virheet, jotka he tekivät (Lesson 16's relative clause), virheet, jotka myönsivät tehneensä (Lesson 29's referative construction, for reported admissions), or tekemänsä virheet (this lesson, compact and attributive). Formal Finnish reviews reach for whichever is most economical in the moment — and now you can follow all three."
+    },
+    {
+      "type": "heading",
+      "text": "Piece 1 — The shape: -ma/-mä + possessive suffix"
+    },
+    {
+      "type": "text",
+      "content": "Take a verb stem, add {-ma|grammar|agent participle suffix|made/done by (base form)} or -mä, then attach Lesson 14's possessive suffix to show who did it. Tehdä (to do/make) → tekemä-, then + -nsä ('their own') → {tekemänsä|grammar|agent participle + possessive suffix|that they made}. The whole word sits in front of its noun, just like Lesson 32's passive participle did."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Kaikki {tekemänsä|grammar|agent participle + possessive suffix, 3rd person|that they made} virheet.",
+          "en": "All the mistakes that they made."
+        },
+        {
+          "fi": "En luota {ostamaani|grammar|agent participle + possessive suffix, 1st person|that I bought} osaan.",
+          "en": "I don't trust the part that I bought."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 2 — Comparing to the joka-clause"
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "Same meaning, two structures",
+      "text": "Virheet, jotka he tekivät (Lesson 16) and tekemänsä virheet (this lesson) mean exactly the same thing: 'the mistakes they made'. The joka-clause spells it out across two clauses; the agent participle compresses it into one word sitting right in front of the noun, the way English can sometimes do with '-made' compounds like 'homemade' or 'self-inflicted'."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Virheet, {jotka|grammar|relative pronoun|that} he tekivät.",
+          "en": "The mistakes that they made. (Lesson 16 style)"
+        },
+        {
+          "fi": "{Tekemänsä|grammar|agent participle + possessive suffix|that they made} virheet.",
+          "en": "The mistakes that they made. (this lesson's style)"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 3 — A quick tour of the three participle families"
+    },
+    {
+      "type": "text",
+      "content": "You now own all three Finnish participle families side by side: active -nut/-nyt (Lesson 3 — what the subject did or didn't do), passive -ttu/-tty (Lesson 32 — what was done to the noun), and agent -ma/-mä + possessive (this lesson — what a specific someone did to the noun, folded into one word)."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Auto ei {toiminut|grammar|active participle|worked}.",
+          "en": "The car didn't work. (active, Lesson 3)"
+        },
+        {
+          "fi": "{Vaihdettu|grammar|passive participle|changed} osa.",
+          "en": "The changed part. (passive, Lesson 32)"
+        },
+        {
+          "fi": "{Vaihtamansa|grammar|agent participle + possessive suffix|that they changed} osa.",
+          "en": "The part that they changed. (agent, this lesson)"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Myönsivätkö kaikki tekemänsä virheet?",
+          "en": "Did they admit all the mistakes they made?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Eivät. Ostamani osa oli myös viallinen, mutta eivät myöntäneet sitä.",
+          "en": "No. The part I bought was also faulty, but they didn't admit that."
+        },
+        {
+          "speaker": "A",
+          "fi": "Luotatko heidän vaihtamaansa osaan?",
+          "en": "Do you trust the part they changed?"
+        },
+        {
+          "speaker": "B",
+          "fi": "En luota ollenkaan.",
+          "en": "I don't trust it at all."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Paul Noble Rule",
+      "text": "Ask 'who did what to what' for any of these three participles: -nut/-nyt tells you what the subject did or didn't do to itself, -ttu/-tty tells you what was done to the noun (no actor named), and -ma/-mä + possessive tells you both the action AND exactly who did it, in a single compact word. Three tools, three slightly different jobs."
+    },
+    {
+      "type": "pronunciation",
+      "content": "Tekemänsä: TE-ke-män-sä (four even syllables). Ostamani: OS-ta-ma-ni (four syllables, stress on OS). Vaihtamansa: VAIH-ta-man-sa (the 'vaih' rhymes with English 'my')."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "tekemänsä",
+          "en": "that they made/did (agent participle, 3rd person)",
+          "type": "grammar"
+        },
+        {
+          "fi": "ostamani",
+          "en": "that I bought (agent participle, 1st person)",
+          "type": "grammar"
+        },
+        {
+          "fi": "vaihtamansa",
+          "en": "that they changed (agent participle, 3rd person)",
+          "type": "grammar"
+        },
+        {
+          "fi": "-ma / -mä + possessive suffix",
+          "en": "agent participle — 'that [subject] did/made', attributive",
+          "type": "grammar"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "the agent participle -ma/-mä + possessive suffix, finally fully explaining Lesson 36's tekemänsä",
+        "how it compares to Lesson 16's joka-clause — same meaning, more compact",
+        "all three Finnish participle families side by side: active (L3), passive (L32), agent (this lesson)",
+        "you can now read and build compact 'that [someone] did' phrases without a full relative clause",
+        "your participle toolkit is now essentially complete"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "id": "l45",
+  "number": 45,
+  "title": "Samanlaisia arvosteluja näkyy olevan enemmänkin",
+  "subtitle": "Review lesson — the katsastus overcharging saga, final checkpoint before the finale",
+  "tags": [
+    "review",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "reading",
+    "consolidation"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "Thirty-nine lessons in, one to go. Lessons 31-38 gave you word-formation tools, three participle families, quantifiers, and contrast connectors — a dense final stretch. Here's a long, structurally rich review to let it all settle before the finale: the katsastus (inspection station) overcharging story."
+    },
+    {
+      "type": "heading",
+      "text": "Quick recap — Lessons 31 to 38"
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Täysin {epäluotettava|grammar|epä- + adjective|unreliable} ja {vastuuton|grammar|noun + -ton|irresponsible}.",
+          "en": "(Lesson 31 — epä-/-ton)"
+        },
+        {
+          "fi": "{Vaihdettu|grammar|passive participle|changed} osa.",
+          "en": "(Lesson 32 — passive participle)"
+        },
+        {
+          "fi": "{Korjauttaa|grammar|causative verb|to have fixed} vai {korjata|grammar|infinitive|to fix}?",
+          "en": "(Lesson 33 — causative verbs)"
+        },
+        {
+          "fi": "Hoidettu {nopeasti|grammar|adverb|quickly}.",
+          "en": "(Lesson 34 — adverbs)"
+        },
+        {
+          "fi": "Kuuntelin {odottaessani|grammar|second infinitive|while I was waiting}.",
+          "en": "(Lesson 35 — second infinitive)"
+        },
+        {
+          "fi": "{Kaikki|grammar|quantifier|all} {tekemänsä|grammar|agent participle|that they made} virheet.",
+          "en": "(Lessons 36 & 38 — quantifiers and agent participle)"
+        },
+        {
+          "fi": "{Vaikka|grammar|conjunction|even though} aikoivat itse olla yhteydessä.",
+          "en": "(Lesson 37 — vaikka/kuitenkin/silti)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Now — the katsastus overcharging saga, fully annotated"
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Read it once unaided first",
+      "text": "This review describes a price that doubled overnight, plus a wider pattern the reviewer noticed while waiting. Try it cold, then check the breakdown."
+    },
+    {
+      "type": "text",
+      "content": "Eilen katsastuksessa 2021 Octaviasta oli yllättäen takapuslat vaihtokunnossa. Apu löytyi vierestä ja hinta-arvio oli noin 170 per puoli. Tänään aamulla se {oli|grammar|past tense of 'on'|was} 300 per puoli, ja laskuun olikin lisätty myös tukivarret ja pallonivelet."
+    },
+    {
+      "type": "text",
+      "content": "{Samanlaisia|grammar|partitive plural, agreeing adjective|similar} arvosteluja näkyy olevan {enemmänkin|word|comparative + emphatic|even more} tästä korjaamosta. Muutama vanhus oli siinä samalla, {kuuntelin|word|1st person past|I listened} {odottaessani|grammar|second infinitive + possessive suffix|while I was waiting}."
+    },
+    {
+      "type": "text",
+      "content": "{Katsastusasemalta|grammar|ablative|from the inspection station} tulee huolestuneita ihmisiä, ja korjaamo on samoissa tiloissa. Tätä hyödynnetään estoitta ja {yliveloitetaan|grammar|passive present|overcharged}."
+    },
+    {
+      "type": "note",
+      "color": "word",
+      "title": "A handful of bonus words in this text",
+      "text": "Katsastus means 'vehicle inspection' — a mandatory Finnish roadworthiness test, and katsastusasema is the inspection station where it happens. Takapuslat means 'rear bushings' (a suspension part). Vaihtokunnossa means 'in need of replacement' (kunto, condition, from Lesson 28, + vaihto, exchange). Hyödynnetään means 'is exploited/taken advantage of' — you're seeing a passive present here, a cousin of Lesson 4's passive past that reports an ongoing, general practice rather than one past event."
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Miksi hinta nousi yhdessä yössä?",
+          "en": "Why did the price rise overnight?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Eilen se oli 170 per puoli, ja tänään yllättäen 300, vaikka osa oli sama.",
+          "en": "Yesterday it was 170 per side, and today suddenly 300, even though the part was the same."
+        },
+        {
+          "speaker": "A",
+          "fi": "Huomasitko muita samanlaisia tapauksia?",
+          "en": "Did you notice other similar cases?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Kyllä, kuuntelin odottaessani, ja katsastusasemalta tulevia asiakkaita hyödynnetään samalla tavalla.",
+          "en": "Yes, I listened while I was waiting, and customers coming from the inspection station are exploited the same way."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "katsastus",
+          "en": "vehicle inspection (mandatory roadworthiness test)",
+          "type": "word"
+        },
+        {
+          "fi": "katsastusasema",
+          "en": "inspection station",
+          "type": "word"
+        },
+        {
+          "fi": "vaihtokunnossa",
+          "en": "in need of replacement",
+          "type": "phrase"
+        },
+        {
+          "fi": "hyödynnetään",
+          "en": "is exploited/taken advantage of (passive present)",
+          "type": "grammar"
+        },
+        {
+          "fi": "yliveloitetaan",
+          "en": "is overcharged (passive present)",
+          "type": "grammar"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own after thirty-nine lessons",
+      "items": [
+        "you can read a long, structurally dense real review combining word-formation, participles, and connectors",
+        "you can recognise the passive present (hyödynnetään, yliveloitetaan) as a cousin of Lesson 4's passive past",
+        "you've now seen every major grammatical structure in this review corpus at least once",
+        "you're ready for Lesson 40, the final capstone lesson"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "id": "l46",
+  "number": 46,
+  "title": "Ammattitaidolla hoidetaan kaikki auton tarvitsemat palvelut",
+  "subtitle": "The finale — passive present, and reading the corpus as a native reader would",
+  "tags": [
+    "capstone",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "passive present",
+    "graduation"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "Forty lessons. You started with one word — palvelu — and a single adjective slot. You now own two full case triangles, three tenses of the past, three participle families, causative verbs, quantifiers, connectors, and the machinery behind nearly every sentence shape in this corpus. This last lesson gives you one final piece — the passive present — and then simply lets you read, at full speed, the way a fluent reader would."
+    },
+    {
+      "type": "phrase",
+      "annotated": "Ammattitaidolla {hoidetaan|grammar|passive present|is handled} kaikki auton tarvitsemat palvelut.",
+      "translation": "All the services a car needs are handled with professional skill."
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "Present passive as a shop's slogan voice",
+      "text": "Where Lesson 4's passive past (tehtiin, vaihdettiin) reports a specific past event, the passive present describes an ongoing, general practice — closer to a slogan or standing policy than a story. Ammattitaidolla hoidetaan kaikki palvelut reads like something painted on a shop's sign, not a single customer's account. It's the voice of general truth, not one-time narration."
+    },
+    {
+      "type": "heading",
+      "text": "Piece 1 — Building the passive present: -taan/-tään"
+    },
+    {
+      "type": "text",
+      "content": "Just as the passive past used -ttiin/-tiin (Lesson 4), the passive present uses {-taan|grammar|passive present suffix|is [verb]-ed, general/ongoing} or -tään. Hoitaa (to handle/take care of) → {hoidetaan|grammar|passive present|is handled}. Hyödyntää (to exploit/take advantage of, Lesson 39) → hyödynnetään, 'is exploited [as a general practice]'."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Ammattitaidolla {hoidetaan|grammar|passive present|is handled} kaikki palvelut.",
+          "en": "All services are handled with professional skill."
+        },
+        {
+          "fi": "Katsastusasemalta tulevia asiakkaita {hyödynnetään|grammar|passive present|is exploited}.",
+          "en": "Customers coming from the inspection station are exploited (as a general pattern)."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 2 — Present vs. past passive, side by side"
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "One event vs. a standing pattern",
+      "text": "Osa vaihdettiin (Lesson 4) reports one specific replaced part, once, in the past. Osia vaihdetaan tarpeen mukaan describes a general policy — parts are [generally] changed as needed. Same passive family, same -taan/-ttiin shape shift you've now seen twice, just aimed at different points in time."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Osa {vaihdettiin|grammar|passive past|was changed} eilen.",
+          "en": "The part was changed yesterday. (one event)"
+        },
+        {
+          "fi": "Osia {vaihdetaan|grammar|passive present|are changed} tarpeen mukaan.",
+          "en": "Parts are changed as needed. (general practice)"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "The finale — reading three real reviews at speed"
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "No new annotations below — just read",
+      "text": "These three short reviews are left mostly unannotated on purpose. Every structure in them is one you've built yourself over forty lessons: adjective templates, cases, tenses, participles, connectors. Read them the way you'd read a text message from a friend, not a puzzle to decode."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Ammattitaidolla hoidetaan kaikki auton tarvitsemat palvelut.",
+          "en": "All the services a car needs are handled with professional skill."
+        },
+        {
+          "fi": "Loistavaa ja joustavaa huoltoa, suosittelen.",
+          "en": "Excellent and flexible service, I recommend it."
+        },
+        {
+          "fi": "Hyvin hoiti meidän Focuksen. Huomasi toisen yrityksen rajun vedätyksen.",
+          "en": "Took great care of our Focus. Noticed the harsh scam of the other company."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Neljäkymmentä oppituntia sitten et osannut sanaakaan suomea. Miltä nyt tuntuu?",
+          "en": "Forty lessons ago you didn't know a word of Finnish. How does it feel now?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Voin lukea nämä arvostelut ilman apua, ja ymmärrän miksi jokainen sana on siinä missä on.",
+          "en": "I can read these reviews without help, and I understand why every word is where it is."
+        },
+        {
+          "speaker": "A",
+          "fi": "Suosittelisitko tätä oppimistapaa muille?",
+          "en": "Would you recommend this way of learning to others?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Vahvasti. Kaikki tekemäni virheet opettivat jotain.",
+          "en": "Strongly. Every mistake I made taught me something."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "hoidetaan",
+          "en": "is handled/taken care of (passive present of hoitaa)",
+          "type": "grammar"
+        },
+        {
+          "fi": "hyödynnetään",
+          "en": "is exploited (passive present, general pattern)",
+          "type": "grammar"
+        },
+        {
+          "fi": "vaihdetaan",
+          "en": "is/are changed (passive present of vaihtaa)",
+          "type": "grammar"
+        },
+        {
+          "fi": "-taan / -tään",
+          "en": "passive present suffix — general/ongoing 'is done'",
+          "type": "grammar"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Everything you now own, after forty lessons",
+      "items": [
+        "the passive present -taan/-tään, completing the passive system alongside Lesson 4's passive past",
+        "two full local-case triangles: -ssa/illative/-sta (Lesson 7) and -lla/-lle/-lta (Lesson 17)",
+        "every past-oriented tense: simple past, perfect, pluperfect (Lessons 2, 23, 24)",
+        "all three participle families: active, passive, agent (Lessons 3, 32, 38)",
+        "the full pronoun and possessive systems, negation in every mood, conditionals, causatives, and the full connector set",
+        "you can now read a genuine, unsimplified Finnish car-service review corpus fluently, start to finish, the way a native reader would",
+        "you built this fluency entirely from real language, one recurring word at a time — palvelu was lesson one, and it never stopped being useful"
+      ]
+    }
+  ]
+}
