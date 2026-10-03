@@ -1,0 +1,375 @@
+{
+  "id": "l52",
+  "number": 52,
+  "title": "Pohjois-Karjalaan",
+  "subtitle": "Learning Finnish through a bittersweet classic",
+  "tags": [
+    "song",
+    "culture",
+    "past tense",
+    "conditional",
+    "colloquial",
+    "idioms",
+    "B1"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "This song is a masterclass in Finnish soul. A man has had a rough life, failed relationships, lottery-ticket dreams — and his solution is to go back to North Karelia, swap his jeans for sweatpants, and drink beer until sunrise. It is funny, melancholy, and completely Finnish. Every line is a grammar lesson in disguise."
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "What is Pohjois-Karjala?",
+      "text": "North Karelia is a region in eastern Finland — forested, lakeside, working-class, and deeply tied to Finnish identity. Returning there in this song means giving up on city life and its pretensions. Swapping jeans (farkut) for sweatpants (verkkarit) is the physical symbol of that surrender. In Finland, this image is immediately understood and deeply funny."
+    },
+    {
+      "type": "heading",
+      "text": "INTRO — Minä halusin tavata Annelin"
+    },
+    {
+      "type": "phrase",
+      "annotated": "{Minä|word|pronoun|I (formal)} {halusin|grammar|past tense|I wanted} {tavata|word|infinitive|to meet} {Annelin|phrase|accusative|Anneli (object form)}.",
+      "translation": "I wanted to meet Anneli."
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "Halusin — your first simple past tense",
+      "text": "Haluta (to want) → halusin (I wanted). The past tense in Finnish drops the infinitive ending and adds -sin/-sin. You already know haluan (I want) from everyday speech. Halusin is just haluan pushed into the past. Notice the object Anneli becomes Annelin — the accusative -n ending again, like kahvin in Lesson 4."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Minä {halusin|grammar|past tense|wanted} tavata sinut.",
+          "en": "I wanted to meet you."
+        },
+        {
+          "fi": "Mä {tiesin|grammar|past tense|knew} sen.",
+          "en": "I knew it. (tietää → tiesin)"
+        },
+        {
+          "fi": "Mä {hukkasin|grammar|past tense|lost} avaimet.",
+          "en": "I lost the keys. (hukata → hukkasin)"
+        }
+      ]
+    },
+    {
+      "type": "phrase",
+      "annotated": "{Sillä|grammar|conjunction|because/for} {tiesin|grammar|past tense|I knew} sen {minua|word|pronoun|me (object)} {vielä|word|adverb|still} {etsivän|grammar|participle|searching for}.",
+      "translation": "Because I knew she was still searching for me."
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "Etsivän — the sneaky -vAn participle",
+      "text": "Etsivän comes from etsiä (to search). The -vAn ending creates a participle meaning 'someone who is doing something.' Tiesin sen etsivän = I knew it/her to be searching. This construction appears constantly in literary and song Finnish. You don't need to produce it yet — just recognise it when you hear it."
+    },
+    {
+      "type": "phrase",
+      "annotated": "{Eihän|grammar|emphatic negative|life really didn't} {elämä|word|noun|life} {paljoa|word|partitive|much} {antanut|grammar|past tense|given}.",
+      "translation": "Life didn't give me much."
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "Eihän — the Finnish particle of resignation",
+      "text": "Ei = no/not. The suffix -hän/-han adds a flavour of 'well, obviously' or 'as you'd expect.' Eihän = 'well it didn't, as we both know.' Finnish particles like -hän, -kaan, -kin are tiny words that carry huge emotional weight. They tell you how the speaker feels about what they're saying. Eihän drips with resigned Finnish acceptance."
+    },
+    {
+      "type": "phrase",
+      "annotated": "{Sateenkaari|phrase|compound noun|rainbow} {päättyi|grammar|past tense|ended/ran out} {nakkikioskille|phrase|allative|at the hot dog stand}.",
+      "translation": "The rainbow ran out at the hot dog stand."
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "Nakkikioski — a very Finnish image",
+      "text": "The sateenkaari (rainbow = sateen + kaari, literally 'of rain' + 'arc') is supposed to end at a pot of gold. This man's rainbow ended at a nakkikioski — a late-night street sausage kiosk. The nakkikioski is an icon of Finnish working-class late nights. This single image tells you everything about the character's life without saying another word."
+    },
+    {
+      "type": "phrase",
+      "annotated": "{Ravintolapöytään|phrase|allative|onto the bar table} {oksentaville|phrase|participle dative|to those who threw up}. {Naurettiin|grammar|passive past|got laughed at}.",
+      "translation": "People who threw up on a bar table. Got laughed at."
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "Naurettiin — the passive past and Finnish dark humour",
+      "text": "Nauraa (to laugh) → naurettiin (passive past: 'got laughed at / there was laughing'). Finnish passive doesn't say who did the action — it just happened. Naurettiin is one word where English needs four. The abruptness of it — just 'naurettiin' standing alone — amplifies the humiliation perfectly. Finnish passive is devastatingly efficient."
+    },
+    {
+      "type": "heading",
+      "text": "CHORUS — Minä lähden Pohjois-Karjalaan"
+    },
+    {
+      "type": "phrase",
+      "annotated": "Minä {lähden|word|verb|I'm leaving} {Pohjois-Karjalaan|phrase|allative|to North Karelia}. {Vaihdan|word|verb|I'll swap} {farkut|word|noun|jeans} {verkkarihousuun|phrase|illative|into sweatpants}.",
+      "translation": "I'm leaving to North Karelia. I'll swap jeans for sweatpants."
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "Karjalaan / verkkarihousuun — the -An ending means 'into/to'",
+      "text": "From Lesson 5 you know the location system. The -An/-ään ending (illative case) means movement INTO something. Karjala → Karjalaan (into/to Karelia). Verkkarit → verkkarihousuun (into sweatpants — he is literally climbing into them). This is the mihin (to where) ending from your location triangle."
+    },
+    {
+      "type": "comparison",
+      "headers": [
+        "Case",
+        "Suffix",
+        "Meaning",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Adessive",
+          "-lla/-llä",
+          "at/on",
+          "kurssilla — at the course"
+        ],
+        [
+          "Ablative",
+          "-lta/-ltä",
+          "from",
+          "kurssilta — from the course"
+        ],
+        [
+          "Allative",
+          "-lle",
+          "onto/to (surface)",
+          "pöydälle — onto the table"
+        ],
+        [
+          "Inessive",
+          "-ssa/-ssä",
+          "inside",
+          "kaupassa — in the shop"
+        ],
+        [
+          "Elative",
+          "-sta/-stä",
+          "from inside",
+          "kaupasta — from the shop"
+        ],
+        [
+          "Illative",
+          "-an/-ään/-Vn",
+          "into",
+          "Karjalaan — into Karelia"
+        ]
+      ]
+    },
+    {
+      "type": "phrase",
+      "annotated": "{Juon|word|verb|I'll drink} {kaljaa|word|partitive|beer (colloquial)} {auringon|word|genitive|sun's} {nousuun|word|illative|until sunrise}.",
+      "translation": "I'll drink beer 'til sunrise."
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "Kalja — Finnish beer, Finnish soul",
+      "text": "Olut is the formal word for beer. Kalja is the warm colloquial version — the beer you drink at a lake, at a relative's porch, or until sunrise in North Karelia. Juon kaljaa auringon nousuun is grammatically and culturally beautiful: kaljaa is partitive (ongoing, uncountable drinking), auringon nousuun means 'into the rising of the sun.' He's not stopping."
+    },
+    {
+      "type": "heading",
+      "text": "VERSE 2 — The conditional dreams"
+    },
+    {
+      "type": "phrase",
+      "annotated": "{Enhän|grammar|emphatic negative|I won't even} {minäkään|grammar|particle|I myself either} {liikoja|word|partitive|too much} {vaatisi|grammar|conditional|would demand}.",
+      "translation": "I won't even demand too much."
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "Vaatisi — the conditional of modest dreams",
+      "text": "Vaatia (to demand/require) → vaatisi (would demand). The conditional -isi ending softens everything — it's the tense of wishes, dreams, and politeness. From Lesson 4 you know voisin (I could). Now you're seeing the pattern: haluta → haluaisi (would want), vaatia → vaatisi, tarjota → tarjoaisi. The -isi ending is your tool for dreaming in Finnish."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Jotakin, jolla {tarjoaisin|grammar|conditional|I would offer} illan.",
+          "en": "Just enough to offer rounds at the bar."
+        },
+        {
+          "fi": "Elatusmaksut lottokupongilla {kuittaisin|grammar|conditional|I would pay off}.",
+          "en": "I'd pay off alimony with a lottery ticket."
+        },
+        {
+          "fi": "{Olisin voinut|grammar|conditional perfect|I could have been} vaikeampi olla.",
+          "en": "I could have been harder to deal with."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "Elatusmaksut lottokupongilla — the perfect Finnish tragicomedy",
+      "text": "Elatusmaksut = child support / alimony. Lottokuponki = lottery ticket. Kuittaisin = I would settle. His plan to pay child support is to win the lottery. This is delivered deadpan, in a single line. Finnish dark humour at its finest — the absurdity is the point, and no one laughs louder than the Finns themselves."
+    },
+    {
+      "type": "heading",
+      "text": "VERSE 3 — Sirpaleita — the shards of happiness"
+    },
+    {
+      "type": "phrase",
+      "annotated": "{Vaikka|grammar|conjunction|though/even though} elämän {sävelen|word|genitive|melody's/sound of} {hukkasin|grammar|past tense|I lost}, oman {onneni|word|genitive|my happiness's} {sirpaleita|word|partitive plural|shards} {säilytän|word|verb|I'm keeping}.",
+      "translation": "Though I lost the sound of my life, I'm still holding on to the shards of my happiness."
+    },
+    {
+      "type": "note",
+      "color": "word",
+      "title": "Sirpaleita — the most beautiful word in this song",
+      "text": "Sirpale = a shard, a fragment, a splinter. Sirpaleita is the partitive plural — some shards, fragments of happiness. He hasn't lost everything. He's collecting broken pieces. This is the emotional core of the whole song — Finnish stoicism: things are shattered, but you hold onto the pieces. Säilytän (I'm keeping/preserving) is the verb of careful, deliberate holding on."
+    },
+    {
+      "type": "phrase",
+      "annotated": "Sillä {sinua|word|partitive|you (object)} {kaltoin|word|adverb|badly/wrongly}, jos {kohtelin|grammar|past tense|I treated}. {Olisin voinut|grammar|conditional perfect|I could have been} {vaikeampi|word|comparative|harder} olla. {Yritin|grammar|past tense|I tried} silti aina {sovinnolla|word|adessive|with reconciliation}. {Kuitenkin|word|adverb|though/nevertheless}.",
+      "translation": "Cause if I mistreated you, I could have been harder. I always tried to reconcile. Though."
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "Kuitenkin — one word standing alone",
+      "text": "Kuitenkin means 'though / nevertheless / still.' Placed alone at the end of a verse it carries enormous weight — it's the Finnish shrug, the acknowledgment that things didn't work out but you tried. In Finnish, a single adverb can end a thought the way a whole sentence would in English. This is why Finnish poetry is so compressed."
+    },
+    {
+      "type": "heading",
+      "text": "Vocabulary of the song"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "halusin",
+          "en": "I wanted (past of haluta)",
+          "type": "grammar"
+        },
+        {
+          "fi": "tiesin",
+          "en": "I knew (past of tietää)",
+          "type": "grammar"
+        },
+        {
+          "fi": "eihän",
+          "en": "well it didn't (emphatic neg.)",
+          "type": "grammar"
+        },
+        {
+          "fi": "sateenkaari",
+          "en": "rainbow (lit. rain's arc)",
+          "type": "word"
+        },
+        {
+          "fi": "nakkikioski",
+          "en": "hot dog / sausage stand",
+          "type": "phrase"
+        },
+        {
+          "fi": "naurettiin",
+          "en": "got laughed at (passive past)",
+          "type": "grammar"
+        },
+        {
+          "fi": "lähden",
+          "en": "I'm leaving (lähtä)",
+          "type": "word"
+        },
+        {
+          "fi": "farkut",
+          "en": "jeans",
+          "type": "word"
+        },
+        {
+          "fi": "verkkarit",
+          "en": "sweatpants / tracksuit",
+          "type": "word"
+        },
+        {
+          "fi": "kotiseutu",
+          "en": "home district / homeland",
+          "type": "word"
+        },
+        {
+          "fi": "kalja",
+          "en": "beer (colloquial)",
+          "type": "word"
+        },
+        {
+          "fi": "auringon nousu",
+          "en": "sunrise",
+          "type": "phrase"
+        },
+        {
+          "fi": "sivukuja",
+          "en": "side alley",
+          "type": "word"
+        },
+        {
+          "fi": "elatusmaksut",
+          "en": "child support / alimony",
+          "type": "word"
+        },
+        {
+          "fi": "lottokuponki",
+          "en": "lottery ticket",
+          "type": "word"
+        },
+        {
+          "fi": "sirpale",
+          "en": "shard / fragment",
+          "type": "word"
+        },
+        {
+          "fi": "säilytän",
+          "en": "I keep / I preserve",
+          "type": "word"
+        },
+        {
+          "fi": "sovinto",
+          "en": "reconciliation",
+          "type": "word"
+        },
+        {
+          "fi": "kuitenkin",
+          "en": "though / nevertheless",
+          "type": "word"
+        },
+        {
+          "fi": "vaikka",
+          "en": "though / even though",
+          "type": "grammar"
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Three grammar patterns to take away from this song",
+      "text": "1. Simple past: halusin, tiesin, hukkasin — drop the infinitive ending, add -sin. 2. Conditional: vaatisi, tarjoaisi, kuittaisin — add -isi for dreams and politeness. 3. Finnish passive past: naurettiin — one word, no subject, no fuss. These three patterns will unlock enormous amounts of Finnish music, film and conversation."
+    },
+    {
+      "type": "pronunciation",
+      "content": "Sateenkaari: SA-teen-kaa-ri (four syllables, long aa). Nakkikioskille: NAK-ki-ki-os-kil-le (six clean syllables — Finnish never contracts). Sirpaleita: SIR-pa-lei-ta (the ei is like 'ay', four syllables). Kuitenkin: KUI-ten-kin (kui sounds like 'kwee'). Verkkarit: VERK-ka-rit (double k, all vowels pure)."
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own after this song",
+      "items": [
+        "Simple past tense: halusin, tiesin, hukkasin (-sin ending)",
+        "Conditional tense: vaatisi, tarjoaisi, kuittaisin (-isi ending)",
+        "Finnish passive past: naurettiin — action without an actor",
+        "Eihän / enhän — particles of resignation and emphasis",
+        "Kuitenkin — though/nevertheless (use it immediately)",
+        "Vaikka — even though / although",
+        "Sateenkaari, nakkikioski, kotiseutu, kalja — cultural vocabulary",
+        "Sirpaleita — shards (and partitive plural pattern)",
+        "The illative -An ending: Karjalaan, verkkarihousuun = movement into",
+        "The full Finnish location case triangle (at / from / into)"
+      ]
+    }
+  ]
+}
