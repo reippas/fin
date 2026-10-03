@@ -1,0 +1,187 @@
+{
+  "id": "l48",
+  "number": 48,
+  "title": "Kylläpä hölynpölyä, eihän tässä mitään järkeä ole",
+  "subtitle": "Appendix 2 — colloquial flavour words and particles",
+  "tags": [
+    "appendix",
+    "vocabulary",
+    "autohuolto",
+    "colloquial",
+    "reading"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "A handful of words in this corpus aren't core vocabulary or grammar — they're flavour. Particles like kylläpä and eihän, and a few genuinely dialectal verb forms, add tone without changing the literal meaning much. This lesson collects them so nothing in the corpus stays mysterious."
+    },
+    {
+      "type": "heading",
+      "text": "Emphatic particles: -pä, -hän"
+    },
+    {
+      "type": "text",
+      "content": "Finnish attaches small emphasis particles directly onto words. {-pä|grammar|emphatic particle|indeed/really} adds emphasis or mild surprise: kylläpä ('well indeed', an emphasised yes). {-hän|grammar|emphatic particle|you know/after all} adds a 'you know' or 'after all' tone, often softening a statement the speaker assumes the listener already half-agrees with: eihän ('well it didn't, you know')."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Kylläpä|grammar|kyllä + -pä|well, indeed} sain tänään hyvää palvelua.",
+          "en": "Well, I really did get good service today."
+        },
+        {
+          "fi": "{Eihän|grammar|ei + -hän|well it didn't, you know} elämä paljoa antanut.",
+          "en": "Well, life hadn't given much, you know."
+        },
+        {
+          "fi": "Ainahan ei kemiat kohtaa.",
+          "en": "Of course, personalities don't always click, you know."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Colloquial verb wear: sönköttää, mojova"
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "Genuinely spoken-register words",
+      "text": "{Sönköttää|word|colloquial verb|to mutter/ramble vaguely} is informal, slightly dismissive — used when a reviewer doesn't believe an excuse: sönköttivät jostain tiedonsiirtohäiriöstä, 'they rambled something about a data-transfer glitch'. {Mojova|word|colloquial adjective|hefty/eye-watering} is slang for something impressively large, almost always used sarcastically about a price: mojovia hintoja, 'eye-watering prices'. Neither word would appear in a textbook — you'd only meet them by reading real reviews, exactly as you're doing."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Sönköttivät|word|colloquial verb, past plural|rambled} jostain tiedonsiirtohäiriöstä.",
+          "en": "They rambled something about a data-transfer glitch."
+        },
+        {
+          "fi": "Oli kyllä {mojovia|word|colloquial adjective, partitive plural|eye-watering} hintoja.",
+          "en": "There were some eye-watering prices, alright."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Dismissive nouns: hölynpöly, kusetus"
+    },
+    {
+      "type": "text",
+      "content": "{Hölynpöly|word|noun|nonsense} means 'nonsense/balderdash' — a blunt dismissal of an explanation. A stronger, cruder cousin that appears in the corpus's angriest review is a slang word for being scammed/conned; this lesson keeps that one out, since it's crude slang rather than standard vocabulary, but hölynpöly itself is common enough, and mild enough, to be worth owning."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Hölynpöly|word|noun|nonsense} kommentteja.",
+          "en": "Nonsense comments."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Notta: a colloquial contraction"
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "että worn down to notta",
+      "text": "You know että from Lesson 22. In fast colloquial speech, että sometimes contracts after a word ending in -n, fusing into {notta|grammar|colloquial contraction|that (että, fused)} — Asiallista toimintaa, notta!, roughly 'Proper service, [I'll say] that!'. It's the same word you already know, just worn down the way olisi wore down to olis back in Lesson 20."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Asiallista toimintaa, {notta|grammar|colloquial contraction of että|[I'll say] that}!",
+          "en": "Proper service, I'll say!"
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Mitä mieltä olet tästä korjaamosta?",
+          "en": "What do you think of this repair shop?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Kylläpä sain hyvää palvelua. Asiallista toimintaa, notta!",
+          "en": "Well, I really did get good service. Proper service, I'll say!"
+        },
+        {
+          "speaker": "A",
+          "fi": "Entä hinnat?",
+          "en": "And the prices?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Siellä oli kyllä mojovia hintoja, ja kun kysyin syytä, vain sönköttivät jotain.",
+          "en": "There were some eye-watering prices there, and when I asked why, they just rambled something."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Paul Noble Rule",
+      "text": "These words will never be the backbone of a sentence — they're seasoning. You don't need to produce them yourself to write solid Finnish. The goal here is purely recognition: when one of these shows up, you now know it's tone, not a grammar structure you're missing."
+    },
+    {
+      "type": "pronunciation",
+      "content": "Kylläpä: KYL-lä-pä (three syllables, the 'y' is a tight rounded vowel). Sönköttivät: SÖN-köt-ti-vät (the 'ö' rounds your lips, close to German 'ö'). Mojova: MO-jo-va (the 'j' is a 'y' sound)."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "-pä",
+          "en": "emphatic particle — indeed/really",
+          "type": "grammar"
+        },
+        {
+          "fi": "-hän",
+          "en": "emphatic particle — you know/after all",
+          "type": "grammar"
+        },
+        {
+          "fi": "sönköttää",
+          "en": "to mutter/ramble vaguely (colloquial)",
+          "type": "word"
+        },
+        {
+          "fi": "mojova",
+          "en": "hefty/eye-watering (colloquial, usually of price)",
+          "type": "word"
+        },
+        {
+          "fi": "hölynpöly",
+          "en": "nonsense",
+          "type": "word"
+        },
+        {
+          "fi": "notta",
+          "en": "that (colloquial contraction of että)",
+          "type": "grammar"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "the -pä and -hän emphatic particles, adding tone without changing literal meaning",
+        "sönköttää and mojova — genuinely colloquial, slightly sarcastic vocabulary",
+        "hölynpöly — a blunt but mild dismissal word",
+        "notta — että worn down by fast speech, following the same pattern as olisi/olis",
+        "you can now read tone and attitude in a review, not just its literal content"
+      ]
+    }
+  ]
+}

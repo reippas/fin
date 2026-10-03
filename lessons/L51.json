@@ -1,0 +1,261 @@
+{
+  "id": "l51",
+  "number": 51,
+  "title": "Hymyilevä neito tiskin takana",
+  "subtitle": "Appendix 5 — the last miscellany, closing out full corpus coverage",
+  "tags": [
+    "appendix",
+    "vocabulary",
+    "autohuolto",
+    "reading",
+    "capstone"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "This is the true leftover pile — vivid one-off details that never fit neatly into a grammar lesson: a lawnmower repair, a winter breakdown on the highway, a smiling face behind the counter. After this, there's no vocabulary left in the corpus you haven't met."
+    },
+    {
+      "type": "heading",
+      "text": "People and the service desk"
+    },
+    {
+      "type": "text",
+      "content": "{Neito|word|noun|young woman/maiden} is a slightly old-fashioned, warm word for a young woman — hymyilevä neito tiskin takana, 'a smiling young woman behind the counter'. {Tiski|word|noun|counter} is the service counter itself. {Piristävä|word|adjective|uplifting/refreshing} describes something that brightens your mood. {Kohdella|word|verb|to treat (someone)} is how a customer describes being handled: minua kohdeltiin ystävällisesti."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Hymyilevä {neito|word|noun|young woman} oli {piristävä|word|adjective|uplifting} lisä {tiskin|grammar|genitive of tiski|the counter's} takana.",
+          "en": "A smiling young woman was an uplifting addition behind the counter."
+        },
+        {
+          "fi": "Minua {kohdeltiin|grammar|passive past of kohdella|was treated} ystävällisesti.",
+          "en": "I was treated kindly."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "The lawnmower and the winter breakdown"
+    },
+    {
+      "type": "text",
+      "content": "Two vivid stories in the corpus bring their own small vocabulary clusters. The lawnmower repair: {ruohonleikkuri|word|compound noun|lawnmower} (ruoho, grass + leikkuri, cutter), {koppa|word|noun|hopper/bin}, and {hitsaustyö|word|compound noun|welding work}. The winter highway breakdown: {ahtoletku|word|compound noun|turbo hose}, {pakkanen|word|noun|frost/freezing cold}, {rekka|word|noun|truck/lorry}, {jyrätä|word|verb|to thunder/roll past}, and {kyynärvarsi|word|compound noun|forearm}."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Ruohonleikkurin|grammar|genitive of ruohonleikkuri|the lawnmower's} {kopan|grammar|genitive of koppa|hopper's} pieni {hitsaustyö|word|compound noun|welding work} tehtiin joustavasti.",
+          "en": "The lawnmower hopper's small welding job was done flexibly."
+        },
+        {
+          "fi": "{Ahtoletku|word|compound noun|turbo hose} oli jätetty löysälle kymmenen asteen {pakkasessa|grammar|inessive of pakkanen|in the frost}.",
+          "en": "The turbo hose had been left loose in ten degrees of frost."
+        },
+        {
+          "fi": "{Rekkojen|grammar|genitive plural of rekka|trucks'} {jyrätessä|grammar|second infinitive of jyrätä|as [they] thundered past} vierestä, jouduin korjaamaan kädet {kyynärvarsiin|grammar|illative plural of kyynärvarsi|up to the forearms} asti öljyssä.",
+          "en": "As trucks thundered past, I had to repair it with my hands up to the forearms in oil."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Workshop and parking vocabulary"
+    },
+    {
+      "type": "text",
+      "content": "{Ahdas|word|adjective|cramped/tight} describes a too-small parking lot — ahdas piha, mentioned in more than one review as a minor complaint. {Lommo|word|noun|dent} appears in the corpus's harshest review, describing damage caused during a repair. {Maine|word|noun|reputation}, {neuvotella|word|verb|to negotiate}, and {joustoa|grammar|partitive of jousto|flexibility} round out the workplace-interaction vocabulary."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Ahdas|word|adjective|cramped} piha teki paikoituksesta hankalaa.",
+          "en": "The cramped yard made parking difficult."
+        },
+        {
+          "fi": "Autoon tehty {lommoja|grammar|partitive plural of lommo|dents} asentajan työkaluilla.",
+          "en": "Dents made to the car with the mechanic's tools."
+        },
+        {
+          "fi": "Hyvä {maine|word|noun|reputation}, ja oli valmis {neuvottelemaan|grammar|third infinitive, illative|to negotiate} hinnasta.",
+          "en": "Good reputation, and was willing to negotiate on price."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Diagnostics: vikakoodi, lukulaite"
+    },
+    {
+      "type": "text",
+      "content": "{Vikakoodi|word|compound noun|fault code} (vika + koodi) is the diagnostic code a mechanic reads from a car's computer. {Lukulaite|word|compound noun|reading device/scanner} (lukea, to read + laite, device) is the scanner itself. {Tiedonsiirtohäiriö|word|compound noun|data-transfer disruption} — tieto (data) + siirto (transfer) + häiriö (disruption) — was the excuse one shop gave for a slow diagnosis, referenced back in the colloquial appendix."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Kesti tunnin lukea {vikakoodit|word|compound noun, plural|fault codes}.",
+          "en": "It took an hour to read the fault codes."
+        },
+        {
+          "fi": "{Lukulaite|word|compound noun|scanner} on hidas.",
+          "en": "The reading device is slow."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Millainen fiilis käynnistä jäi?",
+          "en": "What feeling did the visit leave you with?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Hyvä. Hymyilevä neito tiskin takana oli piristävä lisä, ja minua kohdeltiin ystävällisesti.",
+          "en": "Good. A smiling young woman behind the counter was an uplifting addition, and I was treated kindly."
+        },
+        {
+          "speaker": "A",
+          "fi": "Entä piha?",
+          "en": "And the yard?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Vähän ahdas, mutta ei haitannut.",
+          "en": "A bit cramped, but it didn't matter."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Paul Noble Rule",
+      "text": "This appendix closes the loop: everything that was ever a genuine one-off in the corpus now has a home. From here, any new Finnish text you read will inevitably contain words outside even this expanded vocabulary — and that's fine. The forty core lessons gave you the grammar engine to decode new words forever; these five appendix lessons just mopped up what that engine alone couldn't guess from context."
+    },
+    {
+      "type": "pronunciation",
+      "content": "Neito: NEI-to (the 'ei' glides like English 'ay'). Ruohonleikkuri: RUO-hon-leik-ku-ri (long compound, break at ruoho-leikkuri). Kyynärvarsi: KYY-när-var-si (long held 'yy', the 'ä' like 'a' in 'cat')."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "neito",
+          "en": "young woman/maiden",
+          "type": "word"
+        },
+        {
+          "fi": "tiski",
+          "en": "counter",
+          "type": "word"
+        },
+        {
+          "fi": "piristävä",
+          "en": "uplifting/refreshing",
+          "type": "word"
+        },
+        {
+          "fi": "kohdella",
+          "en": "to treat (someone)",
+          "type": "word"
+        },
+        {
+          "fi": "ruohonleikkuri",
+          "en": "lawnmower",
+          "type": "word"
+        },
+        {
+          "fi": "koppa",
+          "en": "hopper/bin",
+          "type": "word"
+        },
+        {
+          "fi": "hitsaustyö",
+          "en": "welding work",
+          "type": "word"
+        },
+        {
+          "fi": "ahtoletku",
+          "en": "turbo hose",
+          "type": "word"
+        },
+        {
+          "fi": "pakkanen",
+          "en": "frost/freezing cold",
+          "type": "word"
+        },
+        {
+          "fi": "rekka",
+          "en": "truck/lorry",
+          "type": "word"
+        },
+        {
+          "fi": "jyrätä",
+          "en": "to thunder/roll past",
+          "type": "word"
+        },
+        {
+          "fi": "kyynärvarsi",
+          "en": "forearm",
+          "type": "word"
+        },
+        {
+          "fi": "ahdas",
+          "en": "cramped/tight",
+          "type": "word"
+        },
+        {
+          "fi": "lommo",
+          "en": "dent",
+          "type": "word"
+        },
+        {
+          "fi": "maine",
+          "en": "reputation",
+          "type": "word"
+        },
+        {
+          "fi": "neuvotella",
+          "en": "to negotiate",
+          "type": "word"
+        },
+        {
+          "fi": "vikakoodi",
+          "en": "fault code",
+          "type": "word"
+        },
+        {
+          "fi": "lukulaite",
+          "en": "reading device/scanner",
+          "type": "word"
+        },
+        {
+          "fi": "tiedonsiirtohäiriö",
+          "en": "data-transfer disruption",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own — full corpus coverage, complete",
+      "items": [
+        "the service-desk and people vocabulary: neito, tiski, piristävä, kohdella",
+        "the lawnmower and winter-breakdown vocabulary clusters, two of the corpus's most vivid stories",
+        "ahdas, lommo, maine, neuvotella — remaining workplace and parking vocabulary",
+        "vikakoodi, lukulaite, tiedonsiirtohäiriö — the diagnostics cluster",
+        "with Lessons 41-45, every remaining word in the original review corpus now has a home",
+        "combined with the grammar from Lessons 1-40, you now have complete, genuine mastery of this real-world Finnish text"
+      ]
+    }
+  ]
+}

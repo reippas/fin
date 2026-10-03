@@ -1,0 +1,196 @@
+{
+  "id": "l47",
+  "number": 47,
+  "title": "Jarrusatula, ahdin ja alipaineyksikkö",
+  "subtitle": "Appendix 1 — the car parts vocabulary the main course skipped",
+  "tags": [
+    "appendix",
+    "vocabulary",
+    "autohuolto",
+    "car parts",
+    "reading"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "Forty lessons taught you every grammar pattern in this corpus, but a few specific car parts only ever appeared once or twice and never got their own spotlight — jarrusatula, ahdin, alipaineyksikkö, termostaatti. You already know how to bend these words through any case; this lesson just makes sure you actually recognise them on sight."
+    },
+    {
+      "type": "heading",
+      "text": "Brakes and suspension"
+    },
+    {
+      "type": "text",
+      "content": "{Jarru|word|noun|brake} is the base word for 'brake'. {Jarrusatula|word|compound noun|brake caliper} is jarru + satula (saddle) — the part that clamps the brake pads. {Jarrupala|word|compound noun|brake pad} is jarru + pala (piece). {Puslat|word|noun, plural|bushings} are rubber suspension bushings, and {tukivarsi|word|compound noun|control arm} (plural tukivarret) and {pallonivel|word|compound noun|ball joint} are the suspension parts named in the katsastus overcharging story from Lesson 39."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Vaihdettiin {jarrusatula|word|compound noun|brake caliper}, jota ei olisi tarvinnut uusia.",
+          "en": "A brake caliper was changed, which wouldn't have needed renewing."
+        },
+        {
+          "fi": "{Jarrupalat|word|compound noun, plural|brake pads} olisi pitänyt vain puhdistaa.",
+          "en": "The brake pads should have just been cleaned."
+        },
+        {
+          "fi": "Takapuslat olivat vaihtokunnossa.",
+          "en": "The rear bushings were in need of replacement."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Engine and electrical"
+    },
+    {
+      "type": "text",
+      "content": "{Moottori|word|noun|engine} is 'engine', appearing throughout the corpus's most serious complaints. {Termostaatti|word|noun|thermostat} regulates engine temperature. {Ahdin|word|noun|turbocharger} is the turbo unit — its related part {alipaineyksikkö|word|compound noun|vacuum unit} (alipaine, low pressure/vacuum + yksikkö, unit) controls it. {Laturi|word|noun|alternator} charges the battery. {Tulppa|word|noun|spark plug} you already own from Lesson 10 and 21."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Moottori|word|noun|engine} oli pysyvästi vaurioitunut.",
+          "en": "The engine had been permanently damaged."
+        },
+        {
+          "fi": "He vaihtoivat {termostaatin|grammar|accusative of termostaatti|the thermostat}.",
+          "en": "They changed the thermostat."
+        },
+        {
+          "fi": "{Ahdin|word|noun|turbocharger} on rikki {alipainekellosta|grammar|elative, compound|from the vacuum valve}.",
+          "en": "The turbocharger is broken at the vacuum valve."
+        },
+        {
+          "fi": "{Laturi|word|noun|alternator} on rikki.",
+          "en": "The alternator is broken."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Tires and small parts"
+    },
+    {
+      "type": "text",
+      "content": "{Rengas|word|noun|tire} (plural renkaat) appears in several short, positive reviews about tire-patching. {Kiristin|word|noun|clamp} is a small fastening clamp — the part left too loose in Lesson 30's winter-breakdown story. {Ohjainrulla|word|compound noun|idler/tensioner pulley} is a belt-guiding pulley, usually mentioned alongside laturi."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Rengasta|grammar|partitive of rengas|the tire} ei voinut paikata, joten piti vaihtaa.",
+          "en": "The tire couldn't be patched, so it had to be changed."
+        },
+        {
+          "fi": "{Kiristin|word|noun|clamp} oli jätetty löysälle.",
+          "en": "The clamp had been left loose."
+        },
+        {
+          "fi": "Kannattaisi vaihtaa myös {ohjainrulla|word|compound noun|tensioner pulley}.",
+          "en": "It would be worth changing the tensioner pulley too."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Paul Noble Rule",
+      "text": "None of these words need new grammar — you already know how to put any of them into the genitive, partitive, or any local case from Lessons 7-19. This lesson is pure vocabulary: once the word itself is familiar, every ending you've learned slots on exactly as it did for korjaamo or osa."
+    },
+    {
+      "type": "pronunciation",
+      "content": "Jarrusatula: YAR-ru-sa-tu-la (five syllables, 'j' as 'y'). Ahdin: AH-din (two syllables, clear 'h'). Alipaineyksikkö: A-li-pai-ne-yk-sik-kö (long compound — break it at the seams: ali-paine-yksikkö)."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "jarru",
+          "en": "brake",
+          "type": "word"
+        },
+        {
+          "fi": "jarrusatula",
+          "en": "brake caliper",
+          "type": "word"
+        },
+        {
+          "fi": "jarrupala",
+          "en": "brake pad",
+          "type": "word"
+        },
+        {
+          "fi": "puslat",
+          "en": "bushings",
+          "type": "word"
+        },
+        {
+          "fi": "tukivarsi",
+          "en": "control arm",
+          "type": "word"
+        },
+        {
+          "fi": "pallonivel",
+          "en": "ball joint",
+          "type": "word"
+        },
+        {
+          "fi": "moottori",
+          "en": "engine",
+          "type": "word"
+        },
+        {
+          "fi": "termostaatti",
+          "en": "thermostat",
+          "type": "word"
+        },
+        {
+          "fi": "ahdin",
+          "en": "turbocharger",
+          "type": "word"
+        },
+        {
+          "fi": "alipaineyksikkö",
+          "en": "vacuum unit",
+          "type": "word"
+        },
+        {
+          "fi": "laturi",
+          "en": "alternator",
+          "type": "word"
+        },
+        {
+          "fi": "rengas",
+          "en": "tire",
+          "type": "word"
+        },
+        {
+          "fi": "kiristin",
+          "en": "clamp",
+          "type": "word"
+        },
+        {
+          "fi": "ohjainrulla",
+          "en": "tensioner/idler pulley",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "the full set of brake and suspension parts named across the corpus's complaint reviews",
+        "the engine and electrical vocabulary: moottori, termostaatti, ahdin, alipaineyksikkö, laturi",
+        "rengas, kiristin, ohjainrulla — the remaining small-parts vocabulary",
+        "you can now name almost any specific part mentioned in a complaint, not just describe it generically as osa"
+      ]
+    }
+  ]
+}

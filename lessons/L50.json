@@ -1,0 +1,167 @@
+{
+  "id": "l50",
+  "number": 50,
+  "title": "2021 Octaviasta, motonetin hinta, kuluttajariitalautakunta",
+  "subtitle": "Appendix 4 — proper nouns, brand words, and institutional vocabulary",
+  "tags": [
+    "appendix",
+    "vocabulary",
+    "autohuolto",
+    "proper nouns",
+    "reading"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "A few words in this corpus are proper nouns, brand names, or references to Finnish institutions — car models, a hardware chain, a consumer dispute board. These don't need grammar explanations so much as simple context, so you're not left guessing what a capitalised word refers to."
+    },
+    {
+      "type": "heading",
+      "text": "Car models and brands"
+    },
+    {
+      "type": "text",
+      "content": "{Octavia|word|proper noun|Škoda Octavia (car model)} and {Focus|word|proper noun|Ford Focus (car model)} are specific car models mentioned by name in reviews — exactly the kind of detail that makes a complaint feel concrete and verifiable. {Motonetti|word|proper noun|a Nordic car-parts retail chain} is a well-known parts retailer, referenced when a reviewer compares a shop's price to the 'normal' retail price."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Eilen katsastuksessa 2021 {Octaviasta|grammar|elative of Octavia|from the Octavia} oli yllättäen takapuslat vaihtokunnossa.",
+          "en": "At yesterday's inspection, the 2021 Octavia unexpectedly had rear bushings needing replacement."
+        },
+        {
+          "fi": "Hyvin hoiti meidän {Focuksen|grammar|accusative of Focus|the Focus}.",
+          "en": "Took great care of our Focus."
+        },
+        {
+          "fi": "{Motonetin|grammar|genitive of Motonetti|Motonetti's} hinta on 190 euroa.",
+          "en": "Motonetti's price is 190 euros."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Institutions: kuluttajariitalautakunta, vakuutusyhtiö"
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "Where Finnish complaints go to escalate",
+      "text": "{Kuluttajariitalautakunta|word|compound proper noun|the Finnish Consumer Disputes Board} is a real Finnish government body that mediates disputes between consumers and businesses. It appears repeatedly in the corpus's most serious complaints as the next step after a shop refuses to resolve an issue directly — kuluttajariitalautakunnan päätöksen jälkeen, 'after the Consumer Disputes Board's decision'. You already met {vakuutusyhtiö|word|compound noun|insurance company} in Lesson 25."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Eivät ota mitään vastuuta edes {kuluttajariitalautakunnan|grammar|genitive, long compound|the Consumer Disputes Board's} päätöksen saatuaan.",
+          "en": "They take no responsibility even after receiving the Consumer Disputes Board's decision."
+        },
+        {
+          "fi": "{Vakuutusyhtiö|word|compound noun|insurance company} totesi, että diagnoosi oli virheellinen.",
+          "en": "The insurance company stated that the diagnosis was incorrect."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "TM-testi: a consumer magazine reference"
+    },
+    {
+      "type": "text",
+      "content": "{TM-testi|word|proper noun|a comparison test run by Tekniikan Maailma, a Finnish technology/motoring magazine} refers to a well-known consumer-comparison test. Sai pohjat TM-testissä (also seen as an idiom in the previous appendix lesson) specifically means the shop scored lowest in that magazine's published comparison."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Ei ihme että tämä korjaamo sai pohjat {TM-testissä|grammar|inessive, proper noun|in the TM test}.",
+          "en": "No wonder this repair shop scored at the bottom in the TM test."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Minkä auton veit korjaamoon?",
+          "en": "Which car did you take to the repair shop?"
+        },
+        {
+          "speaker": "B",
+          "fi": "2021 Octavian. Hinta oli paljon kalliimpi kuin Motonetin hinta samasta osasta.",
+          "en": "A 2021 Octavia. The price was much higher than Motonetti's price for the same part."
+        },
+        {
+          "speaker": "A",
+          "fi": "Veitkö asian kuluttajariitalautakuntaan?",
+          "en": "Did you take the matter to the Consumer Disputes Board?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Vein, mutta korjaamo ei noudattanut päätöstä silti.",
+          "en": "I did, but the repair shop still didn't follow the decision."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Paul Noble Rule",
+      "text": "Proper nouns and institutional names are context, not grammar — you don't need to analyse them morphologically, just recognise them for what they refer to. Once you know kuluttajariitalautakunta is a real dispute-resolution body and TM-testi is a magazine comparison, the sentences around them become far less mysterious."
+    },
+    {
+      "type": "pronunciation",
+      "content": "Kuluttajariitalautakunta: a genuinely long compound — break it at ku-lut-ta-ja (consumer) + rii-ta (dispute) + lau-ta-kun-ta (board), and say each piece separately before joining them. Octavia: OK-ta-vi-a (as in English, lightly Finnicized). Motonetti: MO-to-net-ti (double t held)."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "Octavia",
+          "en": "Škoda Octavia (car model)",
+          "type": "word"
+        },
+        {
+          "fi": "Focus",
+          "en": "Ford Focus (car model)",
+          "type": "word"
+        },
+        {
+          "fi": "Motonetti",
+          "en": "a Nordic car-parts retail chain",
+          "type": "word"
+        },
+        {
+          "fi": "kuluttajariitalautakunta",
+          "en": "the Finnish Consumer Disputes Board",
+          "type": "word"
+        },
+        {
+          "fi": "vakuutusyhtiö",
+          "en": "insurance company",
+          "type": "word"
+        },
+        {
+          "fi": "TM-testi",
+          "en": "a consumer-magazine comparison test",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "the car models and brand names mentioned by name across the corpus",
+        "kuluttajariitalautakunta — the Consumer Disputes Board, a recurring escalation point in serious complaints",
+        "TM-testi and Motonetti, two institutional/commercial references that add real-world context",
+        "you can now identify every capitalised or brand-referencing term in the corpus instead of skating past it"
+      ]
+    }
+  ]
+}

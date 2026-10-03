@@ -1,0 +1,185 @@
+{
+  "id": "l49",
+  "number": 49,
+  "title": "Ei mennyt niin kuin Strömsössä",
+  "subtitle": "Appendix 3 — idioms and set expressions",
+  "tags": [
+    "appendix",
+    "vocabulary",
+    "autohuolto",
+    "idioms",
+    "reading"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "Every language has idioms that make no sense translated word-for-word — kuin Strömsössä, meni nappiin, ottaa päähän. These can't be decoded from grammar alone, so this lesson simply hands them to you as fixed units, the way a phrasebook would."
+    },
+    {
+      "type": "heading",
+      "text": "Kuin Strömsössä — 'like in Strömsö'"
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "A TV-show idiom",
+      "text": "{Kuin Strömsössä|phrase|idiom|as if everything just works out perfectly} references a wholesome Finnish TV show, Strömsö, where country life always goes smoothly. Asiat eivät menneet kuin Strömsössä means 'things didn't go as smoothly as on Strömsö' — a dry, culturally specific way of saying 'nothing went to plan'."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Valitettavasti asiat eivät menneet {kuin Strömsössä|phrase|idiom|as smoothly as on Strömsö}.",
+          "en": "Unfortunately, things didn't go as smoothly as planned."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Meni nappiin — 'went to the button'"
+    },
+    {
+      "type": "text",
+      "content": "{Mennä nappiin|phrase|idiom|to go perfectly} literally means 'to go to the button', an idiom for something going perfectly, hitting the mark exactly. It's almost always used negated in this corpus — ei mennyt ihan nappiin, 'it didn't go quite perfectly' — a classically understated Finnish way of describing something that actually went fairly wrong."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Ei mennyt ihan {nappiin|phrase|idiom|perfectly}.",
+          "en": "It didn't go quite perfectly."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Ottaa päähän — 'takes to the head'"
+    },
+    {
+      "type": "text",
+      "content": "{Ottaa päähän|phrase|idiom|to be annoying/infuriating} literally 'takes to the head' — a common idiom for something being irritating or infuriating. Että ottaa päähän, kun tehdään korjaus jota ei olisi tarvittu — 'it's infuriating when a repair is done that wasn't needed'."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Että {ottaa päähän|phrase|idiom|is infuriating}, kun tehdään korjaus jota ei olisi tarvittu.",
+          "en": "It's infuriating when a repair is done that wasn't needed."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Sai pohjat testissä — 'got the bottom marks in the test'"
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "A reference to consumer testing",
+      "text": "{Saada pohjat|phrase|idiom|to score at the very bottom} — literally 'to get the bottom' — describes scoring the lowest possible in some ranking. Tämä korjaamo sai pohjat TM-testissä references a consumer-magazine comparison test, implying the worst possible result among competitors."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Ei ihme että tämä korjaamo {sai pohjat|phrase|idiom|scored at the bottom} testissä.",
+          "en": "No wonder this repair shop scored at the very bottom in the test."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Pahimmalle viholliselleen — 'to one's worst enemy'"
+    },
+    {
+      "type": "text",
+      "content": "A dramatic closing-line idiom: en suosittelisi tätä paikkaa edes pahimmalle viholliselleni — 'I wouldn't recommend this place even to my worst enemy'. Vihollinen means 'enemy'; the whole phrase is a fixed way to signal maximum disapproval, much like its English equivalent."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "En suosittelisi tätä paikkaa edes {pahimmalle viholliselleni|phrase|idiom|to my worst enemy}.",
+          "en": "I wouldn't recommend this place even to my worst enemy."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Menikö kaikki hyvin?",
+          "en": "Did everything go well?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Ei mennyt kuin Strömsössä. Ei mennyt ihan nappiin.",
+          "en": "It didn't go as smoothly as planned. It didn't go quite perfectly."
+        },
+        {
+          "speaker": "A",
+          "fi": "Suosittelisitko paikkaa jollekin?",
+          "en": "Would you recommend the place to anyone?"
+        },
+        {
+          "speaker": "B",
+          "fi": "En edes pahimmalle viholliselleni.",
+          "en": "Not even to my worst enemy."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Paul Noble Rule",
+      "text": "Idioms are the one category where the usual trick — strip the affix, find the familiar root — genuinely doesn't work. These five phrases simply need to be memorised as whole units, the same way 'it's raining cats and dogs' can't be decoded from 'cat' and 'dog'. That's fine; five fixed phrases is a small, finite cost for unlocking the corpus's most colourful lines."
+    },
+    {
+      "type": "pronunciation",
+      "content": "Strömsössä: STRÖM-sös-sä (the 'ö' rounds your lips twice in a row — go slowly). Nappiin: NAP-piin (double p held, long final 'ii'). Viholliselleni: VI-hol-li-sel-le-ni (five syllables, stress on VI)."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "kuin Strömsössä",
+          "en": "as if everything goes perfectly (idiom)",
+          "type": "phrase"
+        },
+        {
+          "fi": "mennä nappiin",
+          "en": "to go perfectly (idiom)",
+          "type": "phrase"
+        },
+        {
+          "fi": "ottaa päähän",
+          "en": "to be infuriating/annoying (idiom)",
+          "type": "phrase"
+        },
+        {
+          "fi": "saada pohjat",
+          "en": "to score at the very bottom (idiom)",
+          "type": "phrase"
+        },
+        {
+          "fi": "pahimmalle viholliselleen",
+          "en": "to one's worst enemy (idiom)",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "five fixed idioms that can't be decoded from grammar alone, memorised as whole units",
+        "you can now read the corpus's most colourful, culturally specific lines with full understanding",
+        "you recognise when a phrase is idiomatic rather than literal, a useful instinct for any new idiom you meet later"
+      ]
+    }
+  ]
+}
