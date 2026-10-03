@@ -1,0 +1,247 @@
+{
+  "id": "l7",
+  "number": 7,
+  "title": "Hyvä palvelu, suosittelen!",
+  "subtitle": "Good service, I recommend it!",
+  "tags": [
+    "basics",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "adjectives"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "You are reading Google reviews for a Finnish car repair shop (autohuolto). Almost every single review — good or bad — is built from one tiny recurring skeleton: an adjective plus the word palvelu, 'service'. Once you own this one template, you can already read (and write) the opening line of nearly every review in the whole set. This is where we start."
+    },
+    {
+      "type": "phrase",
+      "annotated": "{Hyvä|word|adjective|good} {palvelu|word|noun|service}, {suosittelen|grammar|verb, 1st person|I recommend}!",
+      "translation": "Good service, I recommend it!"
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "Why reviews sound so similar",
+      "text": "Finnish online reviews are famously short and formulaic — Finns dislike over-explaining. A five-word review like 'Hyvä palvelu, suosittelen' is completely normal and not seen as lazy. Learning this register means learning to say a lot with very little, which is very on-brand for Finnish culture in general."
+    },
+    {
+      "type": "heading",
+      "text": "Piece 1 — Palvelu: the word every review needs"
+    },
+    {
+      "type": "text",
+      "content": "{Palvelu|word|noun|service} is the single most common word in this whole review corpus — it shows up over 50 times. It is a neuter-feeling noun (Finnish has no grammatical gender) meaning 'service' in the customer-service sense. You will see it in two shapes: palvelu (the plain form, used as a subject: 'the service is...') and {palvelua|grammar|partitive|some service} (the partitive form, used as an object, e.g. after 'sain' — 'I got')."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Hyvä {palvelu|word|noun|service}.",
+          "en": "Good service."
+        },
+        {
+          "fi": "Ystävällinen {palvelu|word|noun|service}.",
+          "en": "Friendly service."
+        },
+        {
+          "fi": "Sain hyvää {palvelua|grammar|partitive|service}.",
+          "en": "I got good service."
+        },
+        {
+          "fi": "Loistavaa {palvelua|grammar|partitive|service} ja käynnistä jäi hyvä mieli.",
+          "en": "Great service, and the visit left a good feeling."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 2 — The adjective slot"
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "Just swap the adjective",
+      "text": "Once you know palvelu, the whole review-writing skill becomes: pick one adjective and put it in front. Finnish adjectives usually come before the noun, exactly like English. Change the adjective, the meaning of the whole review changes — no new grammar needed yet."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Hyvä|word|adjective|good} palvelu.",
+          "en": "Good service."
+        },
+        {
+          "fi": "{Erinomainen|word|adjective|excellent} palvelu.",
+          "en": "Excellent service."
+        },
+        {
+          "fi": "{Ammattimainen|word|adjective|professional} palvelu.",
+          "en": "Professional service."
+        },
+        {
+          "fi": "{Asiantunteva|word|adjective|knowledgeable} palvelu.",
+          "en": "Knowledgeable / expert service."
+        },
+        {
+          "fi": "{Huono|word|adjective|bad} palvelu.",
+          "en": "Bad service."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 3 — Suosittelen: the closing move"
+    },
+    {
+      "type": "text",
+      "content": "{Suosittelen|grammar|verb, 1st person|I recommend} comes from the verb suositella, 'to recommend'. The ending -n marks 'I' — Finnish verbs carry the subject inside the verb itself, so you often don't even need a separate word for 'I'. Reviewers use this word constantly to close out a positive review, almost like a verbal stamp of approval."
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Paul Noble Rule",
+      "text": "Don't try to memorise suosittelen as a random word. Notice the -n at the end — that's 'I' baked into the verb. You'll see this same -n ending come back on other 'I' verbs later (aion — I intend to, en — I don't). Recognise the pattern, not just the word."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Hyvä palvelu, {suosittelen|grammar|verb, 1st person|I recommend}!",
+          "en": "Good service, I recommend it!"
+        },
+        {
+          "fi": "Vahva {suositus|word|noun|recommendation}!",
+          "en": "Strong recommendation!"
+        },
+        {
+          "fi": "En {suosittele|grammar|negative verb|do not recommend}.",
+          "en": "I do not recommend."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "En — the negation word",
+      "text": "En means 'I don't / I won't'. It sits in front of the verb, and the main verb loses its own ending: suosittelen becomes en suosittele. This tiny word flips an entire glowing review into a warning — you'll see 'En suosittele' open several negative reviews in this corpus."
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Millaista palvelu oli autohuollossa?",
+          "en": "What was the service like at the car repair shop?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Hyvä palvelu, ystävällinen ja asiantunteva.",
+          "en": "Good service, friendly and knowledgeable."
+        },
+        {
+          "speaker": "A",
+          "fi": "Suositteletko heitä?",
+          "en": "Do you recommend them?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Kyllä, vahva suositus. Suosittelen!",
+          "en": "Yes, strong recommendation. I recommend it!"
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "word",
+      "title": "Free word from the dialogue",
+      "text": "Kyllä means 'yes' — the formal, textbook yes. You'll meet its casual cousin joo in a later lesson. For now, kyllä is exactly what you'll see written in reviews and formal speech."
+    },
+    {
+      "type": "pronunciation",
+      "content": "Palvelu: PAL-ve-lu (stress always on the first syllable in Finnish, every single word). Suosittelen: SUO-sit-te-len (four even syllables, the 'uo' glides like the 'wo' in 'won't'). Ystävällinen: YS-tä-väl-li-nen (long word, but every syllable is short and even — don't swallow the ending)."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "palvelu",
+          "en": "service",
+          "type": "word"
+        },
+        {
+          "fi": "palvelua",
+          "en": "service (partitive, as an object)",
+          "type": "grammar"
+        },
+        {
+          "fi": "hyvä",
+          "en": "good",
+          "type": "word"
+        },
+        {
+          "fi": "huono",
+          "en": "bad",
+          "type": "word"
+        },
+        {
+          "fi": "erinomainen",
+          "en": "excellent",
+          "type": "word"
+        },
+        {
+          "fi": "ammattimainen",
+          "en": "professional",
+          "type": "word"
+        },
+        {
+          "fi": "asiantunteva",
+          "en": "knowledgeable / expert",
+          "type": "word"
+        },
+        {
+          "fi": "suosittelen",
+          "en": "I recommend (suositella + I)",
+          "type": "grammar"
+        },
+        {
+          "fi": "en suosittele",
+          "en": "I do not recommend",
+          "type": "phrase"
+        },
+        {
+          "fi": "suositus",
+          "en": "recommendation",
+          "type": "word"
+        },
+        {
+          "fi": "vahva suositus",
+          "en": "strong recommendation",
+          "type": "phrase"
+        },
+        {
+          "fi": "kyllä",
+          "en": "yes (formal)",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "palvelu — service (the most common word in every review)",
+        "hyvä palvelu — good service (swap in erinomainen, ammattimainen, asiantunteva, huono)",
+        "suosittelen — I recommend (notice the -n = 'I')",
+        "en suosittele — I do not recommend (en flips the meaning)",
+        "vahva suositus — strong recommendation",
+        "You can now read and write the opening and closing line of almost any Finnish car-repair review",
+        "You understand why the -n ending on suosittelen carries the word 'I' inside it"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "id": "l16",
+  "number": 16,
+  "title": "Tulpat piti uusia",
+  "subtitle": "The spark plugs had to be replaced",
+  "tags": [
+    "basics",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "plurals",
+    "grammar"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "Back in Lesson 3 you saw ongelmia ei ilmennyt — 'no problems appeared' — without stopping on that -ia ending. Reviewers rarely complain about just one thing: parts, faults, and problems come in groups. This lesson gives you Finnish plurals, plus a new use of a word you already know: pitää."
+    },
+    {
+      "type": "phrase",
+      "annotated": "{Tulpat|grammar|nominative plural|the spark plugs} {piti|grammar|impersonal past|had to be} uusia.",
+      "translation": "The spark plugs had to be replaced."
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "Plural complaints, plural evidence",
+      "text": "When a Finnish reviewer lists osat, viat, or tulpat in the plural, it reads as more damning than a single singular complaint — it signals a pattern, not a one-off mistake. Watch for plurals doing quiet rhetorical work in the harsher reviews in this corpus."
+    },
+    {
+      "type": "heading",
+      "text": "Piece 1 — Nominative plural: add -t"
+    },
+    {
+      "type": "text",
+      "content": "The simplest Finnish plural just adds {-t|grammar|nominative plural suffix|-s} to the end of the word. Osa (part) → {osat|grammar|nominative plural|the parts}. Tulppa (spark plug) → {tulpat|grammar|nominative plural|the spark plugs} — note the double p softens to single p, a small sound-shift called consonant gradation that you'll meet more of later. Vika (fault) → {viat|grammar|nominative plural|the faults}."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Osat|grammar|nominative plural|the parts} vaihdettiin.",
+          "en": "The parts were changed."
+        },
+        {
+          "fi": "{Tulpat|grammar|nominative plural|the spark plugs} olivat ylihintaiset.",
+          "en": "The spark plugs were overpriced."
+        },
+        {
+          "fi": "{Viat|grammar|nominative plural|the faults} löytyivät nopeasti.",
+          "en": "The faults were found quickly."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 2 — Partitive plural: -ja/-jä or -ia/-iä"
+    },
+    {
+      "type": "text",
+      "content": "You've already used the partitive plural without knowing it: ongelmia ei ilmennyt (Lesson 3) is 'no problems appeared', with {ongelmia|grammar|partitive plural|problems} taking -ia. This shape appears after negation, after quantity words, and any time you mean 'some of' rather than 'all of' the group. Osa → {osia|grammar|partitive plural|parts, some of}."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Ei mitään {ongelmia|grammar|partitive plural|problems}.",
+          "en": "No problems at all."
+        },
+        {
+          "fi": "Vaihdettiin muutama {osia|grammar|partitive plural|parts}.",
+          "en": "A few parts were changed."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 3 — Piti + infinitive: 'had to'"
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "The other meaning of pitää",
+      "text": "From Lesson 2 you know piti paikkansa, 'held true' — from pitää meaning 'to hold'. But pitää has a second, completely different everyday meaning: 'must/have to'. In the past, that becomes {piti|grammar|impersonal past + infinitive|had to}, always paired with a plain infinitive verb: tulpat piti uusia, 'the spark plugs had to be renewed'. Same word, different job — context tells you which."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Tulpat {piti|grammar|impersonal past + infinitive|had to be} uusia.",
+          "en": "The spark plugs had to be replaced."
+        },
+        {
+          "fi": "Auto {piti|grammar|impersonal past + infinitive|had to be} jäähdytellä.",
+          "en": "The car had to be left to cool down."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Mitä osia vaihdettiin?",
+          "en": "What parts were changed?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Tulpat piti uusia, ja pari muutakin osaa vaihdettiin.",
+          "en": "The spark plugs had to be replaced, and a couple of other parts were changed too."
+        },
+        {
+          "speaker": "A",
+          "fi": "Ilmenikö muita ongelmia?",
+          "en": "Did any other problems appear?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Ei. Kaikki viat löytyivät nopeasti.",
+          "en": "No. All the faults were found quickly."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Paul Noble Rule",
+      "text": "You don't need to master every plural type today. Just learn to notice the two shapes: a plain -t at the end means 'the [things]' as a group (osat, viat, tulpat); an -a/-ä turning into -ia/-iä usually means 'some [things]', often right after ei. Spot the shape, and the meaning follows."
+    },
+    {
+      "type": "pronunciation",
+      "content": "Tulpat: TUL-pat (short, crisp — the single 'p' after the plural -t is the gradation Lesson mentioned). Osat: O-sat (two even syllables). Ongelmia: ON-gel-mi-a (four syllables, same soft 'g' as ongelma)."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "osat",
+          "en": "the parts (nominative plural of osa)",
+          "type": "grammar"
+        },
+        {
+          "fi": "tulpat",
+          "en": "the spark plugs (nominative plural of tulppa)",
+          "type": "grammar"
+        },
+        {
+          "fi": "viat",
+          "en": "the faults (nominative plural of vika)",
+          "type": "grammar"
+        },
+        {
+          "fi": "ongelmia",
+          "en": "problems (partitive plural of ongelma)",
+          "type": "grammar"
+        },
+        {
+          "fi": "osia",
+          "en": "parts, some of (partitive plural of osa)",
+          "type": "grammar"
+        },
+        {
+          "fi": "piti + infinitive",
+          "en": "had to (impersonal, from pitää 'must')",
+          "type": "grammar"
+        },
+        {
+          "fi": "-t",
+          "en": "nominative plural suffix",
+          "type": "grammar"
+        },
+        {
+          "fi": "-ja/-jä, -ia/-iä",
+          "en": "partitive plural suffixes",
+          "type": "grammar"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "the nominative plural -t: osat, tulpat, viat",
+        "the partitive plural -ia/-iä, including ongelmia from Lesson 3 finally explained",
+        "piti + infinitive — 'had to', the second meaning of pitää alongside 'held true' from Lesson 2",
+        "you can now list multiple parts, faults, or problems instead of just one",
+        "you can tell pitää's two meanings apart from context"
+      ]
+    }
+  ]
+}

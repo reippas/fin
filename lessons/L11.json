@@ -1,0 +1,185 @@
+{
+  "id": "l11",
+  "number": 11,
+  "title": "Suosittelisin toista korjaamoa",
+  "subtitle": "I would recommend a different repair shop",
+  "tags": [
+    "basics",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "conditional",
+    "grammar"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "You already own suosittelen (I recommend, Lesson 1) and oli (was, Lesson 2). This lesson softens both of them into 'would' — the conditional mood. It's the sound of hindsight in these reviews: what should have happened, what a reviewer would do differently. It shows up constantly in the angriest complaints, right where the reviewer stops reporting and starts advising."
+    },
+    {
+      "type": "phrase",
+      "annotated": "{Suosittelisin|grammar|conditional|I would recommend} toista {korjaamoa|grammar|partitive|repair shop}.",
+      "translation": "I would recommend a different repair shop."
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "Conditional as controlled anger",
+      "text": "When Finnish reviewers get truly frustrated, they don't raise their voice in the grammar — they shift into conditional. 'Olisi pitänyt vain puhdistaa jarrupalat' (they should have just cleaned the brake pads) reads calmer than a flat accusation, but it lands harder, because it quietly states exactly what competent work would have looked like."
+    },
+    {
+      "type": "heading",
+      "text": "Piece 1 — Building the conditional: -isi-"
+    },
+    {
+      "type": "text",
+      "content": "From Lesson 1, suosittelen is 'I recommend'. Slide {-isi-|grammar|conditional infix|would} in before the personal ending and you get suosittelisin — 'I would recommend'. That's the entire trick: find the verb stem, insert -isi-, then add back the person ending you already know (-n for 'I')."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Suosittelisin|grammar|conditional|I would recommend} toista korjaamoa.",
+          "en": "I would recommend a different repair shop."
+        },
+        {
+          "fi": "En {suosittelisi|grammar|conditional negative|would not recommend} tätä paikkaa.",
+          "en": "I would not recommend this place."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 2 — Olisi: 'would be' and 'should have'"
+    },
+    {
+      "type": "text",
+      "content": "You know on → oli (is → was) from Lesson 2. The same verb has a conditional too: {olisi|grammar|conditional of 'on'|would be}. Paired with pitänyt (a past participle meaning 'had to/ought'), olisi pitänyt is one of the most common phrases in complaint reviews — 'should have'."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Olisi|grammar|conditional of 'on'|would be} pitänyt vain puhdistaa jarrupalat.",
+          "en": "They should have just cleaned the brake pads."
+        },
+        {
+          "fi": "Homma {olisi|grammar|conditional of 'on'|would be} ollut kunnossa.",
+          "en": "Things would have been fine."
+        },
+        {
+          "fi": "Hinta {olisi|grammar|conditional of 'on'|would be} ollut sama.",
+          "en": "The price would have been the same."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 3 — Kannattaisi: softening advice"
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "Same -isi- trick, one more verb",
+      "text": "From Lesson 2, kannattaa means 'it's worth it'. Its conditional, {kannattaisi|grammar|conditional|it would be worth it}, softens blunt advice into a gentler suggestion — the difference between 'do this' and 'you might want to do this'."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Kannattaisi|grammar|conditional|it would be worth it} pyytää tarjous kirjallisena.",
+          "en": "It would be worth asking for a written quote."
+        },
+        {
+          "fi": "{Kannattaisi|grammar|conditional|it would be worth it} kiinnittää huomiota hintaan.",
+          "en": "It would be worth paying attention to the price."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Suosittelisitko tätä korjaamoa?",
+          "en": "Would you recommend this repair shop?"
+        },
+        {
+          "speaker": "B",
+          "fi": "En. Suosittelisin toista korjaamoa.",
+          "en": "No. I'd recommend a different repair shop."
+        },
+        {
+          "speaker": "A",
+          "fi": "Miksi?",
+          "en": "Why?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Olisi pitänyt vaihtaa vain yksi osa, mutta veloitettiin monesta.",
+          "en": "Only one part should have been changed, but I was charged for several."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Paul Noble Rule",
+      "text": "Every conditional in this lesson is built from a verb you already own: suosittelen, on, kannattaa. That's the whole point of -isi- — it's not a new vocabulary list, it's a lens you place over words you already have. Once the lens clicks, you can turn almost any verb from Lessons 1 to 4 into its 'would' version yourself."
+    },
+    {
+      "type": "pronunciation",
+      "content": "Suosittelisin: SUO-sit-te-li-sin (five syllables — slow down through the middle, the -isi- is the part learners rush). Olisi: O-li-si (short, even, stress on O). Kannattaisi: KAN-nat-tai-si (the 'ai' glides like English 'eye')."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "suosittelisin",
+          "en": "I would recommend (conditional of suositella)",
+          "type": "grammar"
+        },
+        {
+          "fi": "en suosittelisi",
+          "en": "I would not recommend",
+          "type": "phrase"
+        },
+        {
+          "fi": "olisi",
+          "en": "would be (conditional of on)",
+          "type": "grammar"
+        },
+        {
+          "fi": "olisi pitänyt",
+          "en": "should have (idiomatic)",
+          "type": "phrase"
+        },
+        {
+          "fi": "kannattaisi",
+          "en": "it would be worth it (conditional of kannattaa)",
+          "type": "grammar"
+        },
+        {
+          "fi": "-isi-",
+          "en": "conditional infix — 'would'",
+          "type": "grammar"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "suosittelisin / en suosittelisi — I would / wouldn't recommend",
+        "olisi pitänyt — should have (the classic hindsight complaint)",
+        "kannattaisi — it would be worth it (softer than kannattaa)",
+        "the -isi- pattern itself, ready to apply to other verbs you already know",
+        "You can now read the calm, controlled tone of Finnish hindsight complaints",
+        "You can turn any 'I recommend' style sentence into a polite 'I would recommend'"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "id": "l24",
+  "number": 24,
+  "title": "Lupasivat soittaa seuraavana päivänä",
+  "subtitle": "They promised to call the next day",
+  "tags": [
+    "basics",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "infinitive",
+    "grammar"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "Every vocab table since Lesson 1 has quietly shown verbs in one particular shape — korjata, vaihtaa, soittaa, suositella — without ever naming it. That's the infinitive, Finnish's 'to X' form. Today you get the ending itself, plus the small set of verbs that always pair with it: piti, voi, lupasi, yritti."
+    },
+    {
+      "type": "phrase",
+      "annotated": "Lupasivat {soittaa|grammar|infinitive|to call} seuraavana päivänä.",
+      "translation": "They promised to call the next day."
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "The broken-promise pattern",
+      "text": "Lupasivat soittaa — 'they promised to call' — followed later by ei soitettu or ei kuulunut mitään ('nothing was heard') is one of the most common complaint arcs in this corpus. The infinitive is what lets a reviewer state exactly what was promised, right before revealing it didn't happen."
+    },
+    {
+      "type": "heading",
+      "text": "Piece 1 — Spotting the infinitive ending"
+    },
+    {
+      "type": "text",
+      "content": "The basic infinitive ends in {-a|grammar|infinitive ending|to} or -ä after most stems, {-ta|grammar|infinitive ending|to} or -tä after others, and {-da|grammar|infinitive ending|to} or -dä after a smaller group. Korjata (to fix), vaihtaa (to change), soittaa (to call), tehdä (to do) — four different-looking endings, one identical job: naming the action itself, uncommitted to any person or tense."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Korjata|grammar|infinitive|to fix} auto vaati aikaa.",
+          "en": "Fixing the car required time."
+        },
+        {
+          "fi": "Piti {vaihtaa|grammar|infinitive|to change} osia.",
+          "en": "Parts had to be changed."
+        },
+        {
+          "fi": "{Tehdä|grammar|infinitive|to do} työ hyvin on tärkeää.",
+          "en": "Doing the work well is important."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 2 — Voi and piti: can and had to"
+    },
+    {
+      "type": "text",
+      "content": "You already know piti + infinitive from Lesson 10 ('had to'). Add {voi|grammar|modal-style verb|can/may}, from voida, meaning 'can/is able to'. You've actually seen it already, unglossed, at the very end of Lesson 6's reading: voin suositella paikkaa muillekin — 'I can recommend the place to others too'."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Voin|grammar|modal-style verb|I can} suositella paikkaa muillekin.",
+          "en": "I can recommend the place to others too."
+        },
+        {
+          "fi": "Piti {jäähdytellä|grammar|infinitive|to cool down} ennen kuin pääsi kotiin.",
+          "en": "Had to cool down before getting home."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 3 — Lupasi and yritti: promised and tried"
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "Same pattern, new verbs",
+      "text": "{Lupasi|grammar|modal-style verb, 3rd person past|promised} (from luvata) and {yritti|grammar|modal-style verb, 3rd person past|tried} (from yrittää) both work exactly like piti and voi — verb of intention or attempt, followed directly by a plain infinitive. Yritettiin rahastaa ylimääräistä, 'they tried to charge extra', even puts the pattern inside a passive (Lesson 4) for extra impersonal distance."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Lupasivat|grammar|modal-style verb, 3rd person plural past|promised} korjata virheen ilmaiseksi.",
+          "en": "They promised to fix the mistake for free."
+        },
+        {
+          "fi": "{Yritettiin|grammar|passive past + infinitive|it was attempted} rahastaa ylimääräistä.",
+          "en": "They tried to charge extra (an attempt was made to charge extra)."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Mitä he lupasivat tehdä?",
+          "en": "What did they promise to do?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Lupasivat soittaa seuraavana päivänä ja korjata virheen ilmaiseksi.",
+          "en": "They promised to call the next day and fix the mistake for free."
+        },
+        {
+          "speaker": "A",
+          "fi": "Soittivatko?",
+          "en": "Did they call?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Eivät. Ja yrittivät vielä laskuttaa minulta lisää.",
+          "en": "No. And they even tried to bill me extra."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Paul Noble Rule",
+      "text": "Once you can spot the -a/-ä, -ta/-tä, -da/-dä ending, you can read almost any dictionary entry or vocab list in Finnish, because that's the citation form every dictionary uses. And any time you see piti, voi, lupasi, or yritti sitting in front of one, you already know exactly what grammatical role that infinitive is playing."
+    },
+    {
+      "type": "pronunciation",
+      "content": "Lupasivat: LU-pa-si-vat (four even syllables). Soittaa: SOIT-taa (long final 'aa' — this is the infinitive marker doing its job). Yritettiin: Y-ri-tet-tiin (Finnish 'y' is a tight, rounded vowel, not an English 'y' consonant — close to German 'ü')."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "korjata",
+          "en": "to fix (infinitive)",
+          "type": "grammar"
+        },
+        {
+          "fi": "vaihtaa",
+          "en": "to change (infinitive)",
+          "type": "grammar"
+        },
+        {
+          "fi": "voi",
+          "en": "can/may (from voida)",
+          "type": "grammar"
+        },
+        {
+          "fi": "lupasi / lupasivat",
+          "en": "promised (3rd person past of luvata)",
+          "type": "grammar"
+        },
+        {
+          "fi": "yritti / yritettiin",
+          "en": "tried / it was attempted (yrittää)",
+          "type": "grammar"
+        },
+        {
+          "fi": "-a/-ä, -ta/-tä, -da/-dä",
+          "en": "basic infinitive endings — 'to X'",
+          "type": "grammar"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "the basic infinitive ending in its three shapes: -a/-ä, -ta/-tä, -da/-dä",
+        "voi — can/may, and piti — had to, both from Lesson 10's family",
+        "lupasi/lupasivat — promised, and yritti/yritettiin — tried",
+        "you can now read the broken-promise pattern (lupasi + infinitive, then nothing happened) throughout the corpus",
+        "you understand why every vocab table so far has shown verbs in this exact -a/-ta/-da shape"
+      ]
+    }
+  ]
+}

@@ -1,43 +1,66 @@
 #!/bin/bash
+#
+# Add a lesson to Finnish by Ear.
+#
+# Lessons now live as individual JSON files in the ./lessons/ folder and are
+# listed in ./lessons/manifest.json. The web app (index.html) fetches the
+# manifest and loads each file at runtime, so you never have to edit the HTML.
+#
+# Usage: ./append_lesson.sh <input.json>
+#
+# The input file must be a single valid JSON lesson object with a numeric
+# "number" field. It is copied to ./lessons/L<number>.json and added to the
+# manifest (kept ordered by lesson number).
 
-if [ -z "$1" ]; then
+set -euo pipefail
+
+if [ -z "${1:-}" ]; then
   echo "Usage: ./append_lesson.sh <input.json>"
   exit 1
 fi
 
 INPUT_JSON="$1"
-HTML_FILE="index.html"
+LESSONS_DIR="lessons"
+MANIFEST="$LESSONS_DIR/manifest.json"
 
 if [ ! -f "$INPUT_JSON" ]; then
   echo "Error: File '$INPUT_JSON' not found!"
   exit 1
 fi
 
-if [ ! -f "$HTML_FILE" ]; then
-  echo "Error: File '$HTML_FILE' not found in current directory!"
-  exit 1
-fi
+mkdir -p "$LESSONS_DIR"
+[ -f "$MANIFEST" ] || echo "[]" > "$MANIFEST"
 
-# Use awk to find the end of the `const INIT = [` array and insert the JSON
-awk -v json_file="$INPUT_JSON" '
-  # When we hit the start of the array, set a flag
-  /const INIT = \[/ { in_init=1 }
-  
-  # When we hit the closing bracket of that array
-  /^[ \t]*\];/ && in_init {
-    # 1. Read and print the entire JSON file
-    while ((getline line < json_file) > 0) {
-      print "        " line
-    }
-    # 2. Add a trailing comma in case there are more inputs later
-    print "        ,"
-    
-    # Reset flag so we only do this once
-    in_init=0
-  }
-  
-  # Print the original line from index.html
-  { print }
-' "$HTML_FILE" > tmp_index.html && mv tmp_index.html "$HTML_FILE"
+python3 - "$INPUT_JSON" "$LESSONS_DIR" "$MANIFEST" <<'PY'
+import json, os, shutil, sys
 
-echo "✅ Appended $INPUT_JSON into $HTML_FILE"
+input_json, lessons_dir, manifest_path = sys.argv[1:4]
+
+with open(input_json, encoding="utf-8") as f:
+    lesson = json.load(f)
+
+number = lesson.get("number")
+if not isinstance(number, int):
+    raise SystemExit(f"Error: lesson in {input_json} has no integer 'number' field")
+
+fname = f"L{number}.json"
+dest = os.path.join(lessons_dir, fname)
+
+# Write a normalised copy into the lessons folder.
+with open(dest, "w", encoding="utf-8") as f:
+    json.dump(lesson, f, ensure_ascii=False, indent=2)
+
+with open(manifest_path, encoding="utf-8") as f:
+    manifest = json.load(f)
+
+if fname not in manifest:
+    manifest.append(fname)
+
+# Keep the manifest ordered by lesson number (L12.json -> 12).
+manifest.sort(key=lambda n: int("".join(c for c in n if c.isdigit()) or 0))
+
+with open(manifest_path, "w", encoding="utf-8") as f:
+    json.dump(manifest, f, ensure_ascii=False, indent=2)
+
+print(f"OK Added {dest} and updated {manifest_path}")
+PY

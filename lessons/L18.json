@@ -1,0 +1,194 @@
+{
+  "id": "l18",
+  "number": 18,
+  "title": "Huollon jälkeen ei ilmennyt ongelmia",
+  "subtitle": "After the service, no problems appeared",
+  "tags": [
+    "basics",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "genitive",
+    "grammar"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "Huollon jälkeen has been sitting unglossed since Lesson 6. Time to open it up: huollon is the genitive of huolto, and jälkeen is a postposition meaning 'after' — but unlike English 'after the service', Finnish puts the little word after the noun, not before it. This lesson gives you that whole family."
+    },
+    {
+      "type": "phrase",
+      "annotated": "{Huollon|grammar|genitive|of the service} {jälkeen|grammar|postposition|after} ei ilmennyt ongelmia.",
+      "translation": "After the service, no problems appeared."
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "Backwards prepositions",
+      "text": "This is one of the more disorienting habits for English speakers: Finnish 'prepositions' mostly aren't. They're postpositions, sitting after the noun they govern, and that noun takes the genitive first. Once you accept the order flip, the logic is simple and completely regular."
+    },
+    {
+      "type": "heading",
+      "text": "Piece 1 — Genitive -n: of / 's"
+    },
+    {
+      "type": "text",
+      "content": "The genitive case just adds {-n|grammar|genitive suffix|of/'s} to the end of a noun. Huolto → {huollon|grammar|genitive|of the service}. Korjaamo → {korjaamon|grammar|genitive|of the repair shop / the repair shop's}. Asiakas (customer) → {asiakkaan|grammar|genitive|of the customer}, with a small consonant shift (s→kk) you'll start recognising the more you see it."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Huollon|grammar|genitive|of the service} laatu oli hyvä.",
+          "en": "The quality of the service was good."
+        },
+        {
+          "fi": "{Korjaamon|grammar|genitive|the repair shop's} palvelu oli ystävällistä.",
+          "en": "The repair shop's service was friendly."
+        },
+        {
+          "fi": "{Asiakkaan|grammar|genitive|the customer's} kohtaaminen kannattaisi hoitaa paremmin.",
+          "en": "Meeting the customer would be worth handling better."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 2 — Postpositions after the genitive: jälkeen, aikana"
+    },
+    {
+      "type": "text",
+      "content": "{Jälkeen|grammar|postposition|after} always follows a genitive noun: huollon jälkeen, 'after the service'. {Aikana|grammar|postposition|during} works the same way: korjauksen aikana, 'during the repair'. Think of these two words as glued permanently to the genitive that comes right before them."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Huollon {jälkeen|grammar|postposition|after} auto toimi hyvin.",
+          "en": "After the service, the car worked well."
+        },
+        {
+          "fi": "Korjauksen {aikana|grammar|postposition|during} minut pidettiin ajan tasalla.",
+          "en": "During the repair, I was kept up to date."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 3 — Vuoksi, takia, kanssa: because of, with"
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "Three more genitive-followers",
+      "text": "{Vuoksi|grammar|postposition|because of/for the sake of} and {takia|grammar|postposition|because of} both mean 'because of' and both follow the genitive: lämpöongelman vuoksi, 'because of the heat problem'. {Kanssa|grammar|postposition|with} does the same job for 'with': asiakkaan kanssa, 'with the customer'. Same rule every time — genitive noun first, postposition second."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Vein auton moottorin lämpöongelman {vuoksi|grammar|postposition|because of}.",
+          "en": "I took the car in because of an engine heat problem."
+        },
+        {
+          "fi": "Puhuin asiakkaan {kanssa|grammar|postposition|with}.",
+          "en": "I spoke with the customer."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Miksi veit auton korjaamoon?",
+          "en": "Why did you take the car to the repair shop?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Moottorin lämpöongelman vuoksi.",
+          "en": "Because of an engine heat problem."
+        },
+        {
+          "speaker": "A",
+          "fi": "Entä huollon jälkeen?",
+          "en": "And after the service?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Huollon jälkeen ei ilmennyt ongelmia, ja korjaamon palvelu oli hyvä.",
+          "en": "After the service, no problems appeared, and the repair shop's service was good."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Paul Noble Rule",
+      "text": "Every postposition in this lesson works the same single-step way: find the genitive -n, then read the little word right after it. Jälkeen, aikana, vuoksi, kanssa — don't learn them as four separate rules. Learn one rule (genitive first) applied to four words."
+    },
+    {
+      "type": "pronunciation",
+      "content": "Huollon: HUOL-lon (the 'uo' glides like 'wo' — same as huolto). Jälkeen: YÄL-keen (the 'j' is a 'y' sound, the 'ä' is like 'a' in 'cat', and the double 'ee' is held). Vuoksi: VUOK-si (short and clipped, stress firmly on VUOK)."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "huollon",
+          "en": "of the service (genitive of huolto)",
+          "type": "grammar"
+        },
+        {
+          "fi": "korjaamon",
+          "en": "of/the repair shop's (genitive of korjaamo)",
+          "type": "grammar"
+        },
+        {
+          "fi": "asiakkaan",
+          "en": "of/the customer's (genitive of asiakas)",
+          "type": "grammar"
+        },
+        {
+          "fi": "jälkeen",
+          "en": "after (postposition + genitive)",
+          "type": "grammar"
+        },
+        {
+          "fi": "aikana",
+          "en": "during (postposition + genitive)",
+          "type": "grammar"
+        },
+        {
+          "fi": "vuoksi",
+          "en": "because of (postposition + genitive)",
+          "type": "grammar"
+        },
+        {
+          "fi": "takia",
+          "en": "because of (postposition + genitive)",
+          "type": "grammar"
+        },
+        {
+          "fi": "kanssa",
+          "en": "with (postposition + genitive)",
+          "type": "grammar"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "the genitive -n: huollon, korjaamon, asiakkaan",
+        "jälkeen and aikana — after and during, both following the genitive",
+        "vuoksi/takia and kanssa — because of and with, same genitive rule",
+        "you can now read huollon jälkeen and every similar phrase in this corpus without guessing",
+        "you know Finnish 'prepositions' come after their noun, not before it"
+      ]
+    }
+  ]
+}

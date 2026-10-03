@@ -1,0 +1,175 @@
+{
+  "id": "l28",
+  "number": 28,
+  "title": "Kun auto vietiin puolueettomalle korjaamolle, paljastui totuus",
+  "subtitle": "When the car was taken to an independent shop, the truth came out",
+  "tags": [
+    "basics",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "conjunctions",
+    "grammar"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "Kun has slipped past unglossed in almost every dialogue since Lesson 8. So has jos, and koska. These three small words are what let reviewers build the classic reveal-structure complaint: set the scene, then deliver the gut-punch. Today they finally get named."
+    },
+    {
+      "type": "phrase",
+      "annotated": "{Kun|grammar|conjunction|when/as} auto vietiin puolueettomalle korjaamolle, paljastui totuus.",
+      "translation": "When the car was taken to an independent repair shop, the truth came out."
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "The reveal-structure complaint",
+      "text": "This corpus is full of two-part sentences: a kun-clause that sets up a neutral fact, followed by a main clause that lands the actual accusation — often a passive verb from Lesson 4, like paljastui, 'was revealed'. It's a very effective storytelling shape, and now you can build it yourself."
+    },
+    {
+      "type": "heading",
+      "text": "Piece 1 — Kun: when/as"
+    },
+    {
+      "type": "text",
+      "content": "{Kun|grammar|conjunction|when/as} links two clauses in time — 'when' or 'as'. It sits at the start of the clause it introduces, exactly like English 'when'. Kun sanoin, että ei vaihdeta — 'when I said that [only that] shouldn't be changed'."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Kun|grammar|conjunction|when} auto vietiin puolueettomalle korjaamolle, totuus paljastui.",
+          "en": "When the car was taken to an independent shop, the truth came out."
+        },
+        {
+          "fi": "{Kun|grammar|conjunction|when} tarvitsen huoltoa, käyn täällä.",
+          "en": "When I need service, I come here."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 2 — Koska: because"
+    },
+    {
+      "type": "text",
+      "content": "{Koska|grammar|conjunction|because} gives a reason, exactly like English 'because'. Jäi tekemättä, koska katsoin hinnan liian korkeaksi — 'it was left undone, because I considered the price too high' — notice liian korkeaksi using the translative -ksi from Lesson 11."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Jäi tekemättä, {koska|grammar|conjunction|because} katsoin hinnan liian korkeaksi.",
+          "en": "It was left undone, because I considered the price too high."
+        },
+        {
+          "fi": "En suosittele, {koska|grammar|conjunction|because} vika ei korjaantunut.",
+          "en": "I don't recommend it, because the fault wasn't fixed."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 3 — Jos: if"
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "Jos, another word you've already met unglossed",
+      "text": "{Jos|grammar|conjunction|if} introduces a condition. You met it back in Lesson 1's corpus reading without stopping: jos ilmennyt jotain, mistä tulee lisäkuluja, siitä on soitettu — 'if something came up that caused extra costs, there was a call about it'. Same word, now named."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Jos|grammar|conjunction|if} arvostat ammattitaitoa ja rehellisyyttä, suosittelen toista korjaamoa.",
+          "en": "If you value professionalism and honesty, I recommend a different repair shop."
+        },
+        {
+          "fi": "{Jos|grammar|conjunction|if} ilmennyt jotain, siitä on soitettu.",
+          "en": "If something came up, there was a call about it."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Miksi et suosittele heitä?",
+          "en": "Why don't you recommend them?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Koska vika ei korjaantunut, ja kun vein auton toiselle korjaamolle, totuus paljastui.",
+          "en": "Because the fault wasn't fixed, and when I took the car to another repair shop, the truth came out."
+        },
+        {
+          "speaker": "A",
+          "fi": "Mitä tekisit, jos he soittaisivat sinulle nyt?",
+          "en": "What would you do if they called you now?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Jos he soittaisivat, en vastaisi.",
+          "en": "If they called, I wouldn't answer."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Paul Noble Rule",
+      "text": "Kun, koska, jos each open a clause the exact same way English does — put them first, state the condition or timing, then follow with your main point. You're not learning new sentence logic here, just three small connector words that let you finally build the two-part sentences you've been reading since Lesson 1."
+    },
+    {
+      "type": "pronunciation",
+      "content": "Kun: KUN (one short syllable). Koska: KOS-ka (two syllables, crisp). Jos: YOS (the 'j' is a 'y' sound — don't pronounce it like English 'j')."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "kun",
+          "en": "when/as",
+          "type": "grammar"
+        },
+        {
+          "fi": "koska",
+          "en": "because",
+          "type": "grammar"
+        },
+        {
+          "fi": "jos",
+          "en": "if",
+          "type": "grammar"
+        },
+        {
+          "fi": "paljastui",
+          "en": "was revealed (past of paljastua)",
+          "type": "word"
+        },
+        {
+          "fi": "totuus",
+          "en": "truth",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "kun — when/as, koska — because, jos — if",
+        "you can now build the reveal-structure sentence: set-up clause, then the punchline",
+        "you can look back at Lesson 1's jos ilmennyt jotain and Lesson 6's dialogues and see these words clearly",
+        "paljastui — was revealed, and totuus — truth, two words that recur in the corpus's biggest reveals",
+        "you can now build genuinely complex, two-clause sentences instead of only single statements"
+      ]
+    }
+  ]
+}

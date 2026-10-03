@@ -1,0 +1,171 @@
+{
+  "id": "l30",
+  "number": 30,
+  "title": "Olin maksanut tälle firmalle yli 1000 euroa turhaan",
+  "subtitle": "I had paid this company over 1000 euros for nothing",
+  "tags": [
+    "basics",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "pluperfect",
+    "grammar"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "Lesson 23 gave you 'I have used' — the perfect. This lesson pushes it one step further back in time: 'I had paid', 'the engine had been damaged'. It's called the pluperfect, and building it costs you nothing new — just swap Lesson 23's present-tense olla for the past-tense oli you've known since Lesson 2."
+    },
+    {
+      "type": "phrase",
+      "annotated": "{Olin|grammar|1st person, past of olla|I had} {maksanut|grammar|past participle|paid} tälle firmalle yli 1000 euroa turhaan.",
+      "translation": "I had paid this company over 1000 euros for nothing."
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "Pluperfect as the hidden backstory",
+      "text": "Reviewers reach for the pluperfect to reveal something that had already happened by the time the main story kicks in — usually the moment a bigger picture snaps into focus. Olin maksanut yli 1000 euroa turhaan lands harder than 'I paid 1000 euros', because it frames the payment as a fact already sitting in the past, waiting to be exposed."
+    },
+    {
+      "type": "heading",
+      "text": "Piece 1 — From perfect to pluperfect: olen → olin"
+    },
+    {
+      "type": "text",
+      "content": "You already have the whole formula. Lesson 23's perfect is olen/on/ovat + past participle. Swap in Lesson 2's past forms — {olin|grammar|1st person, past of olla|I had}, {oli|grammar|3rd person, past of olla|had}, {olivat|grammar|3rd person plural, past of olla|had} — and you've built the pluperfect. Käyttänyt (used) → olin käyttänyt, 'I had used'."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Olin|grammar|1st person, past of olla|I had} {maksanut|grammar|past participle|paid} liikaa.",
+          "en": "I had paid too much."
+        },
+        {
+          "fi": "Moottori {oli|grammar|3rd person, past of olla|had} {vaurioitunut|grammar|past participle|been damaged} pysyvästi.",
+          "en": "The engine had been permanently damaged."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 2 — Third person pluperfect: oli vaurioitunut"
+    },
+    {
+      "type": "text",
+      "content": "This is the shape behind one of the corpus's biggest reveals: paljastui, että auton moottori oli pysyvästi vaurioitunut väärän diagnoosin vuoksi — 'it was revealed that the car's engine had been permanently damaged because of a wrong diagnosis'. Notice this sentence also uses että (that), kun's family from Lesson 22, plus the vuoksi postposition from Lesson 12 — everything working together."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Paljastui, että moottori {oli|grammar|3rd person, past of olla|had} {vaurioitunut|grammar|past participle|been damaged}.",
+          "en": "It was revealed that the engine had been damaged."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 3 — Negative pluperfect: en ollut, ei ollut"
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "The same negation shape, one more time",
+      "text": "Negating the pluperfect works exactly like negating the perfect (Lesson 23) — negation word plus olla's connegative, ole — just with a past-tense flavour built into the participle that follows: {ei ollut|grammar|negative pluperfect|had not been} tehty alkuunkaan hyvin, 'hadn't been done well at all to begin with'."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Se {ei ollut|grammar|negative pluperfect|had not been} tehty alkuunkaan hyvin.",
+          "en": "It hadn't been done well at all to begin with."
+        },
+        {
+          "fi": "{En ollut|grammar|negative pluperfect, 1st person|I had not} kuullut mitään korjaamosta aiemmin.",
+          "en": "I had not heard anything about the repair shop before."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Mitä paljastui, kun veit auton toiselle korjaamolle?",
+          "en": "What was revealed when you took the car to another repair shop?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Paljastui, että moottori oli pysyvästi vaurioitunut, ja olin jo maksanut yli 1000 euroa turhaan.",
+          "en": "It was revealed that the engine had been permanently damaged, and I had already paid over 1000 euros for nothing."
+        },
+        {
+          "speaker": "A",
+          "fi": "Oliko työtä tehty huolella?",
+          "en": "Had the work been done carefully?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Ei ollut tehty alkuunkaan hyvin.",
+          "en": "It hadn't been done well at all."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Paul Noble Rule",
+      "text": "You now have all three past-oriented tenses built from the exact same two ingredients: simple past (oli, Lesson 2), perfect (olen + participle, Lesson 23), pluperfect (oli + participle, this lesson). If you can find the participle and check whether olla is in the present or the past, you can name the tense every time."
+    },
+    {
+      "type": "pronunciation",
+      "content": "Olin maksanut: O-lin MAK-sa-nut (two words, stress each on the first syllable). Vaurioitunut: VAU-ri-oi-tu-nut (five syllables — a long word, but every syllable is even, no hidden stress shifts). Alkuunkaan: AL-kuun-kaan (long double vowels held in the middle and at the end)."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "olin maksanut",
+          "en": "I had paid (pluperfect: olin + maksanut)",
+          "type": "grammar"
+        },
+        {
+          "fi": "oli vaurioitunut",
+          "en": "had been damaged (pluperfect, 3rd person)",
+          "type": "grammar"
+        },
+        {
+          "fi": "ei ollut tehty",
+          "en": "had not been done (negative pluperfect)",
+          "type": "grammar"
+        },
+        {
+          "fi": "alkuunkaan",
+          "en": "at all (to begin with)",
+          "type": "word"
+        },
+        {
+          "fi": "että",
+          "en": "that (introducing a reported fact)",
+          "type": "grammar"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "the pluperfect: oli/olin + past participle, one step further back than Lesson 23's perfect",
+        "olin maksanut, oli vaurioitunut — the classic hidden-backstory reveal",
+        "ei ollut tehty — negative pluperfect, following the same negation pattern as everything since Lesson 3",
+        "you can now name and build all three of Finnish's past-oriented tenses on demand",
+        "you can read the corpus's biggest reveal sentences (moottori oli vaurioitunut) with full understanding"
+      ]
+    }
+  ]
+}

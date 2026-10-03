@@ -1,0 +1,179 @@
+{
+  "id": "l33",
+  "number": 33,
+  "title": "Toimiko auto huollon jälkeen?",
+  "subtitle": "Did the car work after the service?",
+  "tags": [
+    "basics",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "questions",
+    "grammar"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "Every dialogue since Lesson 3 has quietly used a question ending you've never had named: toimiko, suositteletko, ilmenikö. It's one tiny suffix doing all that work. This lesson makes it explicit, so you can build your own yes/no questions instead of only recognising ones already written for you."
+    },
+    {
+      "type": "phrase",
+      "annotated": "{Toimiko|grammar|question particle -ko|did work} auto huollon jälkeen?",
+      "translation": "Did the car work after the service?"
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "No 'do/does/did' needed",
+      "text": "English builds yes/no questions with a helper verb: 'did it work?', 'do you recommend?'. Finnish needs no helper verb at all — it just clips a small particle onto the main verb itself and moves that verb to the front. One word does the whole job that three English words do."
+    },
+    {
+      "type": "heading",
+      "text": "Piece 1 — -ko/-kö attaches to the verb, verb moves first"
+    },
+    {
+      "type": "text",
+      "content": "To turn a statement into a yes/no question, take the main verb, move it to the front of the sentence, and attach {-ko|grammar|question particle|question marker} (or -kö after front vowels). Toimi (worked) → {Toimiko|grammar|question particle -ko|did it work?} auto? Suosittelet (you recommend) → {Suositteletko|grammar|question particle -ko|do you recommend?} tätä?"
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Toimiko|grammar|question particle -ko|did it work} auto huollon jälkeen?",
+          "en": "Did the car work after the service?"
+        },
+        {
+          "fi": "{Suositteletko|grammar|question particle -ko|do you recommend} tätä korjaamoa?",
+          "en": "Do you recommend this repair shop?"
+        },
+        {
+          "fi": "{Ilmenikö|grammar|question particle -kö|did appear} ongelmia?",
+          "en": "Did any problems appear?"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 2 — -ko/-kö also attaches to other words, for emphasis"
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "Not just verbs",
+      "text": "The same particle can attach to nouns or other words when the question is really about that word specifically, not the action. Onko sinulla autoa? — 'do you have a car?' — the particle rides on on because the yes/no hinges on having, not on some other part of the sentence. Whatever word the question truly turns on is the word that gets -ko/-kö."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Onko|grammar|question particle -ko|is/does} sinulla autoa korjattavana?",
+          "en": "Do you have a car being repaired?"
+        },
+        {
+          "fi": "{Oliko|grammar|question particle -ko|was} hinta kohtuullinen?",
+          "en": "Was the price reasonable?"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 3 — Answering: kyllä/ei, or just repeat the verb"
+    },
+    {
+      "type": "text",
+      "content": "You already have kyllä (yes, Lesson 1) and ei (no/doesn't, Lesson 3). But the most natural Finnish answer often just echoes the verb from the question, positively or negatively: Suositteletko? — Suosittelen. (Do you recommend? — I recommend [i.e. yes].) Toimiko? — Ei toiminut. (Did it work? — It didn't work [i.e. no].)"
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Suositteletko? — Suosittelen.",
+          "en": "Do you recommend it? — I recommend it (yes)."
+        },
+        {
+          "fi": "Toimiko auto? — Ei toiminut.",
+          "en": "Did the car work? — It didn't work (no)."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Toimiko auto huollon jälkeen?",
+          "en": "Did the car work after the service?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Ei toiminut. Ilmenikö sinulla samanlaisia ongelmia?",
+          "en": "It didn't work. Did you have similar problems?"
+        },
+        {
+          "speaker": "A",
+          "fi": "Onko korjaamolla hyvä maine muuten?",
+          "en": "Does the repair shop have a good reputation otherwise?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Ei kovin hyvä. Suosittelisin toista.",
+          "en": "Not very good. I'd recommend a different one."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Paul Noble Rule",
+      "text": "Go back to Lesson 3's dialogue right now: Toimiko auto huollon jälkeen? was sitting there the whole time. You've been reading -ko/-kö questions since your third lesson without a name for them. That's the entire Paul Noble method in miniature — recognise first, name later, and the naming barely changes anything because you already knew how to use it."
+    },
+    {
+      "type": "pronunciation",
+      "content": "Toimiko: TOI-mi-ko (three syllables, rising slightly in question intonation at the end, like English). Suositteletko: SUO-sit-te-let-ko (long word — the -ko lands light and quick at the very end). Onko: ON-ko (short, crisp, very common)."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "-ko / -kö",
+          "en": "question particle, attaches to the fronted verb (or key word)",
+          "type": "grammar"
+        },
+        {
+          "fi": "toimiko",
+          "en": "did it work? (toimi + ko)",
+          "type": "grammar"
+        },
+        {
+          "fi": "suositteletko",
+          "en": "do you recommend? (suosittelet + ko)",
+          "type": "grammar"
+        },
+        {
+          "fi": "onko",
+          "en": "is there/does [someone] have? (on + ko)",
+          "type": "grammar"
+        },
+        {
+          "fi": "ilmenikö",
+          "en": "did it appear? (ilmeni + kö)",
+          "type": "grammar"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "the -ko/-kö question particle, attached to a fronted verb: toimiko, suositteletko, onko",
+        "the same particle attaching to other key words for a more targeted question",
+        "the natural way to answer: echo the verb (suosittelen) instead of always saying kyllä/ei",
+        "you can now build your own yes/no questions instead of just recognising them",
+        "you can look back at every earlier dialogue and see this particle you'd been reading all along"
+      ]
+    }
+  ]
+}

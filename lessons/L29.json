@@ -1,0 +1,180 @@
+{
+  "id": "l29",
+  "number": 29,
+  "title": "Olen käyttänyt tätä huoltamoa monta vuotta",
+  "subtitle": "I have used this repair shop for many years",
+  "tags": [
+    "basics",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "perfect tense",
+    "grammar"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "Every past tense so far — oli, sain, tehtiin — describes one finished action. But long-time customers in this corpus reach for a different shape when they want to say 'I have used this place for years': the perfect tense. Good news — you already own both halves of it."
+    },
+    {
+      "type": "phrase",
+      "annotated": "{Olen|grammar|1st person, present of olla|I have} {käyttänyt|grammar|past participle|used} tätä huoltamoa monta vuotta.",
+      "translation": "I have used this repair shop for many years."
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "Perfect tense as credibility",
+      "text": "When a reviewer opens with olen käyttänyt or olen huollattanut, they're doing more than stating a fact — they're establishing standing before delivering a verdict. 'I've been using this place for five years' carries more weight than a first-time visit, and the perfect tense is exactly the grammatical shape that signals 'this isn't a one-off opinion'."
+    },
+    {
+      "type": "heading",
+      "text": "Piece 1 — Building the perfect: olla + past participle"
+    },
+    {
+      "type": "text",
+      "content": "The perfect tense is just two pieces you already have: the present tense of olla (Lesson 13: olen, olet, on...) plus the past participle (Lesson 3: -nut/-nyt). Käyttää (to use) → käyttänyt. Olen + käyttänyt → {olen käyttänyt|grammar|perfect tense|I have used}. No new endings to learn — just a new combination of two old ones."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Olen|grammar|1st person, present of olla|I have} {huollattanut|grammar|past participle|had serviced} autoni täällä viisi vuotta.",
+          "en": "I have had my car serviced here for five years."
+        },
+        {
+          "fi": "{Olen|grammar|1st person, present of olla|I have} {saanut|grammar|past participle|gotten} aina hyvää palvelua.",
+          "en": "I have always gotten good service."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 2 — Third person perfect: on ollut, ovat löytyneet"
+    },
+    {
+      "type": "text",
+      "content": "The same combination works for 'he/she/it has' and 'they have' — just swap in the third-person forms of olla you already know: {on|grammar|3rd person, present of olla|has} for singular, {ovat|grammar|3rd person plural, present of olla|have} for plural. Hinta-arviot {ovat|grammar|3rd person plural, present of olla|have} hyvin {pitäneet|grammar|past participle, plural|held} paikkansa — 'the price estimates have held true well', reusing paikkansa from Lesson 14."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Huolto {on|grammar|3rd person, present of olla|has} {ollut|grammar|past participle|been} aina asiallista.",
+          "en": "The service has always been proper/professional."
+        },
+        {
+          "fi": "Viat {ovat|grammar|3rd person plural, present of olla|have} {löytyneet|grammar|past participle, plural|been found} nopeasti.",
+          "en": "The faults have been found quickly."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 3 — Negative perfect: en ole, ei ole"
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "Same negation pattern as Lesson 3",
+      "text": "Negating the perfect follows exactly the pattern from Lesson 3 — negation word + connegative — just with olla's connegative, ole, standing in for the main verb: {en ole|grammar|negative perfect, 1st person|I have not}, {ei ole|grammar|negative perfect, 3rd person|has not}. Työn jäljessä {ei ole|grammar|negative perfect, 3rd person|has not} ollut moittimista — 'there has been nothing to complain about in the work'."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Työn jäljessä {ei ole|grammar|negative perfect, 3rd person|has not} ollut moittimista.",
+          "en": "There has been nothing to complain about in the work."
+        },
+        {
+          "fi": "{En ole|grammar|negative perfect, 1st person|I have not} yrityksen palveluita aikaisemmin käyttänyt.",
+          "en": "I have not used the company's services before."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Kuinka kauan olet käyttänyt tätä korjaamoa?",
+          "en": "How long have you been using this repair shop?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Olen käyttänyt sitä monta vuotta, enkä ole koskaan pettynyt.",
+          "en": "I've used it for many years, and I have never been disappointed."
+        },
+        {
+          "speaker": "A",
+          "fi": "Ovatko hinta-arviot pitäneet paikkansa?",
+          "en": "Have the price estimates held true?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Kyllä, aina. Suosittelen vahvasti.",
+          "en": "Yes, always. I strongly recommend it."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Paul Noble Rule",
+      "text": "The perfect tense will never surprise you again once you see it as addition, not invention: present-tense olla (Lesson 13) + past participle (Lesson 3). Every review you meet with olen/on/ovat sitting next to a -nut/-nyt word is building the same structure you can now build yourself."
+    },
+    {
+      "type": "pronunciation",
+      "content": "Olen käyttänyt: O-len KÄYT-tä-nyt (two separate words, don't rush together — stress each on its own first syllable). Ovat löytyneet: O-vat LÖY-ty-neet (the 'öy' glides — round your lips for ö, then quickly to y)."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "olen käyttänyt",
+          "en": "I have used (perfect: olen + käyttänyt)",
+          "type": "grammar"
+        },
+        {
+          "fi": "olen huollattanut",
+          "en": "I have had [my car] serviced (perfect)",
+          "type": "grammar"
+        },
+        {
+          "fi": "on ollut",
+          "en": "has been (perfect, 3rd person)",
+          "type": "grammar"
+        },
+        {
+          "fi": "ovat löytyneet",
+          "en": "have been found (perfect, 3rd person plural)",
+          "type": "grammar"
+        },
+        {
+          "fi": "en ole",
+          "en": "I have not (negative perfect)",
+          "type": "grammar"
+        },
+        {
+          "fi": "ei ole",
+          "en": "has not (negative perfect)",
+          "type": "grammar"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "the perfect tense: olla (present) + past participle — built entirely from pieces you already had",
+        "olen käyttänyt, olen huollattanut — the loyal-customer opening line",
+        "on ollut, ovat löytyneet — third person perfect, singular and plural",
+        "en ole, ei ole — negative perfect, following Lesson 3's negation pattern exactly",
+        "you can now read the credibility-building opening of nearly every long-time-customer review in the corpus"
+      ]
+    }
+  ]
+}

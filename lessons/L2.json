@@ -1,0 +1,175 @@
+{
+  "id": "l2",
+  "number": 2,
+  "title": "Mikä sun nimi on?",
+  "subtitle": "What is your name?",
+  "tags": [
+    "basics",
+    "introductions",
+    "pronouns"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "From Lesson 1 you know: Mikä tää on? Today you bend that sentence into something new. No new grammar. Just new words in a shape you already recognise."
+    },
+    {
+      "type": "heading",
+      "text": "Meet: mun and sun"
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "Real vs Textbook",
+      "text": "Textbooks say minun (my) and sinun (your). Real street Finnish says mun and sun. We learn real street Finnish."
+    },
+    {
+      "type": "comparison",
+      "headers": [
+        "Colloquial",
+        "Formal/Textbook",
+        "English"
+      ],
+      "rows": [
+        [
+          "mä",
+          "minä",
+          "I"
+        ],
+        [
+          "mun",
+          "minun",
+          "my"
+        ],
+        [
+          "sun",
+          "sinun",
+          "your"
+        ],
+        [
+          "oon",
+          "olen",
+          "I am"
+        ],
+        [
+          "on",
+          "on",
+          "is (stays the same!)"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "The word: nimi"
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Mun|word|pronoun|my} {nimi|word|noun|name} on Pekka.",
+          "en": "My name is Pekka."
+        },
+        {
+          "fi": "{Mun|word|pronoun|my} {nimi|word|noun|name} on ___. (fill in yours!)",
+          "en": "My name is ___."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "Pattern recognition",
+      "text": "From Lesson 1: [thing] + on + [thing]. Now: Mun nimi + on + Pekka. You already knew how to build that sentence!"
+    },
+    {
+      "type": "heading",
+      "text": "Ask it"
+    },
+    {
+      "type": "phrase",
+      "annotated": "{Mikä|grammar|Q-word|what} {sun|word|pronoun|your} {nimi|word|noun|name} {on|grammar|verb|is}?",
+      "translation": "What is your name?"
+    },
+    {
+      "type": "heading",
+      "text": "Your first real exchange"
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Mikä sun nimi on?",
+          "en": "What is your name?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Mun nimi on ___. Mikä sun nimi on?",
+          "en": "My name is ___. What's yours?"
+        },
+        {
+          "speaker": "A",
+          "fi": "Mun nimi on ___!",
+          "en": "My name is ___!"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "The lazy version Finns actually use"
+    },
+    {
+      "type": "phrase",
+      "annotated": "{Mä|word|pronoun|I} {oon|grammar|verb|am} Pekka.",
+      "translation": "I'm Pekka."
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Notice",
+      "text": "on never changes. It's your anchor. oon is only for \"I am.\" Everything else uses on."
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "mun",
+          "en": "my (colloquial)",
+          "type": "word"
+        },
+        {
+          "fi": "sun",
+          "en": "your (colloquial)",
+          "type": "word"
+        },
+        {
+          "fi": "nimi",
+          "en": "name",
+          "type": "word"
+        },
+        {
+          "fi": "mä",
+          "en": "I (colloquial)",
+          "type": "word"
+        },
+        {
+          "fi": "oon",
+          "en": "I am (colloquial)",
+          "type": "grammar"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "mun — my",
+        "sun — your",
+        "nimi — name",
+        "mä — I",
+        "oon — am",
+        "Ask & answer \"what's your name?\" like a real Finn"
+      ]
+    }
+  ]
+}

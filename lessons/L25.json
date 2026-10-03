@@ -1,0 +1,208 @@
+{
+  "id": "l25",
+  "number": 25,
+  "title": "Maksoin yli tuhat euroa turhaan",
+  "subtitle": "I paid over a thousand euros for nothing",
+  "tags": [
+    "basics",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "numbers",
+    "money"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "This corpus is full of precise numbers — 161,16 euroa, kolme kertaa, viisi vuotta — because Finnish reviewers treat exact figures as evidence. You've been skipping past every number so far. Today you stop skipping."
+    },
+    {
+      "type": "phrase",
+      "annotated": "Maksoin yli {tuhat|word|number|thousand} euroa turhaan.",
+      "translation": "I paid over a thousand euros for nothing."
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "Numbers as proof",
+      "text": "When a reviewer states a specific figure — 161,16 euroa, not just 'a lot' — it functions as documentation, almost like showing a receipt inside the sentence. Precise numbers are one of the ways these reviews establish credibility, especially in complaints that end up disputed."
+    },
+    {
+      "type": "heading",
+      "text": "Piece 1 — Cardinal numbers 1-10"
+    },
+    {
+      "type": "comparison",
+      "headers": [
+        "Number",
+        "Finnish"
+      ],
+      "rows": [
+        [
+          "1",
+          "yksi"
+        ],
+        [
+          "2",
+          "kaksi"
+        ],
+        [
+          "3",
+          "kolme"
+        ],
+        [
+          "4",
+          "neljä"
+        ],
+        [
+          "5",
+          "viisi"
+        ],
+        [
+          "10",
+          "kymmenen"
+        ],
+        [
+          "100",
+          "sata"
+        ],
+        [
+          "1000",
+          "tuhat"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 2 — Money: numbers force the partitive"
+    },
+    {
+      "type": "text",
+      "content": "From Lesson 10 you know the partitive marks 'some of' a group. Numbers two and above trigger this same partitive on the noun that follows them: viisi {euroa|grammar|partitive singular|euros} (five euros), sata {euroa|grammar|partitive singular|euros} (a hundred euros). Only yksi (one) keeps the noun in its plain form: yksi euro."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Sata viisi {euroa|grammar|partitive singular|euros}.",
+          "en": "One hundred and five euros."
+        },
+        {
+          "fi": "Kaksisataa kuusikymmentä {euroa|grammar|partitive singular|euros}.",
+          "en": "Two hundred and sixty euros."
+        },
+        {
+          "fi": "Viisi {vuotta|grammar|partitive singular|years}.",
+          "en": "Five years."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 3 — Kertaa: counting how many times"
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "Kerta and its partitive kertaa",
+      "text": "Kerta means 'a time/occasion'. Following the same rule as Piece 2, after a number it takes the partitive form {kertaa|grammar|partitive singular|times}: kolme kertaa, 'three times'. This is exactly how the corpus describes a car towed repeatedly: autoni hinattiin kolme kertaa (Lesson 14) — now you know why kertaa ends the way it does."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Autoni hinattiin kolme {kertaa|grammar|partitive singular|times}.",
+          "en": "My car was towed three times."
+        },
+        {
+          "fi": "Kävin siellä monta {kertaa|grammar|partitive singular|times}.",
+          "en": "I went there many times."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Paljonko maksoit yhteensä?",
+          "en": "How much did you pay in total?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Maksoin yli tuhat euroa turhaan. Auto hinattiin kolme kertaa.",
+          "en": "I paid over a thousand euros for nothing. The car was towed three times."
+        },
+        {
+          "speaker": "A",
+          "fi": "Kuinka monta vuotta olet käynyt siellä?",
+          "en": "How many years have you been going there?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Viisi vuotta, mutta en enää.",
+          "en": "Five years, but not anymore."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Paul Noble Rule",
+      "text": "One rule covers almost every number phrase you'll meet: number two or higher + noun in the partitive. Viisi euroa, kolme kertaa, viisi vuotta — same shape every time. Only yksi breaks the pattern by keeping the plain form. Learn that single exception and the rest is automatic."
+    },
+    {
+      "type": "pronunciation",
+      "content": "Tuhat: TU-hat (two syllables, soft 'h'). Kertaa: KER-taa (long final 'aa', held clearly — this length is what marks it as partitive rather than plain kerta). Euroa: EU-ro-a (the 'eu' glides like 'eh-oo' run together, not English 'you')."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "yksi, kaksi, kolme, neljä, viisi",
+          "en": "one, two, three, four, five",
+          "type": "word"
+        },
+        {
+          "fi": "kymmenen, sata, tuhat",
+          "en": "ten, hundred, thousand",
+          "type": "word"
+        },
+        {
+          "fi": "euroa",
+          "en": "euros (partitive singular of euro, after numbers 2+)",
+          "type": "grammar"
+        },
+        {
+          "fi": "kertaa",
+          "en": "times (partitive singular of kerta)",
+          "type": "grammar"
+        },
+        {
+          "fi": "vuotta",
+          "en": "years (partitive singular of vuosi)",
+          "type": "grammar"
+        },
+        {
+          "fi": "monta",
+          "en": "many (used with partitive)",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "cardinal numbers 1-10, plus sata (hundred) and tuhat (thousand)",
+        "the rule: numbers 2+ force the partitive singular on the following noun",
+        "kertaa — times, and vuotta — years, both explained via that same rule",
+        "you can now read every euro amount and every count of occurrences in the corpus",
+        "you understand why autoni hinattiin kolme kertaa (Lesson 14) ends in kertaa, not kerta"
+      ]
+    }
+  ]
+}

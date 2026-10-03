@@ -1,0 +1,129 @@
+{
+  "id": "l1",
+  "number": 1,
+  "title": "Mikä tää on?",
+  "subtitle": "What is this?",
+  "tags": [
+    "basics",
+    "questions",
+    "verbs"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "You already know your first sentence. You just heard it."
+    },
+    {
+      "type": "phrase",
+      "annotated": "{Mikä|grammar|Q-word|what} {tää|word|pronoun|this} {on|grammar|verb|is}?",
+      "translation": "What is this?"
+    },
+    {
+      "type": "heading",
+      "text": "The magic word: on"
+    },
+    {
+      "type": "text",
+      "content": "{On|grammar|verb|is} means \"is.\" That's it. Finnish stacks words simply — no tricks to learn yet."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Tää {on|grammar|verb|is} kahvi.",
+          "en": "This is coffee."
+        },
+        {
+          "fi": "Tää {on|grammar|verb|is} auto.",
+          "en": "This is a car."
+        },
+        {
+          "fi": "Tää {on|grammar|verb|is} ongelma.",
+          "en": "This is a problem."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Anchoring Rule",
+      "text": "Finnish has no \"a\" or \"the.\" Never mourn what a language lacks. Move on."
+    },
+    {
+      "type": "heading",
+      "text": "Now flip it — ask!"
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Mikä tää on?",
+          "en": "What is this?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Tää on kahvi.",
+          "en": "This is coffee."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Add one word: hyvä"
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Tää on {hyvä|word|adjective|good}.",
+          "en": "This is good."
+        },
+        {
+          "fi": "Tää kahvi on {hyvä|word|adjective|good}.",
+          "en": "This coffee is good."
+        }
+      ]
+    },
+    {
+      "type": "pronunciation",
+      "content": "ää sounds like the \"a\" in \"cat\" — but longer and more open. So tää rhymes with \"yeah\" said lazily. Try it: tääää."
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "on",
+          "en": "is",
+          "type": "grammar"
+        },
+        {
+          "fi": "tää",
+          "en": "this (colloquial)",
+          "type": "word"
+        },
+        {
+          "fi": "mikä",
+          "en": "what",
+          "type": "word"
+        },
+        {
+          "fi": "hyvä",
+          "en": "good",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "on — is",
+        "tää — this (real colloquial)",
+        "mikä — what",
+        "hyvä — good",
+        "Word order: subject + on + complement"
+      ]
+    }
+  ]
+}

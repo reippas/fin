@@ -1,0 +1,166 @@
+{
+  "id": "l3",
+  "number": 3,
+  "title": "Mistä sä oot?",
+  "subtitle": "Where are you from?",
+  "tags": [
+    "basics",
+    "places",
+    "origins",
+    "cases"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "You can introduce yourself. Now — where are you from? Finnish has a wonderfully logical way of expressing this. Once you see the pattern, it practically builds itself."
+    },
+    {
+      "type": "heading",
+      "text": "The new question word: mistä"
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "Grammar Insight",
+      "text": "Mistä means \"from where.\" The ending -stä signals \"from\" in Finnish. This is your first Finnish case suffix. Don't fear it — just notice it."
+    },
+    {
+      "type": "phrase",
+      "annotated": "{Mistä|grammar|from-where|from where} {sä|word|pronoun|you} {oot|grammar|verb|are}?",
+      "translation": "Where are you from?"
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "Wait — sä and oot?",
+      "text": "Textbooks say sinä (you) and olet (you are). Street Finnish says sä and oot. You're learning street Finnish."
+    },
+    {
+      "type": "comparison",
+      "headers": [
+        "Colloquial",
+        "Formal",
+        "English"
+      ],
+      "rows": [
+        [
+          "mä",
+          "minä",
+          "I"
+        ],
+        [
+          "sä",
+          "sinä",
+          "you"
+        ],
+        [
+          "oon",
+          "olen",
+          "I am"
+        ],
+        [
+          "oot",
+          "olet",
+          "you are"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Answer it — the -stä / -sta ending"
+    },
+    {
+      "type": "text",
+      "content": "To say \"from [place]\", add {-stä|grammar|suffix|from} or {-sta|grammar|suffix|from} to the city. Use -stä after front vowels (ä ö y), -sta after back vowels (a o u). Finnish is consistent — this is called vowel harmony."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Mä oon {Helsingistä|phrase|ablative|from Helsinki}.",
+          "en": "I'm from Helsinki."
+        },
+        {
+          "fi": "Mä oon {Lontoosta|phrase|ablative|from London}.",
+          "en": "I'm from London."
+        },
+        {
+          "fi": "Mä oon {Tokiosta|phrase|ablative|from Tokyo}.",
+          "en": "I'm from Tokyo."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Mistä sä oot?",
+          "en": "Where are you from?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Mä oon Lontoosta. Entä sä?",
+          "en": "I'm from London. What about you?"
+        },
+        {
+          "speaker": "A",
+          "fi": "Mä oon Helsingistä.",
+          "en": "I'm from Helsinki."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "word",
+      "title": "Bonus word — free!",
+      "text": "Entä sä? = \"What about you?\" — one of the most useful phrases in any language. You got it for free."
+    },
+    {
+      "type": "pronunciation",
+      "content": "Finnish vowels are pure — no diphthongs sneaking in. Hel-sin-gis-tä: four clean syllables. Finnish never swallows syllables the way English does."
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "mistä",
+          "en": "from where",
+          "type": "grammar"
+        },
+        {
+          "fi": "sä",
+          "en": "you (colloquial)",
+          "type": "word"
+        },
+        {
+          "fi": "oot",
+          "en": "you are (colloquial)",
+          "type": "grammar"
+        },
+        {
+          "fi": "-stä / -sta",
+          "en": "\"from\" suffix (case)",
+          "type": "grammar"
+        },
+        {
+          "fi": "entä sä?",
+          "en": "what about you?",
+          "type": "phrase"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "mistä — from where",
+        "sä — you (colloquial)",
+        "oot — you are",
+        "—stä/—sta: the \"from\" ending",
+        "entä sä? — what about you?",
+        "A complete 3-line real Finnish conversation"
+      ]
+    }
+  ]
+}

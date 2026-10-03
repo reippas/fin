@@ -1,0 +1,158 @@
+{
+  "id": "l27",
+  "number": 27,
+  "title": "Tulppa heikkenee: tulpat",
+  "subtitle": "Consonant gradation — the sound-shift you've already been reading",
+  "tags": [
+    "basics",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "consonant gradation",
+    "grammar"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "Tulppa became tulpat in Lesson 10. Vika became viat in Lesson 3. Asiakas became asiakkaan in Lesson 12. Every one of those was hand-waved as 'a small shift' at the time. There's actually one unified system behind all three: consonant gradation, astevaihtelu. Today it finally gets a name and a shape."
+    },
+    {
+      "type": "phrase",
+      "annotated": "{Tulppa|grammar|strong grade|spark plug (singular)} heikkenee: {tulpat|grammar|weak grade|spark plugs (plural)}.",
+      "translation": "Tulppa weakens to: tulpat."
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "Not an exception — a rule",
+      "text": "Learners often mistake gradation for a pile of irregular words to memorise individually. It isn't. It's a predictable sound-softening that happens whenever certain endings (plurals, cases, possessive suffixes) get attached — the consonant in the middle of the word 'gives way' under the extra weight of the new ending, the same way English 'wife' softens to 'wives' before a plural."
+    },
+    {
+      "type": "heading",
+      "text": "Piece 1 — Double consonants weaken: pp → p"
+    },
+    {
+      "type": "text",
+      "content": "The clearest version: a double consonant like pp shrinks to a single p when certain endings attach. {Tulppa|grammar|strong grade|spark plug} (strong grade, standalone form) → {tulpat|grammar|weak grade|spark plugs} (weak grade, with the plural -t). The same thing happens with kk → k and tt → t across many other words — always double softening to single."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Yksi {tulppa|grammar|strong grade|spark plug}, monta {tulpat|grammar|weak grade|spark plugs, plural}.",
+          "en": "One spark plug, many spark plugs."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 2 — Sometimes the consonant vanishes: k → nothing"
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "Vika → viat, the disappearing k",
+      "text": "A single k between vowels can weaken all the way to nothing. {Vika|grammar|strong grade|fault} (strong grade) → {viat|grammar|weak grade|faults} (weak grade, plural) — the k simply drops out, leaving via + t. This looked like an irregular plural back in Lesson 3. It's actually the same gradation system, just taken one step further than pp → p."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Vika|grammar|strong grade|fault} löytyi nopeasti, mutta {viat|grammar|weak grade|faults} olivat useita.",
+          "en": "The fault was found quickly, but there were several faults."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 3 — Recognising it, not deriving it"
+    },
+    {
+      "type": "text",
+      "content": "You don't need to predict every gradation pair from scratch — even native speakers just know the pairs from hearing them constantly. What matters is recognising the pattern when you meet it, so a word like {asiakkaan|grammar|weak grade, genitive|of the customer} (Lesson 12) doesn't look like a random new word, but like asiakas wearing its expected weak grade for the genitive ending."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Asiakas|grammar|strong grade|customer} soitti, ja {asiakkaan|grammar|weak grade, genitive|the customer's} auto korjattiin.",
+          "en": "The customer called, and the customer's car was fixed."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Montako tulppaa piti vaihtaa?",
+          "en": "How many spark plugs had to be changed?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Kaikki tulpat, ja lisäksi pari muuta vikaa löytyi.",
+          "en": "All the spark plugs, and a couple of other faults were found too."
+        },
+        {
+          "speaker": "A",
+          "fi": "Olivatko viat vakavia?",
+          "en": "Were the faults serious?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Ei, mutta asiakkaan piti silti maksaa niistä kaikista.",
+          "en": "No, but the customer still had to pay for all of them."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Paul Noble Rule",
+      "text": "From now on, whenever a word looks like it's missing a letter compared to a form you already know — korjaamo staying put but tulppa losing a p, vika losing its whole k — check whether gradation explains it before assuming it's a new word. Nine times out of ten, it's a word you already own, just wearing its weak grade."
+    },
+    {
+      "type": "pronunciation",
+      "content": "Tulppa vs tulpat: TULP-pa (double p held) vs TUL-pat (single p, lighter). Vika vs viat: VI-ka (clear k) vs VI-at (no k at all, just the vowel meeting the ending directly). Listen for the missing weight in the weak grade — that's the whole cue."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "tulppa / tulpat",
+          "en": "spark plug / spark plugs (pp → p gradation)",
+          "type": "grammar"
+        },
+        {
+          "fi": "vika / viat",
+          "en": "fault / faults (k → nothing gradation)",
+          "type": "grammar"
+        },
+        {
+          "fi": "asiakas / asiakkaan",
+          "en": "customer / customer's (gradation in the genitive)",
+          "type": "grammar"
+        },
+        {
+          "fi": "astevaihtelu",
+          "en": "consonant gradation (the system's name)",
+          "type": "word"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "the name and shape of consonant gradation: astevaihtelu",
+        "the pp → p pattern: tulppa → tulpat",
+        "the k → nothing pattern: vika → viat",
+        "you can now look back at asiakkaan (Lesson 12) and see gradation instead of an irregular form",
+        "you have a general instinct for recognising gradation on sight, even in words you haven't met yet"
+      ]
+    }
+  ]
+}

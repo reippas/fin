@@ -789,6 +789,33 @@ EXAMPLE PROMPT USING THIS GUIDE:
   case -Vn for destinations. Output valid JSON only."
 
 ───────────────────────────────────────────────────────────────
+HOW LESSONS ARE STORED AND ADDED TO THE APP
+───────────────────────────────────────────────────────────────
+
+Lessons are NOT embedded in index.html anymore. Each lesson is a
+single JSON file inside the ./lessons/ folder, and ./lessons/manifest.json
+lists the files in display order. At startup index.html fetches the
+manifest and loads each lesson file, so the HTML never has to change
+when you add content. (The page must be opened over http://, not as a
+file://, because browsers block fetch for local files.)
+
+To add a lesson:
+
+  1. Generate the lesson JSON (see the format guide above), saved to
+     a file such as L34.json.
+
+  2. Run:  ./append_lesson.sh L34.json
+
+     This copies it to ./lessons/L34.json and adds "L34.json" to
+     ./lessons/manifest.json (kept ordered by lesson number). Re-running
+     it for the same number simply overwrites, so it is safe to repeat.
+
+  3. Reload the page. The new lesson appears automatically.
+
+You can also add a lesson by hand: drop the JSON file in ./lessons/
+and add its filename to ./lessons/manifest.json.
+
+───────────────────────────────────────────────────────────────
 END OF GUIDE
 Version for Finnish by Ear
 Lessons follow the colloquial Finnish register (mä/sä/oon/oot)

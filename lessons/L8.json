@@ -1,0 +1,226 @@
+{
+  "id": "l8",
+  "number": 8,
+  "title": "Hinta oli kohtuullinen",
+  "subtitle": "The price was reasonable",
+  "tags": [
+    "basics",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "price",
+    "past tense"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "From Lesson 1 you own palvelu and the adjective-slot trick. But reviews almost never stop at 'good service' — they immediately move on to the two things Finns really judge a repair shop on: the place itself (korjaamo) and the price (hinta). This lesson gives you both words, plus your first real taste of Finnish past tense: oli."
+    },
+    {
+      "type": "phrase",
+      "annotated": "{Hinta|word|noun|price} {oli|grammar|past tense of 'on'|was} {kohtuullinen|word|adjective|reasonable}.",
+      "translation": "The price was reasonable."
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "Why price gets its own sentence",
+      "text": "In these reviews, praise for service and judgement on price are almost always kept separate — a shop can get 'ystävällinen palvelu' and still lose a star over hinta. Finns tend to state the verdict on price bluntly and briefly, then move on. There's rarely hedging: it's either kohtuullinen (reasonable) or kallis (expensive), and reviewers say so directly."
+    },
+    {
+      "type": "heading",
+      "text": "Piece 1 — Korjaamo and its family"
+    },
+    {
+      "type": "text",
+      "content": "{Korjaamo|word|noun|repair shop} means 'repair shop' or 'garage'. It comes from korjata, 'to fix/repair'. You'll also see {huolto|word|noun|service/maintenance} (maintenance) and the compound {autohuolto|word|compound noun|car service centre} — literally auto (car) + huolto (service), stuck together. Finnish loves building long words this way instead of using extra prepositions."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Paras {korjaamo|word|noun|repair shop}.",
+          "en": "The best repair shop."
+        },
+        {
+          "fi": "En suosittele tätä {korjaamoa|grammar|partitive|repair shop}.",
+          "en": "I don't recommend this repair shop."
+        },
+        {
+          "fi": "Vein autoni {autohuoltoon|grammar|illative|to the car service centre}.",
+          "en": "I took my car to the car service centre."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "word",
+      "title": "Compound words — free vocabulary",
+      "text": "Once you know auto (car) and huolto (service), you already understand autohuolto without learning a new word. Finnish builds enormous vocabulary this way: two known words glued together make a third. Watch for this pattern constantly — it will save you far more effort than it costs."
+    },
+    {
+      "type": "heading",
+      "text": "Piece 2 — Hinta: price and its verdicts"
+    },
+    {
+      "type": "text",
+      "content": "{Hinta|word|noun|price} is 'price'. Its most common companion word is {hinta-arvio|phrase|compound noun|price estimate} — hinta (price) + arvio (estimate). Reviewers love saying whether the hinta-arvio piti paikkansa — 'held its place', meaning the estimate turned out to be accurate."
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "On becomes oli — your first past tense",
+      "text": "You already know on means 'is'. Its past tense is simply {oli|grammar|past tense of 'on'|was} — 'was'. That's the whole rule for this verb: on → oli. No new endings, no exceptions. Palvelu on hyvä (the service is good) becomes Palvelu oli hyvä (the service was good) — just swap on for oli."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Hinta {oli|grammar|past tense of 'on'|was} kohtuullinen.",
+          "en": "The price was reasonable."
+        },
+        {
+          "fi": "Hinta {oli|grammar|past tense of 'on'|was} {kallis|word|adjective|expensive}.",
+          "en": "The price was expensive."
+        },
+        {
+          "fi": "Hinta-arvio {piti paikkansa|phrase|idiom|held true / was accurate}.",
+          "en": "The price estimate was accurate."
+        },
+        {
+          "fi": "Palvelu {oli|grammar|past tense of 'on'|was} hyvä.",
+          "en": "The service was good."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 3 — Kannattaa: it's worth it"
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "A verb with no 'I' or 'you'",
+      "text": "{Kannattaa|grammar|impersonal verb|it's worth (doing)} doesn't take a personal subject like suosittelen does. It just sits there meaning 'it's worth it / it pays to'. Reviewers use it to give advice: Kannattaa pyytää tarjous kirjallisena — 'It's worth asking for a quote in writing.' Think of it like English 'worth it' — no one says 'I worth it', it just floats free."
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Kannattaa|grammar|impersonal verb|it's worth it} pyytää tarjous kirjallisena.",
+          "en": "It's worth asking for a quote in writing."
+        },
+        {
+          "fi": "{Kannattaa|grammar|impersonal verb|it's worth it} kiinnittää huomiota hintaan.",
+          "en": "It's worth paying attention to the price."
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Millainen hinta korjaamossa oli?",
+          "en": "What was the price like at the repair shop?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Hinta oli kohtuullinen, ja hinta-arvio piti paikkansa.",
+          "en": "The price was reasonable, and the estimate was accurate."
+        },
+        {
+          "speaker": "A",
+          "fi": "Entä palvelu?",
+          "en": "And the service?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Palvelu oli hyvä. Kannattaa käydä siellä.",
+          "en": "The service was good. It's worth going there."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Paul Noble Rule",
+      "text": "You now have two ways to end a positive review: suosittelen (I recommend — personal, Lesson 1) and kannattaa (it's worth it — impersonal, this lesson). Native reviewers switch between them freely. You can too, once you feel which one fits: is it your opinion (suosittelen), or general advice (kannattaa)?"
+    },
+    {
+      "type": "pronunciation",
+      "content": "Korjaamo: KOR-yaa-mo (the 'j' is like English 'y', and the double 'aa' is a long, held vowel — not two separate a's). Hinta: HIN-ta (short, crisp, stress on HIN). Kannattaa: KAN-nat-taa (double consonants n and t are held slightly longer than single ones — this changes meaning in Finnish, so don't rush them)."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "korjaamo",
+          "en": "repair shop / garage",
+          "type": "word"
+        },
+        {
+          "fi": "huolto",
+          "en": "service / maintenance",
+          "type": "word"
+        },
+        {
+          "fi": "autohuolto",
+          "en": "car service centre (auto + huolto)",
+          "type": "phrase"
+        },
+        {
+          "fi": "hinta",
+          "en": "price",
+          "type": "word"
+        },
+        {
+          "fi": "hinta-arvio",
+          "en": "price estimate",
+          "type": "phrase"
+        },
+        {
+          "fi": "kallis",
+          "en": "expensive",
+          "type": "word"
+        },
+        {
+          "fi": "kohtuullinen",
+          "en": "reasonable",
+          "type": "word"
+        },
+        {
+          "fi": "oli",
+          "en": "was (past tense of on)",
+          "type": "grammar"
+        },
+        {
+          "fi": "piti paikkansa",
+          "en": "held true / was accurate",
+          "type": "phrase"
+        },
+        {
+          "fi": "kannattaa",
+          "en": "it's worth it / worth doing (impersonal)",
+          "type": "grammar"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "korjaamo — repair shop, and huolto — service (which combine into autohuolto)",
+        "hinta / hinta-arvio — price / price estimate",
+        "on → oli — your first past tense pattern, no exceptions",
+        "piti paikkansa — held true, was accurate",
+        "kannattaa — it's worth it (an impersonal verb with no 'I')",
+        "You can now judge and describe both the shop and its price, in the past tense",
+        "You can build new compound words yourself just by knowing their parts"
+      ]
+    }
+  ]
+}

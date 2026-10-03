@@ -1,0 +1,234 @@
+{
+  "id": "l19",
+  "number": 19,
+  "title": "Suosittelemme tätä korjaamoa",
+  "subtitle": "We recommend this repair shop",
+  "tags": [
+    "basics",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "pronouns",
+    "grammar"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "Every verb so far has only shown you two people: 'I' (-n, as in suosittelen) and 'he/she' (no ending, as in soitti). But reviews are sometimes written on behalf of a family or a business, not just one person. Today you get the full set of six, built entirely on endings you can now predict yourself."
+    },
+    {
+      "type": "phrase",
+      "annotated": "{Suosittelemme|grammar|1st person plural|we recommend} tätä korjaamoa.",
+      "translation": "We recommend this repair shop."
+    },
+    {
+      "type": "note",
+      "color": "culture",
+      "title": "Why 'we' shows up in reviews",
+      "text": "Most reviews in this corpus are written by one customer speaking for themselves — hence how much mileage you've gotten from just suosittelen and en. But occasionally a reviewer writes on behalf of a family (meidän Focuksemme, 'our Focus') or, in the sharpest complaint in the corpus, on behalf of a company. That's when the plural persons appear."
+    },
+    {
+      "type": "heading",
+      "text": "Piece 1 — The six personal endings"
+    },
+    {
+      "type": "text",
+      "content": "Finnish marks the subject directly on the verb, using one ending per person. You already know two of these six endings by heart. Here's the complete set, using suositella as the model verb."
+    },
+    {
+      "type": "comparison",
+      "headers": [
+        "Person",
+        "Ending",
+        "Suositella"
+      ],
+      "rows": [
+        [
+          "minä (I)",
+          "-n",
+          "suosittelen"
+        ],
+        [
+          "sinä (you)",
+          "-t",
+          "suosittelet"
+        ],
+        [
+          "hän (he/she)",
+          "(none)",
+          "suosittelee"
+        ],
+        [
+          "me (we)",
+          "-mme",
+          "suosittelemme"
+        ],
+        [
+          "te (you, pl.)",
+          "-tte",
+          "suosittelette"
+        ],
+        [
+          "he (they)",
+          "-vat/-vät",
+          "suosittelevat"
+        ]
+      ]
+    },
+    {
+      "type": "note",
+      "color": "grammar",
+      "title": "Hän and he still take a small ending",
+      "text": "Don't be fooled by the '(none)' in the table above for hän — that's for verbs like soittaa where the stem itself already ends the right way (soitti). For suositella, hän actually takes a lengthened vowel: suosittelee, with a doubled e. The pattern still holds — you're just watching for a longer final vowel instead of a whole new letter."
+    },
+    {
+      "type": "heading",
+      "text": "Piece 2 — Olla (to be) through all six persons"
+    },
+    {
+      "type": "text",
+      "content": "You've used {on|grammar|3rd person singular|is} and {oli|grammar|past, 3rd person|was} since Lesson 2, but olla ('to be') has the same full set as every other verb. Seeing it conjugated fully will make on/oli feel like part of a system, not a one-off exception."
+    },
+    {
+      "type": "comparison",
+      "headers": [
+        "Person",
+        "Olla (present)",
+        "English"
+      ],
+      "rows": [
+        [
+          "minä",
+          "olen",
+          "I am"
+        ],
+        [
+          "sinä",
+          "olet",
+          "you are"
+        ],
+        [
+          "hän",
+          "on",
+          "he/she is"
+        ],
+        [
+          "me",
+          "olemme",
+          "we are"
+        ],
+        [
+          "te",
+          "olette",
+          "you (pl.) are"
+        ],
+        [
+          "he",
+          "ovat",
+          "they are"
+        ]
+      ]
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Olemme|grammar|1st person plural|we are} tyytyväisiä palveluun.",
+          "en": "We are satisfied with the service."
+        },
+        {
+          "fi": "He {ovat|grammar|3rd person plural|are} ammattitaitoisia.",
+          "en": "They are skilled/professional."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Piece 3 — The pronoun is often optional"
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Paul Noble Rule",
+      "text": "In formal Finnish, minä and sinä are frequently dropped entirely, because the verb ending already says who — (Minä) suosittelen means exactly the same as suosittelen alone. Hän and he are usually kept, since their endings are more subtle. This is exactly why suosittelen (Lesson 1) never needed a pronoun in front of it — you were already using this rule without knowing its name."
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Suositteletko tätä korjaamoa?",
+          "en": "Do you recommend this repair shop?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Kyllä, suosittelemme sitä koko perheenä.",
+          "en": "Yes, we recommend it as a whole family."
+        },
+        {
+          "speaker": "A",
+          "fi": "Entä muut asiakkaat?",
+          "en": "What about other customers?"
+        },
+        {
+          "speaker": "B",
+          "fi": "He ovat olleet tyytyväisiä myös.",
+          "en": "They have also been satisfied."
+        }
+      ]
+    },
+    {
+      "type": "pronunciation",
+      "content": "Suosittelemme: SUO-sit-te-lem-me (five syllables, double m held at the end). Olemme: O-lem-me (three even syllables). Ovat: O-vat (short, two syllables, the 'v' is soft, close to English 'v')."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "minä / sinä / hän",
+          "en": "I / you / he-she",
+          "type": "word"
+        },
+        {
+          "fi": "me / te / he",
+          "en": "we / you (pl.) / they",
+          "type": "word"
+        },
+        {
+          "fi": "-n / -t / (vowel)",
+          "en": "1st/2nd/3rd person singular endings",
+          "type": "grammar"
+        },
+        {
+          "fi": "-mme / -tte / -vat",
+          "en": "1st/2nd/3rd person plural endings",
+          "type": "grammar"
+        },
+        {
+          "fi": "olen / olet / on",
+          "en": "I am / you are / he-she is",
+          "type": "grammar"
+        },
+        {
+          "fi": "olemme / olette / ovat",
+          "en": "we are / you (pl.) are / they are",
+          "type": "grammar"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own",
+      "items": [
+        "the complete six-person ending set: -n, -t, (vowel lengthening), -mme, -tte, -vat",
+        "olla (to be) fully conjugated: olen, olet, on, olemme, olette, ovat",
+        "you now understand why suosittelen never needed a pronoun in front of it",
+        "you can read and write reviews written by families or businesses, not just individuals",
+        "you can apply this same six-way ending set to every verb you've learned in Lessons 1-12"
+      ]
+    }
+  ]
+}

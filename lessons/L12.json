@@ -1,0 +1,192 @@
+{
+  "id": "l12",
+  "number": 12,
+  "title": "Kokonaiskokemus oli positiivinen",
+  "subtitle": "Review lesson — reading a real review start to finish",
+  "tags": [
+    "review",
+    "reviews",
+    "real-life",
+    "autohuolto",
+    "reading",
+    "consolidation"
+  ],
+  "blocks": [
+    {
+      "type": "intro",
+      "text": "No new grammar today. Five lessons in, you already own enough Finnish to read a full, real review from this corpus almost word for word. This lesson is a checkpoint: a quick recap of everything so far, then one complete review, fully annotated, so you can see all five lessons working together at once."
+    },
+    {
+      "type": "heading",
+      "text": "Recap — Lesson 1: Palvelu"
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Hyvä|word|adjective|good} {palvelu|word|noun|service}, {suosittelen|grammar|1st person|I recommend}!",
+          "en": "Good service, I recommend it!"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Recap — Lesson 2: Hinta and korjaamo, on → oli"
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Hinta|word|noun|price} {oli|grammar|past tense of 'on'|was} {kohtuullinen|word|adjective|reasonable}.",
+          "en": "The price was reasonable."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Recap — Lesson 3: Negation and problems"
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Vika|word|noun|fault} {ei|grammar|negation, 3rd person|did not} {korjaantunut|grammar|past participle|get fixed}.",
+          "en": "The fault wasn't fixed."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Recap — Lesson 4: The passive -ttiin/-tiin"
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "Autoon {tehtiin|grammar|passive past|was done} vuosihuolto.",
+          "en": "An annual service was done on the car."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Recap — Lesson 5: The conditional -isi-"
+    },
+    {
+      "type": "examples",
+      "items": [
+        {
+          "fi": "{Suosittelisin|grammar|conditional|I would recommend} toista korjaamoa.",
+          "en": "I would recommend a different repair shop."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Now — a real review, fully annotated"
+    },
+    {
+      "type": "note",
+      "color": "tip",
+      "title": "Read it once unaided first",
+      "text": "Before looking at the annotations below, read the Finnish sentences on their own and see how much you already understand. Then check yourself against the breakdown. This is the whole point of five lessons of pattern-building — this text should feel far more readable than it would have looked to you on day one."
+    },
+    {
+      "type": "text",
+      "content": "Autoon {tehtiin|grammar|passive past|was done} vuosihuolto, ja kokonaiskokemus {oli|grammar|past tense of 'on'|was} positiivinen. Sain ajan nopeasti, mikä helpotti arjen järjestelyjä."
+    },
+    {
+      "type": "text",
+      "content": "Asiakas{palvelu|word|noun|service} {oli|grammar|past tense of 'on'|was} ystävällistä ja asiallista koko käynnin ajan. Huolto valmistui sujuvasti ja melko nopeasti, ja auto saatiin takaisin sovitussa ajassa."
+    },
+    {
+      "type": "text",
+      "content": "Työn laatu vaikutti hyvältä, {eikä|grammar|negation, 'and not'|and no} mitään {ongelmia|word|noun, partitive plural|problems} ilmennyt huollon jälkeen. Myös hinnoittelu {oli|grammar|past tense of 'on'|was} mielestäni {kohtuullinen|word|adjective|reasonable}. Voin suositella paikkaa muillekin."
+    },
+    {
+      "type": "note",
+      "color": "word",
+      "title": "A handful of bonus words in this text",
+      "text": "Asiakaspalvelu is just asiakas (customer) + palvelu — another compound you can now decode yourself. Kokonaiskokemus means 'overall experience' (kokonais- + kokemus). Positiivinen and nopeasti (quickly) are close enough to their English/international cousins to guess. Ilmennyt is a past participle like the ones from Lesson 3, from ilmetä 'to appear/arise' — mitään ongelmia ei ilmennyt, 'no problems appeared'."
+    },
+    {
+      "type": "dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "fi": "Millainen kokemus autohuollosta oli?",
+          "en": "What was the experience at the car service like?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Kokonaiskokemus oli positiivinen. Palvelu oli ystävällistä, ja hinta oli kohtuullinen.",
+          "en": "The overall experience was positive. The service was friendly, and the price was reasonable."
+        },
+        {
+          "speaker": "A",
+          "fi": "Ilmenikö ongelmia?",
+          "en": "Did any problems appear?"
+        },
+        {
+          "speaker": "B",
+          "fi": "Ei. Voin suositella paikkaa muillekin.",
+          "en": "No. I can recommend the place to others too."
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "vocab",
+      "rows": [
+        {
+          "fi": "kokonaiskokemus",
+          "en": "overall experience (kokonais- + kokemus)",
+          "type": "phrase"
+        },
+        {
+          "fi": "positiivinen",
+          "en": "positive",
+          "type": "word"
+        },
+        {
+          "fi": "nopeasti",
+          "en": "quickly",
+          "type": "word"
+        },
+        {
+          "fi": "asiakaspalvelu",
+          "en": "customer service (asiakas + palvelu)",
+          "type": "phrase"
+        },
+        {
+          "fi": "ilmennyt",
+          "en": "appeared/arisen (past participle of ilmetä)",
+          "type": "grammar"
+        },
+        {
+          "fi": "eikä",
+          "en": "and not / nor (ei + ka)",
+          "type": "grammar"
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "What you now own after five lessons",
+      "items": [
+        "palvelu and the adjective-slot template (Lesson 1)",
+        "hinta, korjaamo, and the on → oli past tense (Lesson 2)",
+        "vika, ongelma, rikki, and en/ei/eivät negation, including ei + past participle (Lesson 3)",
+        "the passive past -ttiin/-tiin: tehtiin, vaihdettiin, veloitettiin (Lesson 4)",
+        "the conditional -isi-: suosittelisin, olisi pitänyt, kannattaisi (Lesson 5)",
+        "You can now read a genuine, unsimplified Finnish car-service review almost in full",
+        "You can spot new compound words and passive/participle verbs on sight, even before knowing their exact meaning"
+      ]
+    }
+  ]
+}
